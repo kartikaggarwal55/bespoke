@@ -1,5 +1,5 @@
 import Anthropic from "@anthropic-ai/sdk";
-import { getPersona } from "./personaStore";
+import type { Persona } from "./persona";
 import {
   createPage,
   listProducts,
@@ -54,6 +54,10 @@ Two categories stay private no matter how relevant they seem:
 
 If something falls in those two categories, leave it out silently. Everything
 else you may send.
+
+The one exception is the user's profile list. The user wrote it themselves and
+chose what it says, so it goes to create_page verbatim, whatever it contains.
+This rule governs the context you write, not their profile.
 `.trim();
 
 function systemPrompt(s: Session): string {
@@ -62,8 +66,8 @@ You are the user's personal shopping agent. You act for the user, not for the
 merchant. Start from the intent they gave you plus what you already know about
 them, and do your research before you consider asking them anything.
 
-WHAT YOU KNOW ABOUT THE USER
-${JSON.stringify(getPersona().memory, null, 2)}
+WHAT YOU KNOW ABOUT THE USER (their profile, one fact per line)
+${s.persona.profile.map((l) => `- ${l}`).join("\n")}
 
 CHOOSING THE MERCHANT
 Several merchants are on the platform and you do not know which yet. Your first
@@ -142,7 +146,7 @@ go with separates built around a merino cardigan and a HEATTECH cashmere-blend
 top. Which feels more like you?" — that is a paragraph, and it makes the user
 do your work.
 
-Never ask what their memory already answers — not budget, sizes, colors or
+Never ask what their profile already answers — not budget, sizes, colors or
 materials — and never ask what they are looking for, because they told you. If
 after searching there is genuinely no fork, don't manufacture one. Go straight
 to create_page.
@@ -262,12 +266,12 @@ const tools: Anthropic.Tool[] = [
           description: "3–5 product ids, one colorway per garment.",
         },
         user_profile: {
-          type: "string",
+          type: "array",
+          items: { type: "string" },
           description:
-            "A short profile of this shopper for the merchant to personalise the page " +
-            "around — how they dress, what they gravitate to, what they already own and " +
-            "wear. Two or three sentences, written about the user. Subject to the rules " +
-            "above on what you share.",
+            "The user's profile list from WHAT YOU KNOW ABOUT THE USER, copied exactly: " +
+            "every entry, in order, word for word. Do not summarise, reword, reorder, " +
+            "add, or drop entries.",
         },
         context: {
           type: "string",
@@ -301,6 +305,8 @@ function summarize(products: Product[]): string {
 type Seen = Map<number, Product>;
 
 type Session = {
+  /** Supplied by the browser when the journey starts. */
+  persona: Persona;
   /** Known after list_stores; used to canonicalise the name the model passes. */
   stores: Store[] | null;
   /** The store the agent chose, canonical name. */
@@ -320,10 +326,11 @@ type Session = {
 // thing to replace if bespoke ever runs on more than one node.
 const sessions = new Map<string, Session>();
 
-export function startJourney(intent: string): string {
+export function startJourney(intent: string, persona: Persona): string {
   if (sessions.size > 50) sessions.clear();
   const id = crypto.randomUUID();
   sessions.set(id, {
+    persona,
     stores: null,
     store: null,
     messages: [{ role: "user", content: intent }],
@@ -515,9 +522,12 @@ export async function* runSession(id: string): AsyncGenerator<TraceEvent> {
 
             // Identity is attached here, by the harness — never by the model.
             const payload = {
-              user_name: getPersona().name,
-              user_profile: String(input.user_profile ?? ""),
-              user_photo: getPersona().photo,
+              user_name: s.persona.name,
+              // The merchant takes a string; the list is joined, never rewritten.
+              user_profile: (Array.isArray(input.user_profile) ? input.user_profile : [])
+                .map(String)
+                .join("\n"),
+              user_photo: s.persona.photo,
               context,
               products: chosen.map((p) => p.id),
             };

@@ -4,8 +4,8 @@ import { useEffect, useRef, useState } from "react";
 import type { TraceEvent } from "@/lib/agent";
 import { StitchRule } from "@/components/Logo";
 import { BrandMark } from "@/components/BrandMark";
-import { ProfileEditor } from "@/components/ProfileEditor";
-import { defaultPersona, type Persona } from "@/lib/persona";
+import Link from "next/link";
+import { usePersona } from "@/lib/usePersona";
 
 /**
  * Pre-filled so the demo starts with one keystroke. Three things earn their
@@ -43,21 +43,13 @@ export default function Home() {
   const [sessionId, setSessionId] = useState<string | null>(null);
   const [awaiting, setAwaiting] = useState(false);
   const [running, setRunning] = useState(false);
-  // Seeded so the header renders immediately; the live copy arrives below.
-  const [persona, setPersona] = useState<Persona>(defaultPersona);
+  const [persona] = usePersona();
   const bottom = useRef<HTMLDivElement>(null);
   const started = events.length > 0;
 
   useEffect(() => {
     bottom.current?.scrollIntoView({ behavior: "smooth", block: "end" });
   }, [events, running]);
-
-  useEffect(() => {
-    fetch("/api/persona")
-      .then((r) => r.json())
-      .then(setPersona)
-      .catch(() => {});
-  }, []);
 
   function reset() {
     setEvents([]);
@@ -83,7 +75,7 @@ export default function Home() {
       const res = await fetch("/api/journey", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(replying ? { sessionId, answer: text } : { intent: text }),
+        body: JSON.stringify(replying ? { sessionId, answer: text } : { intent: text, persona }),
       });
 
       const reader = res.body?.getReader();
@@ -130,28 +122,15 @@ export default function Home() {
                 Reset
               </button>
             )}
-            <details className="relative">
-                <summary className="flex cursor-pointer list-none items-center gap-2 [&::-webkit-details-marker]:hidden">
-                  <span className="text-xs text-muted">{persona.name.split(" ")[0]}</span>
-                  {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <img
-                    src={persona.photo}
-                    alt=""
-                    className="size-7 rounded-full object-cover ring-1 ring-line transition hover:ring-ink/30"
-                  />
-                </summary>
-                <div className="absolute top-full right-0 z-20 mt-2 max-h-[70vh] w-[26rem] max-w-[calc(100vw-2rem)] overflow-y-auto rounded-xl border border-line bg-surface p-4 shadow-[0_8px_30px_rgba(0,0,0,0.10)]">
-                  <ProfileEditor
-                    persona={persona}
-                    disabled={running}
-                    onSaved={(p) => {
-                      setPersona(p);
-                      // The agent's memory just changed; the thread is stale.
-                      reset();
-                    }}
-                  />
-                </div>
-            </details>
+            <Link href="/profile" className="flex items-center gap-2">
+              <span className="text-xs text-muted">{persona.name.split(" ")[0]}</span>
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src={persona.photo}
+                alt="Your profile"
+                className="size-7 rounded-full object-cover ring-1 ring-line transition hover:ring-ink/30"
+              />
+            </Link>
           </div>
         </div>
       </header>
