@@ -40,3 +40,9 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# local-only example pages (merchant-rendered storefront mockups)
+app/examples/
+components/examples/
+lib/examples/
+data/porsche.json
