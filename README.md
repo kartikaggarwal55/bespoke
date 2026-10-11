@@ -1,36 +1,78 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# bespoke
 
-## Getting Started
+A prototype of what shopping looks like when a personal agent, not a website,
+does the browsing — and the **brand**, not the agent, renders the result.
 
-First, run the development server:
+The shopper states an intent once. Their agent enriches it from what it knows
+about them, researches the merchant's catalog privately, curates a shortlist,
+and hands the merchant enough context to build a storefront for that one person.
+The agent↔merchant traffic is machine-to-machine and never shown to the shopper,
+so the UI renders it greyed out and collapsed.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## The flow
+
+```
+shopper states an intent  (single message)
+   ↓
+agent enriches it from the shopper's memory
+   ↓
+GET /v1/products   ← repeated, agent-decided, each with a stated rationale
+   ↓
+(optionally) one short clarifying question, then waits
+   ↓
+POST /v1/pages     ← name, photo, profile, context, product ids
+   ↓
+the merchant returns a page built for this shopper
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+The number of search rounds is the agent's call. It usually takes several,
+because `q` is a substring match rather than natural-language search — the
+agent has to probe for the merchant's own vocabulary (`HEATTECH`, `PUFFTECH`,
+`merino`) and often strikes out before it finds the right word.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Running it
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+pnpm install
+cp .env.example .env.local   # then add your Anthropic API key
+pnpm dev
+```
 
-## Learn More
+| Variable | Default | |
+|---|---|---|
+| `ANTHROPIC_API_KEY` | — | **required** |
+| `BESPOKE_MODEL` | `claude-sonnet-5-5` | |
+| `BESPOKE_EFFORT` | `medium` | `low` \| `medium` \| `high` |
+| `BESPOKE_STORE` | `Uniqlo` | only Uniqlo has catalog data |
+| `MERCHANT_BASE_URL` | the hosted API | |
 
-To learn more about Next.js, take a look at the following resources:
+## Layout
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+| | |
+|---|---|
+| `lib/agent.ts` | system prompt, three tools, the loop, session state |
+| `lib/merchant.ts` | every HTTP call to the merchant lives here |
+| `lib/persona.ts` | the shopper's memory (seed) |
+| `lib/personaStore.ts` | the live, editable copy |
+| `app/api/journey` | streams the journey as SSE |
+| `app/page.tsx` | the thread and the collapsed agent↔merchant trace |
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Notes
 
-## Deploy on Vercel
+**The agent gets read-only access to the catalog.** `POST`/`PUT`/`DELETE
+/v1/products` exist and mutate the merchant's live data; they are deliberately
+not exposed as tools.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+**Identity is attached by the harness, not the model.** `user_name` and
+`user_photo` come from the persona store at call time, so the agent cannot
+invent or embellish who the shopper is. `user_profile` and `context` are
+model-authored, and are what the sensitive-information rule governs.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+**Sessions and the persona are in-memory and process-local.** They reset when
+the dev server restarts. First thing to replace if this ever runs on more than
+one node.
+
+**`POST /v1/pages` is slow and intermittently fails.** Measured at 48–96s, with
+a 502 roughly one time in three under load. That is the merchant's page builder,
+not this app — the read endpoints answer in under 250ms. A failure is handled
+gracefully: the agent still writes its closing message, there is just no link.
