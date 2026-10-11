@@ -1,10 +1,11 @@
 /**
  * The merchant's mark, for the link unfurl. Known brands get their own colors;
- * anything else falls back to a neutral initial, so changing BESPOKE_STORE
- * doesn't break the card.
+ * anything else falls back to a neutral initial, so a store the agent picks
+ * that we have no colors for doesn't break the card.
  */
 const BRANDS: Record<string, { bg: string; fg: string }> = {
   uniqlo: { bg: "#ff0000", fg: "#ffffff" },
+  porsche: { bg: "#b12b28", fg: "#ffffff" },
 };
 
 export function BrandMark({
