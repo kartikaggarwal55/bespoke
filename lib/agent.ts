@@ -1,6 +1,14 @@
 import Anthropic from "@anthropic-ai/sdk";
 import { getPersona } from "./personaStore";
-import { createPage, listProducts, productsUrl, STORE, type Product } from "./merchant";
+import {
+  createPage,
+  listProducts,
+  listStores,
+  productsUrl,
+  storesUrl,
+  type Product,
+  type Store,
+} from "./merchant";
 
 export const MODEL = process.env.BESPOKE_MODEL ?? "claude-sonnet-5-5";
 const EFFORT = (process.env.BESPOKE_EFFORT ?? "medium") as "low" | "medium" | "high";
@@ -48,7 +56,7 @@ If something falls in those two categories, leave it out silently. Everything
 else you may send.
 `.trim();
 
-function systemPrompt(): string {
+function systemPrompt(s: Session): string {
   return `
 You are the user's personal shopping agent. You act for the user, not for the
 merchant. Start from the intent they gave you plus what you already know about
@@ -57,8 +65,16 @@ them, and do your research before you consider asking them anything.
 WHAT YOU KNOW ABOUT THE USER
 ${JSON.stringify(getPersona().memory, null, 2)}
 
-THE MERCHANT: ${STORE}
-You have one read-only tool against their catalog, and you must understand its
+CHOOSING THE MERCHANT
+Several merchants are on the platform and you do not know which yet. Your first
+step, before any product search, is to call list_stores (GET /stores). Read each
+store's name and brand voice, then pick the one whose catalog best fits what the
+user is shopping for. Choose one store only, and pass its exact name on every
+search_products call. If the user names a store, honour it. The store you pick
+is the one create_page will build the storefront with.${s.store ? `\n\nYou have chosen ${s.store}.` : ""}
+
+SEARCHING A CATALOG
+search_products is read-only against the chosen store's catalog. Understand its
 real limits:
 
 - \`q\` is a case-insensitive SUBSTRING match on product name and description.
@@ -66,9 +82,9 @@ real limits:
   nothing. Short keywords that would literally appear in a product name do
   work: "cashmere", "merino", "HEATTECH", "PUFFTECH", "parka", "cardigan".
 - There is NO price filter and NO product-type filter. \`category\` is only
-  "Men" or "Women" — a department, not a kind of garment. So every judgment
-  about price, warmth, formality and suitability is yours to make after the
-  products come back.
+  a department (e.g. "Men" or "Women") when set, not a kind of product. So every
+  judgment about price, fit and suitability is yours to make after the products
+  come back.
 - The catalog is large. Retrieve what you need with targeted queries rather
   than pulling everything and sorting it out afterwards — you will not be able
   to hold a full catalog in context on a real store, so do not rely on it here.
@@ -157,15 +173,36 @@ Format rules for that closing message, which matter:
 
 const tools: Anthropic.Tool[] = [
   {
+    name: "list_stores",
+    description:
+      "List the merchants on the platform (GET /stores) with their brand voice and " +
+      "colors. Call this first, then choose the store that fits the user's intent.",
+    input_schema: {
+      type: "object",
+      properties: {
+        rationale: {
+          type: "string",
+          description: "One short sentence. Shown in the operator trace, never to the user.",
+        },
+      },
+      required: ["rationale"],
+      additionalProperties: false,
+    },
+  },
+  {
     name: "search_products",
     description:
-      `Search ${STORE}'s catalog. \`q\` is a case-insensitive substring match on ` +
+      `Search one store's catalog. \`q\` is a case-insensitive substring match on ` +
       `product name and description — use short literal keywords, not sentences. ` +
       `Omit q to list the whole catalog. Returns full product records including ` +
       `price in cents, color, and image.`,
     input_schema: {
       type: "object",
       properties: {
+        store: {
+          type: "string",
+          description: "Exact store name as returned by list_stores.",
+        },
         q: {
           type: "string",
           description:
@@ -181,7 +218,7 @@ const tools: Anthropic.Tool[] = [
             "One short sentence: why this search, and what the previous round told you that led here. Shown in the operator trace, never to the user.",
         },
       },
-      required: ["rationale"],
+      required: ["store", "rationale"],
       additionalProperties: false,
     },
   },
@@ -264,6 +301,10 @@ function summarize(products: Product[]): string {
 type Seen = Map<number, Product>;
 
 type Session = {
+  /** Known after list_stores; used to canonicalise the name the model passes. */
+  stores: Store[] | null;
+  /** The store the agent chose, canonical name. */
+  store: string | null;
   messages: Anthropic.MessageParam[];
   seen: Seen;
   searches: number;
@@ -283,6 +324,8 @@ export function startJourney(intent: string): string {
   if (sessions.size > 50) sessions.clear();
   const id = crypto.randomUUID();
   sessions.set(id, {
+    stores: null,
+    store: null,
     messages: [{ role: "user", content: intent }],
     seen: new Map(),
     searches: 0,
@@ -322,7 +365,7 @@ export async function* runSession(id: string): AsyncGenerator<TraceEvent> {
       const stream = client.messages.stream({
         model: MODEL,
         max_tokens: 16000,
-        system: systemPrompt(),
+        system: systemPrompt(s),
         thinking: { type: "adaptive", display: "summarized" },
         output_config: { effort: EFFORT },
         tools,
@@ -356,7 +399,50 @@ export async function* runSession(id: string): AsyncGenerator<TraceEvent> {
           const input = block.input as Record<string, unknown>;
           const rationale = String(input.rationale ?? "");
 
-          if (block.name === "search_products") {
+          if (block.name === "list_stores") {
+            yield { kind: "call", label: storesUrl, rationale };
+            try {
+              s.stores = await listStores();
+              yield {
+                kind: "result",
+                label: storesUrl,
+                summary: `${s.stores.length} stores · ${s.stores.map((x) => x.name).join(", ")}`,
+              };
+              results.push({
+                type: "tool_result",
+                tool_use_id: block.id,
+                content: JSON.stringify(s.stores),
+              });
+            } catch (e) {
+              const message = e instanceof Error ? e.message : String(e);
+              yield { kind: "result", label: storesUrl, summary: `error — ${message}` };
+              results.push({ type: "tool_result", tool_use_id: block.id, content: message, is_error: true });
+            }
+          } else if (block.name === "search_products") {
+            const requested = String(input.store ?? "").trim();
+            const match = s.stores?.find((x) => x.name.toLowerCase() === requested.toLowerCase());
+            if (!match) {
+              results.push({
+                type: "tool_result",
+                tool_use_id: block.id,
+                content: s.stores
+                  ? `Unknown store "${requested}". Choose one of: ${s.stores.map((x) => x.name).join(", ")}.`
+                  : "Call list_stores first, then search the store you choose.",
+                is_error: true,
+              });
+              continue;
+            }
+            if (s.store && s.store !== match.name) {
+              results.push({
+                type: "tool_result",
+                tool_use_id: block.id,
+                content: `You already chose ${s.store}. Stay with that store for this journey.`,
+                is_error: true,
+              });
+              continue;
+            }
+            s.store = match.name;
+            const store = match.name;
             if (++s.searches > MAX_SEARCHES) {
               results.push({
                 type: "tool_result",
@@ -370,14 +456,14 @@ export async function* runSession(id: string): AsyncGenerator<TraceEvent> {
             }
             const q = input.q ? String(input.q) : undefined;
             const color = input.color ? String(input.color) : undefined;
-            yield { kind: "call", label: productsUrl({ q, color }), rationale };
+            yield { kind: "call", label: productsUrl({ store, q, color }), rationale };
 
             try {
-              const products = await listProducts({ q, color });
+              const products = await listProducts({ store, q, color });
               for (const p of products) s.seen.set(p.id, p);
               yield {
                 kind: "result",
-                label: productsUrl({ q, color }),
+                label: productsUrl({ store, q, color }),
                 summary: summarize(products),
                 products,
               };
@@ -388,7 +474,7 @@ export async function* runSession(id: string): AsyncGenerator<TraceEvent> {
               });
             } catch (e) {
               const message = e instanceof Error ? e.message : String(e);
-              yield { kind: "result", label: productsUrl({ q, color }), summary: `error — ${message}` };
+              yield { kind: "result", label: productsUrl({ store, q, color }), summary: `error — ${message}` };
               results.push({
                 type: "tool_result",
                 tool_use_id: block.id,
@@ -414,6 +500,15 @@ export async function* runSession(id: string): AsyncGenerator<TraceEvent> {
             results.push({ type: "tool_result", tool_use_id: block.id, content: "" });
             yield { kind: "question", text: question };
           } else if (block.name === "create_page") {
+            if (!s.store) {
+              results.push({
+                type: "tool_result",
+                tool_use_id: block.id,
+                content: "Choose a store with list_stores and search its catalog before create_page.",
+                is_error: true,
+              });
+              continue;
+            }
             const ids = (input.product_ids as number[] | undefined) ?? [];
             const context = String(input.context ?? "");
             const chosen = ids.map((pid) => s.seen.get(pid)).filter((p): p is Product => !!p);
@@ -487,7 +582,7 @@ export async function* runSession(id: string): AsyncGenerator<TraceEvent> {
 
       // No tool calls this turn means the agent has finished speaking.
       if (results.length === 0) {
-        if (s.pageUrl) yield { kind: "page", url: s.pageUrl, store: STORE };
+        if (s.pageUrl) yield { kind: "page", url: s.pageUrl, store: s.store ?? "" };
         yield { kind: "done" };
         return;
       }

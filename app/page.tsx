@@ -296,16 +296,14 @@ function Front({ event }: { event: TraceEvent }) {
   return null;
 }
 
-/** Shorten an endpoint for the collapsed summary: drop /v1 and the store param. */
+/** Shorten an endpoint for the collapsed summary: drop /v1. */
 function compact(label: string): string {
   const [method, rest] = label.split(" ");
   if (!rest) return label;
   const [path, query] = rest.split("?");
   const short = path.replace(/^\/v1/, "");
   if (!query) return `${method} ${short}`;
-  const params = new URLSearchParams(query);
-  params.delete("store");
-  const remaining = params.toString();
+  const remaining = new URLSearchParams(query).toString();
   return remaining
     ? `${method} ${short}?${decodeURIComponent(remaining)}`
     : `${method} ${short}`;

@@ -43,7 +43,6 @@ pnpm dev
 | `ANTHROPIC_API_KEY` | — | **required** |
 | `BESPOKE_MODEL` | `claude-sonnet-5-5` | |
 | `BESPOKE_EFFORT` | `medium` | `low` \| `medium` \| `high` |
-| `BESPOKE_STORE` | `Uniqlo` | only Uniqlo has catalog data |
 | `MERCHANT_BASE_URL` | the hosted API | |
 
 ## Layout

@@ -2,6 +2,7 @@
  * The merchant's system. Everything HTTP-shaped lives in this file.
  *
  * Contract (discovered from the live OpenAPI spec):
+ *   GET  /v1/stores                      -> StoreRead[]
  *   GET  /v1/products?store=&q=&color=   -> ProductRead[]
  *   POST /v1/pages                       -> { id, path }
  *   GET  {path}                          -> the rendered page
@@ -19,13 +20,21 @@
 
 const BASE = process.env.MERCHANT_BASE_URL ?? "https://bespoke-api-bgyg.onrender.com/v1";
 const ORIGIN = new URL(BASE).origin;
-export const STORE = process.env.BESPOKE_STORE ?? "Uniqlo";
 
 // Render free tier cold-starts; the first call of the day can take ~40s.
 const PRODUCTS_TIMEOUT_MS = 90_000;
 // The merchant builds the page on demand — measured at 48-57s warm, and slower
 // under load. This is the single slowest thing in the journey.
 const PAGE_TIMEOUT_MS = 240_000;
+
+export type Store = {
+  name: string;
+  brand_voice: string | null;
+  brand_colors: string | null;
+  brand_font: string | null;
+  logo_url: string | null;
+  created_at: string;
+};
 
 export type Product = {
   id: number;
@@ -59,11 +68,22 @@ async function req(path: string, timeoutMs: number, init?: RequestInit): Promise
   });
 }
 
+export const storesUrl = "GET /v1/stores";
+
+export async function listStores(): Promise<Store[]> {
+  const res = await req("/stores", PRODUCTS_TIMEOUT_MS);
+  if (!res.ok) {
+    throw new Error(`GET /stores ${res.status}: ${describe(res, await res.text())}`);
+  }
+  return (await res.json()) as Store[];
+}
+
 export async function listProducts(args: {
+  store: string;
   q?: string;
   color?: string;
 }): Promise<Product[]> {
-  const params = new URLSearchParams({ store: STORE });
+  const params = new URLSearchParams({ store: args.store });
   if (args.q) params.set("q", args.q);
   if (args.color) params.set("color", args.color);
 
@@ -74,8 +94,8 @@ export async function listProducts(args: {
   return (await res.json()) as Product[];
 }
 
-export function productsUrl(args: { q?: string; color?: string }): string {
-  const params = new URLSearchParams({ store: STORE });
+export function productsUrl(args: { store: string; q?: string; color?: string }): string {
+  const params = new URLSearchParams({ store: args.store });
   if (args.q) params.set("q", args.q);
   if (args.color) params.set("color", args.color);
   return `GET /v1/products?${params}`;
