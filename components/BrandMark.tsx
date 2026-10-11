@@ -5,6 +5,8 @@
  */
 const BRANDS: Record<string, { bg: string; fg: string }> = {
   uniqlo: { bg: "#ff0000", fg: "#ffffff" },
+  away: { bg: "#022850", fg: "#ffffff" },
+  allbirds: { bg: "#212a2f", fg: "#ffffff" },
   porsche: { bg: "#b12b28", fg: "#ffffff" },
 };
 

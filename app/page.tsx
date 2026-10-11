@@ -13,6 +13,8 @@ const BRAND_LOGOS = [
   { name: "Uniqlo", src: "/brands/uniqlo.svg" },
   { name: "Montblanc", src: "/brands/montblanc.svg" },
   { name: "Porsche", src: "/brands/porsche.svg" },
+  { name: "Allbirds", src: "/brands/allbirds.svg" },
+  { name: "Away", src: "/brands/away.png" },
 ];
 
 /** Never visible to the user in a real product — rendered greyed and dotted. */
@@ -192,7 +194,7 @@ export default function Home() {
               <div className="mx-auto mt-8 max-w-2xl">{composer}</div>
               <div className="mt-10 flex flex-col items-center gap-4">
                 <p className="text-xs font-bold tracking-[0.2em] text-ink uppercase">
-                  Currently supporting Uniqlo, Montblanc and Porsche
+                  Currently supporting
                 </p>
                 <div className="flex items-center gap-10">
                   {BRAND_LOGOS.map((b) => (
