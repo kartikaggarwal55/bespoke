@@ -1,0 +1,67 @@
+[
+  {
+    "id": 95,
+    "store": "Uniqlo",
+    "name": "HEATTECH Cashmere Blend T-Shirt | Extra Warm",
+    "description": "Women's fit. UNIQLO product E469765.",
+    "price": 2990,
+    "category": "Women",
+    "color": "Olive",
+    "image_url": "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/469765/item/usgoods_57_469765_3x4.jpg",
+    "created_at": "2026-10-10T22:14:09.564768Z",
+    "code": "E469765",
+    "image": "/examples/uniqlo/heattech-cashmere-tee-olive.webp"
+  },
+  {
+    "id": 20,
+    "store": "Uniqlo",
+    "name": "HEATTECH Leggings",
+    "description": "Women's fit. UNIQLO product E469836.",
+    "price": 1990,
+    "category": "Women",
+    "color": "Black",
+    "image_url": "https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/469836/item/goods_09_469836_3x4.jpg",
+    "created_at": "2026-10-10T22:03:39.656487Z",
+    "code": "E469836",
+    "image": "/examples/uniqlo/heattech-leggings-black.webp"
+  },
+  {
+    "id": 18,
+    "store": "Uniqlo",
+    "name": "Merino Cardigan",
+    "description": "Women's fit. UNIQLO product E469411.",
+    "price": 4990,
+    "category": "Women",
+    "color": "Navy",
+    "image_url": "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/469411/item/usgoods_69_469411_3x4.jpg",
+    "created_at": "2026-10-10T22:03:39.329030Z",
+    "code": "E469411",
+    "image": "/examples/uniqlo/merino-cardigan-navy.webp"
+  },
+  {
+    "id": 21,
+    "store": "Uniqlo",
+    "name": "PUFFTECH Jacket",
+    "description": "Women's fit. UNIQLO product E487408.",
+    "price": 7990,
+    "category": "Women",
+    "color": "Brown",
+    "image_url": "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/487408/item/usgoods_35_487408_3x4.jpg",
+    "created_at": "2026-10-10T22:03:39.826084Z",
+    "code": "E487408",
+    "image": "/examples/uniqlo/pufftech-jacket-brown.webp"
+  },
+  {
+    "id": 104,
+    "store": "Uniqlo",
+    "name": "Double Face Knit Sleeveless Dress",
+    "description": "Women's fit. UNIQLO product E488186.",
+    "price": 4990,
+    "category": "Women",
+    "color": "Dark Brown",
+    "image_url": "https://image.uniqlo.com/UQ/ST3/us/imagesgoods/488186/item/usgoods_39_488186_3x4.jpg",
+    "created_at": "2026-10-10T22:14:12.173496Z",
+    "code": "E488186",
+    "image": "/examples/uniqlo/knit-dress-dark-brown.webp"
+  }
+]

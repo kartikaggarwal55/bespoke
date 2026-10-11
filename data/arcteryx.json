@@ -1,0 +1,5542 @@
+[
+ {
+  "id": 1,
+  "store": "Arc'teryx",
+  "name": "Sabre Jacket Men's",
+  "description": "Freeride is unpredictable—you can find yourself pits-deep in pow just as easily as you can brush up against rocks, trees, and foul weather. Refined over several generations, the Sabre is our most downhill-oriented, weatherproof technical shell, built for the rigours of going hard inbounds and out. Made with an updated modern fit and multi-panelled aesthetic, it’s packed with pockets and has a helmet-compatible StormHood™, plus a powder skirt. What's been updated: The Sabre’s face fabric has been upped from 80d to 100d for more toughness and durability. We’ve also added a chest pocket for quick access to small stowables as well as an integrated goggle wipe, and we’ve refined the cut for a true modern fit.",
+  "price": 75000,
+  "category": "Men",
+  "color": "Aquaculture AC / Stratus",
+  "image_url": "https://images.arcteryx.com/F26/1350x1710/Sabre-Jacket-Aquaculture-AC-Stratus.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000010691",
+  "url": "https://arcteryx.com/us/en/shop/mens/sabre-jacket-0691",
+  "colours": [
+   "Black",
+   "Mantis / Dark Jade",
+   "Aquaculture AC / Stratus"
+  ],
+  "details": {
+   "tagline": "A feature-packed GORE-TEX shell for big descents that shuts out wind and snow.",
+   "weight": "740g / 1 lb 10.1 oz",
+   "weight_g": 740,
+   "fit": "Regular",
+   "properties": [
+    "Windproof",
+    "Breathable",
+    "GORE-TEX® (Waterproof)",
+    "Fair Trade Certified",
+    "bluesign® Approved Materials",
+    "Pit Zippers",
+    "Hardshell"
+   ],
+   "activities": [
+    "Freeride"
+   ],
+   "colours": [
+    {
+     "label": "Black",
+     "hex": "#090E0D"
+    },
+    {
+     "label": "Mantis / Dark Jade",
+     "hex": "#B1D041"
+    },
+    {
+     "label": "Aquaculture AC / Stratus",
+     "hex": "#009DC7"
+    }
+   ],
+   "features": {
+    "Technical features": [
+     "Waterproof",
+     "Windproof",
+     "Breathable",
+     "Durable"
+    ],
+    "Construction": [
+     "GORE-TEX® fabric is made with a recycled nylon face",
+     "Made with GORE-TEX® ePE that’s free from intentionally added PFAS",
+     "Softshell dope-dyed flannel backer for added comfort"
+    ],
+    "Cuff & Sleeves configuration": [
+     "Adjustable Velcro® closure at cuff"
+    ],
+    "Design & Fit": [
+     "Garment Centre Back Length: Size M is 31\"/79cm - Varies by size"
+    ],
+    "Fabric treatment": [
+     "DWR (Durable Water Repellent) finish repels moisture"
+    ],
+    "Hood configuration": [
+     "Helmet-compatible StormHood™ with drawcords for covering up"
+    ],
+    "Pocket configuration": [
+     "Chest pocket",
+     "Two hand pockets",
+     "Two internal dump pockets",
+     "Sleeve pocket",
+     "One zippered security pocket"
+    ],
+    "Snowsport features": [
+     "Powder skirt with gripper elastic and snap closure",
+     "RECCO® reflector aids search and rescue in emergency situations"
+    ],
+    "Sustainability": [
+     "Contains materials produced through processes that meet bluesign® criteria",
+     "Recycled content",
+     "PFAS (Per- and polyfluoroalkyl substances) Compliant",
+     "Dope dyed"
+    ],
+    "Zippers & Fly configuration": [
+     "Pit zippers for easy venting"
+    ]
+   },
+   "materials": [
+    "Body: 100D 3L GORE-TEX® ePE, Recycled Nylon Plain Weave with lo-loft fleece backer, 180 gsm, FC0 DWR - 100% Nylon with ePE & PU Membrane 100% Polyester Backing",
+    "Origin of fabric: CHINA",
+    "Origin of dyeing: CHINA",
+    "Origin of Manufacture: CHINA",
+    "May release plastic microfibres into the environment when washing"
+   ],
+   "highlights": [
+    {
+     "title": "Rugged protection",
+     "text": "Tougher 100d GORE-TEX® ePE face fabric, adjustable cuffs, and integrated snow skirt seal out snow and wind."
+    },
+    {
+     "title": "Expanded storage",
+     "text": "Larger hand pockets and new chest pocket add more room for snacks and small essentials."
+    },
+    {
+     "title": "Freeride-specific details",
+     "text": "Helmet-compatible StormHood™, integrated goggle wipe, and contemporary fit keep you dialled in on deep days."
+    }
+   ]
+  }
+ },
+ {
+  "id": 2,
+  "store": "Arc'teryx",
+  "name": "Sabre Pant Men's",
+  "description": "Inside the ropes or out, the Sabre Pant is built burly enough to handle brushes with rocks and trees, designed to be technical enough to seal out errant pow, and cut low enough to let you breathe. Made from waterproof, breathable GORE-TEX ePE, its contemporary silhouette balances backcountry function with resort-friendly form. With a roomier fit in the thighs and a supple, durable instep patch to prevent bunching, there’s even more freedom of movement. What's been updated: The Sabre Pant’s face fabric has been upped from 80d to 100d for more toughness and durability. The new instep patch is made with Hadron® yarns to improve durability and weight, while also being flexible to prevent bunching. We’ve also updated the pant to a true regular fit.",
+  "price": 60000,
+  "category": "Men",
+  "color": "Black",
+  "image_url": "https://images.arcteryx.com/F26/1350x1710/Sabre-Pant-Black.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000010450",
+  "url": "https://arcteryx.com/us/en/shop/mens/sabre-pant-0450",
+  "colours": [
+   "Black",
+   "Aquaculture AC",
+   "Mongoose"
+  ],
+  "details": {
+   "tagline": "A durable, downhill-oriented GORE-TEX pant with a modern fit.",
+   "weight": "590g / 1 lb 4.8 oz",
+   "weight_g": 590,
+   "fit": "Regular",
+   "properties": [
+    "Windproof",
+    "Breathable",
+    "GORE-TEX® (Waterproof)",
+    "Inseam Length (Short)",
+    "Inseam Length (Regular)",
+    "Inseam Length (Tall)",
+    "Fair Trade Certified",
+    "bluesign® Approved Materials",
+    "Leg Zippers",
+    "Hardshell"
+   ],
+   "activities": [
+    "Freeride"
+   ],
+   "colours": [
+    {
+     "label": "Black",
+     "hex": "#090E0D"
+    },
+    {
+     "label": "Mongoose",
+     "hex": "#5D5348"
+    },
+    {
+     "label": "Aquaculture AC",
+     "hex": "#009DC7"
+    }
+   ],
+   "features": {
+    "Technical features": [
+     "Waterproof",
+     "Windproof",
+     "Breathable",
+     "Durable"
+    ],
+    "Construction": [
+     "GORE-TEX® fabric is made with a recycled nylon face",
+     "Made with GORE-TEX® ePE that’s free from intentionally added PFAS",
+     "Softshell dope-dyed flannel backer for added comfort"
+    ],
+    "Design & Fit": [
+     "Garment Inseam: Size M-S (Short) is 31\"/78cm, Size M-R (Regular) is 33\"/83cm, Size M-T (Tall) is 36\"/91cm — Inseam varies by size"
+    ],
+    "Fabric treatment": [
+     "DWR (Durable Water Repellent) finish repels moisture"
+    ],
+    "Pocket configuration": [
+     "Two side cargo pockets"
+    ],
+    "Reinforcements": [
+     "Reinforced instep patch uses Hadro™ yarns to improve durability and protect from sharp edges, while also creating a lighter and more flexible material"
+    ],
+    "Snowsport features": [
+     "RECCO® reflector aids search and rescue in emergency situations",
+     "Elasticated powder cuff to keep snow out"
+    ],
+    "Sustainability": [
+     "PFAS (Per- and polyfluoroalkyl substances) Compliant",
+     "Lining  - bluepass Material, FC0 DWR, recycled content",
+     "Shell - recycled content, FC0 DWR, bluepass Material, dope dyed"
+    ],
+    "Waist & Belt configuration": [
+     "Adjustable integrated belt",
+     "Belt loops",
+     "Button connectors pair the pant with the Sabre Jacket’s powder skirt for extra pow protection"
+    ],
+    "Zippers & Fly configuration": [
+     "Two zippered thigh vents"
+    ]
+   },
+   "materials": [
+    "Lining: Recycled nylon/spandex stretch plain weave FC0 DWR, 138 gsm - 86% Nylon, 14% Elastane",
+    "Body: 100D 3L GORE-TEX® ePE, Recycled Nylon Plain Weave with lo-loft fleece backer, 180 gsm, FC0 DWR - 100% Nylon with ePE & PU Membrane 100% Polyester Backing",
+    "Origin of fabric: CHINA",
+    "Origin of dyeing: CHINA",
+    "Origin of Manufacture: CHINA",
+    "May release plastic microfibres into the environment when washing"
+   ],
+   "highlights": [
+    {
+     "title": "Upgraded durability",
+     "text": "Tougher 100d GORE-TEX® ePE face fabric holds up to storm days, tree snags, and rough backcountry wear."
+    },
+    {
+     "title": "New pocket design",
+     "text": "A pleated, bellowed design adds room to the thigh pockets and improves access to small essentials."
+    },
+    {
+     "title": "Contemporary fit",
+     "text": "Updated to a true regular fit, with more room in the thighs for improved freedom of movement in steep terrain."
+    }
+   ]
+  }
+ },
+ {
+  "id": 3,
+  "store": "Arc'teryx",
+  "name": "Cerium Jacket Men's",
+  "description": "Lightweight, warm, versatile down jacket",
+  "price": 38000,
+  "category": "Men",
+  "color": "Black Sapphire",
+  "image_url": "https://images.arcteryx.com/F26/1350x1710/Cerium-Jacket-Black-Sapphire.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000010579",
+  "url": "https://arcteryx.com/us/en/shop/mens/cerium-jacket-0579",
+  "colours": [
+   "Black Sapphire",
+   "Black",
+   "Larch"
+  ],
+  "details": null
+ },
+ {
+  "id": 4,
+  "store": "Arc'teryx",
+  "name": "Bird Head Toque",
+  "description": "Our classic winter toque",
+  "price": 6000,
+  "category": "Unisex",
+  "color": "Blurple / Kasumi",
+  "image_url": "https://images.arcteryx.com/F26/1350x1710/Bird-Head-Toque-Blurple-Kasumi.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000006756",
+  "url": "https://arcteryx.com/us/en/shop/bird-head-toque",
+  "colours": [
+   "Orca",
+   "Solitude / Arctic Silk",
+   "24K Black",
+   "Nucleus / Mongoose",
+   "Blurple / Kasumi",
+   "Lt Renegade / Rose",
+   "Ultima / Aquaculture"
+  ],
+  "details": null
+ },
+ {
+  "id": 5,
+  "store": "Arc'teryx",
+  "name": "Rho SV Zip Neck Men's",
+  "description": "Our warmest base layer top",
+  "price": 14000,
+  "category": "Men",
+  "color": "Ultima",
+  "image_url": "https://images.arcteryx.com/F26/1350x1710/Rho-SV-Zip-Neck-Ultima.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000010936",
+  "url": "https://arcteryx.com/us/en/shop/mens/rho-sv-zip-neck-0936",
+  "colours": [
+   "Black",
+   "Ultima",
+   "Stratus"
+  ],
+  "details": null
+ },
+ {
+  "id": 6,
+  "store": "Arc'teryx",
+  "name": "Rho SV Bottom Men's",
+  "description": "Warm, stretch-fleece base layer bottoms",
+  "price": 12000,
+  "category": "Men",
+  "color": "Stratus",
+  "image_url": "https://images.arcteryx.com/F26/1350x1710/Rho-SV-Bottom-Stratus.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000010937",
+  "url": "https://arcteryx.com/us/en/shop/mens/rho-sv-bottom-0937",
+  "colours": [
+   "Stratus",
+   "Black"
+  ],
+  "details": null
+ },
+ {
+  "id": 7,
+  "store": "Arc'teryx",
+  "name": "Postour Boot Men's",
+  "description": "2-in-1 insulated recovery boot for après touring",
+  "price": 30000,
+  "category": "Men",
+  "color": "Tatsu/Black",
+  "image_url": "https://images.arcteryx.com/F26/1350x1710/Postour-Boot-Tatsu-Black.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000010507",
+  "url": "https://arcteryx.com/us/en/shop/mens/postour-boot-0507",
+  "colours": [
+   "Black/Black",
+   "Tatsu/Black"
+  ],
+  "details": null
+ },
+ {
+  "id": 8,
+  "store": "Arc'teryx",
+  "name": "Merino Wool Ski Sock",
+  "description": "Versatile Merino wool ski sock",
+  "price": 4000,
+  "category": "Unisex",
+  "color": "Aquaculture",
+  "image_url": "https://images.arcteryx.com/F26/1350x1710/Merino-Wool-Ski-Sock-Aquaculture.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000010984",
+  "url": "https://arcteryx.com/us/en/shop/merino-wool-ski-sock-0984",
+  "colours": [
+   "Black / Canvas",
+   "Aquaculture"
+  ],
+  "details": null
+ },
+ {
+  "id": 9,
+  "store": "Arc'teryx",
+  "name": "Strato Jacket Men's",
+  "description": "Our most expressive freeride shell",
+  "price": 90000,
+  "category": "Men",
+  "color": "Ultima",
+  "image_url": "https://images.arcteryx.com/F26/1350x1710/Strato-Jacket-Ultima.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000010564",
+  "url": "https://arcteryx.com/us/en/shop/mens/strato-jacket-0564",
+  "colours": [
+   "Black / Mongoose",
+   "Ultima"
+  ],
+  "details": null
+ },
+ {
+  "id": 10,
+  "store": "Arc'teryx",
+  "name": "Strato Pant Men's",
+  "description": "The progressive freeride pant",
+  "price": 70000,
+  "category": "Men",
+  "color": "Ultima",
+  "image_url": "https://images.arcteryx.com/F26/1350x1710/Strato-Pant-Ultima.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000010453",
+  "url": "https://arcteryx.com/us/en/shop/mens/strato-pant-0453",
+  "colours": [
+   "Black",
+   "Ultima"
+  ],
+  "details": null
+ },
+ {
+  "id": 11,
+  "store": "Arc'teryx",
+  "name": "Proton Hoody Men's",
+  "description": "Highly breathable insulated climbing hoody",
+  "price": 35000,
+  "category": "Men",
+  "color": "Rune / Sea Salt",
+  "image_url": "https://images.arcteryx.com/F26/1350x1710/Proton-Hoody-Rune-Sea-Salt.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000008436",
+  "url": "https://arcteryx.com/us/en/shop/mens/proton-hoody-8436",
+  "colours": [
+   "Black",
+   "Aquaculture / Stratus",
+   "Dark Jade / Mongoose",
+   "Rune / Sea Salt"
+  ],
+  "details": null
+ },
+ {
+  "id": 12,
+  "store": "Arc'teryx",
+  "name": "Quintic 28 Backpack",
+  "description": "Midsize, 28-litre freeride pack with enhanced stability",
+  "price": 25000,
+  "category": "Unisex",
+  "color": "Ultima",
+  "image_url": "https://images.arcteryx.com/F26/1350x1710/Quintic-28-Backpack-Ultima.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000011434",
+  "url": "https://arcteryx.com/us/en/shop/quintic-28-backpack-1434",
+  "colours": [
+   "Ultima",
+   "Black"
+  ],
+  "details": null
+ },
+ {
+  "id": 13,
+  "store": "Arc'teryx",
+  "name": "Sabre Mitten",
+  "description": "Ultra-warm dexterity for freeride",
+  "price": 20000,
+  "category": "Unisex",
+  "color": "Black",
+  "image_url": "https://images.arcteryx.com/F26/1350x1710/Sabre-Mitten-Black.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000010698",
+  "url": "https://arcteryx.com/us/en/shop/sabre-mitten-0698",
+  "colours": [
+   "Black"
+  ],
+  "details": null
+ },
+ {
+  "id": 14,
+  "store": "Arc'teryx",
+  "name": "Bird Word Toque",
+  "description": "Warm, versatile toque made with recycled materials",
+  "price": 6000,
+  "category": "Unisex",
+  "color": "Orca",
+  "image_url": "https://images.arcteryx.com/F26/1350x1710/Bird-Word-Toque-Orca.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000010979",
+  "url": "https://arcteryx.com/us/en/shop/bird-word-toque-0979",
+  "colours": [
+   "Mongoose / Sea Salt",
+   "Aquaculture / Black Sapphire",
+   "Orca",
+   "Dark Jade / Mantis",
+   "24K Black",
+   "Lt Renegade / Renegade"
+  ],
+  "details": null
+ },
+ {
+  "id": 15,
+  "store": "Arc'teryx",
+  "name": "Merino Wool Grotto Ski Sock",
+  "description": "Warm Merino wool ski sock",
+  "price": 4200,
+  "category": "Unisex",
+  "color": "Kasumi",
+  "image_url": "https://images.arcteryx.com/F26/1350x1710/Merino-Wool-Grotto-Ski-Sock-Kasumi.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000010983",
+  "url": "https://arcteryx.com/us/en/shop/merino-wool-grotto-ski-sock-0983",
+  "colours": [
+   "Black / Canvas",
+   "Aquaculture",
+   "Kasumi",
+   "Mongoose"
+  ],
+  "details": null
+ },
+ {
+  "id": 16,
+  "store": "Arc'teryx",
+  "name": "Sabre Glove",
+  "description": "A close-fitting freeride glove",
+  "price": 20000,
+  "category": "Unisex",
+  "color": "Black",
+  "image_url": "https://images.arcteryx.com/F26/1350x1710/Sabre-Glove-Black.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000010696",
+  "url": "https://arcteryx.com/us/en/shop/sabre-glove-0696",
+  "colours": [
+   "Black"
+  ],
+  "details": null
+ },
+ {
+  "id": 17,
+  "store": "Arc'teryx",
+  "name": "Rush Jacket Men's",
+  "description": "With lighter GORE-TEX PRO ePE fabric that offers the same high-level durability you depend on in the backcountry, the updated Rush Jacket emphasizes efficiency for the ascent without sacrificing comfort—or the performance you demand for the descent. A new fit allows easier access to additional zippered pockets and uses less fabric, making it simpler to transition and head back up for another lap.",
+  "price": 80000,
+  "category": "Men",
+  "color": "Mantis / Dark Jade",
+  "image_url": "https://images.arcteryx.com/F26/1350x1710/Rush-Jacket-Mantis-Dark-Jade.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000009903",
+  "url": "https://arcteryx.com/us/en/shop/mens/rush-jacket-9903",
+  "colours": [
+   "Mantis / Dark Jade",
+   "Blurple / Blk Sapphire",
+   "Black / Mongoose"
+  ],
+  "details": {
+   "tagline": "Light, durable, touring-specific jacket built for backcountry skiing and riding.",
+   "weight": "485g / 1 lb 1.1 oz",
+   "weight_g": 485,
+   "fit": "Regular",
+   "properties": [
+    "Windproof",
+    "GORE-TEX® (Waterproof)",
+    "bluesign® Approved Materials",
+    "Pit Zippers",
+    "GORE-TEX® PRO ePE (Waterproof)"
+   ],
+   "activities": [
+    "Touring"
+   ],
+   "colours": [
+    {
+     "label": "Mantis / Dark Jade",
+     "hex": "#B1D041"
+    },
+    {
+     "label": "Blurple / Blk Sapphire",
+     "hex": "#55547F"
+    },
+    {
+     "label": "Black / Mongoose",
+     "hex": "#090E0D"
+    }
+   ],
+   "features": {
+    "Technical features": [
+     "Waterproof",
+     "Windproof",
+     "Breathable",
+     "Durable"
+    ],
+    "Construction": [
+     "GORE-TEX® PRO ePE fabric free from intentionally added PFAS provides lightweight, durable, waterproof, windproof, breathable protection"
+    ],
+    "Design & Fit": [
+     "Regular fit provides freedom of movement with room for layers",
+     "Garment Centre Back Length: Size M is 30\"/77cm - Varies by size"
+    ],
+    "Fabric treatment": [
+     "FC0-DWR (Durable Water Repellent) finish repels moisture"
+    ],
+    "Hood configuration": [
+     "Helmet compatible StormHood™ provides full coverage without impacting visibility",
+     "Adjustable hood provides custom protection"
+    ],
+    "Patterning": [
+     "Snowsport-specific articulated patterning for mobility and comfort"
+    ],
+    "Pocket configuration": [
+     "Two internal dump pockets",
+     "Two chest pockets"
+    ],
+    "Snowsport features": [
+     "RECCO® reflector aids search and rescue in emergency situations"
+    ],
+    "Sustainability": [
+     "Contains materials produced through processes that meet bluesign® criteria",
+     "Shell - bluepass Material, dope dyed backer, recycled content",
+     "PFAS (Per- and polyfluoroalkyl substances) Compliant"
+    ],
+    "Zippers & Fly configuration": [
+     "Pit zippers for easy venting",
+     "WaterTight™ zippers"
+    ]
+   },
+   "materials": [
+    "Body: 3L GORE-TEX® Pro ePE, 80d recycled nylon, 131 gsm, FC0 DWR - 100% Nylon with ePE and PU Membrane 100% Nylon Backing",
+    "Origin of fabric: CHINA",
+    "Origin of dyeing: CHINA",
+    "Origin of Manufacture: CHINA",
+    "May release plastic microfibres into the environment when washing"
+   ],
+   "highlights": [
+    {
+     "title": "GORE-TEX PRO ePE",
+     "text": "As GORE-TEX’s leading partner, we led the development of GORE-TEX PRO ePE: a stronger, thinner membrane with maximum durability. Our GORE-TEX PRO ePE shells have been rigorously designed and tested to keep you dry for seasons to come."
+    },
+    {
+     "title": "Smarter design",
+     "text": "Strategically placed, wider pockets and better compatibility with equipment supports all-day tours"
+    },
+    {
+     "title": "Clear view",
+     "text": "Helmet-compatible StormHood™ moves with you for protection and unrestricted visibility"
+    },
+    {
+     "title": "Improved efficiency",
+     "text": "Updated fit and lighter-weight package eases movement up, across, and down the mountain"
+    }
+   ]
+  }
+ },
+ {
+  "id": 18,
+  "store": "Arc'teryx",
+  "name": "Rush Bib Pant Men's",
+  "description": "Now available in lighter, more durable GORE-TEX PRO ePE fabric, the Rush Bib is more efficient for the ascent. With extra room and articulation throughout the legs for maximum freedom of movement, setting switchbacks on the uptrack and letting loose on the down has never felt better. Finished with touring-specific storage like key clip–equipped pockets on the chest and thighs to secure your most important gear.",
+  "price": 75000,
+  "category": "Men",
+  "color": "Dark Jade",
+  "image_url": "https://images.arcteryx.com/F26/1350x1710/Rush-Bib-Pant-Dark-Jade.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000010873",
+  "url": "https://arcteryx.com/us/en/shop/mens/rush-bib-pant-0873",
+  "colours": [
+   "Dark Jade",
+   "Black",
+   "Black Sapphire"
+  ],
+  "details": {
+   "tagline": "A bib offering efficiency for the ascent without sacrificing performance.",
+   "weight": "570g / 1 lb 4.1 oz",
+   "weight_g": 570,
+   "fit": "Regular",
+   "properties": [
+    "Windproof",
+    "GORE-TEX® (Waterproof)",
+    "bluesign® Approved Materials",
+    "GORE-TEX® PRO ePE (Waterproof)",
+    "Leg Zippers",
+    "Hardshell"
+   ],
+   "activities": [
+    "Touring"
+   ],
+   "colours": [
+    {
+     "label": "Black",
+     "hex": "#090E0D"
+    },
+    {
+     "label": "Dark Jade",
+     "hex": "#24312D"
+    },
+    {
+     "label": "Black Sapphire",
+     "hex": "#323441"
+    }
+   ],
+   "features": {
+    "Technical features": [
+     "Waterproof",
+     "Windproof",
+     "Breathable",
+     "Durable"
+    ],
+    "Construction": [
+     "GORE-TEX® PRO ePE fabric free from intentionally added PFAS provides lightweight, durable, waterproof, windproof, breathable protection",
+     "Four-way-stretch recycled softshell material on the upper bib provides extended protection from snow and wind"
+    ],
+    "Design & Fit": [
+     "Garment Inseam: Size M-R (Medium-Regular) is 33\"/84cm — Inseam varies by size"
+    ],
+    "Integrated features": [
+     "Adjustable suspender attachment is designed to help minimize slipping and dial in your perfect fit"
+    ],
+    "Reinforcements": [
+     "Keprotec™ instep patches provide superior protection against damage by boots, crampons and ski edges"
+    ],
+    "Snowsport features": [
+     "RECCO® reflector aids search and rescue in emergency situations"
+    ],
+    "Sustainability": [
+     "PFAS (Per- and polyfluoroalkyl substances) Compliant",
+     "Lining  - bluepass Material, FC0 DWR, recycled content",
+     "Shell - recycled content, FC0 DWR, bluepass Material, dope dyed"
+    ],
+    "Zippers & Fly configuration": [
+     "Zippered thigh vents allow you to dump heat on the uphill"
+    ]
+   },
+   "materials": [
+    "Lining: Recycled nylon/spandex stretch plain weave FC0 DWR, 138 gsm - 86% Nylon, 14% Elastane",
+    "Contrast: RecNylon DBL Weave Solid, 220gsm, FC0 DWR - 56% Nylon, 34% Polyester, 10% Elastane",
+    "Body: 3L GORE-TEX® Pro ePE, 80d recycled nylon, 131 gsm, FC0 DWR - 100% Nylon with ePE and PU Membrane 100% Nylon Backing",
+    "Origin of fabric: CHINA",
+    "Origin of dyeing: CHINA",
+    "Origin of Manufacture: CHINA",
+    "May release plastic microfibres into the environment when washing"
+   ],
+   "highlights": []
+  }
+ },
+ {
+  "id": 19,
+  "store": "Arc'teryx",
+  "name": "Sperro SV Jacket - 0 Men's",
+  "description": "Multisport hardshell certified by TESTEX® Circularity",
+  "price": 120000,
+  "category": "Men",
+  "color": "Vitality / Black Sapphire",
+  "image_url": "https://images.arcteryx.com/F26/1350x1710/Sperro-SV-Jacket-0-Vitality-Black-Sapphire.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000010667",
+  "url": "https://arcteryx.com/us/en/shop/mens/sperro-sv-jacket-0-0667",
+  "colours": [
+   "Blaze / Dk Blaze",
+   "Vitality / Black Sapphire",
+   "Cloud / Black"
+  ],
+  "details": null
+ },
+ {
+  "id": 20,
+  "store": "Arc'teryx",
+  "name": "Sabre Insulated Jacket Men's",
+  "description": "The Sabre Insulated offers a fit that allows for the freedom of movement you need to nail your line, while Coreloft insulation provides breathable warmth to keep you comfortable on exposed ridges and short bootpacks. Made with a contemporary shape and overall length, plus thoughtful, freeride-specific details like an additional, zippered chest pocket for essential gear and pant-compatible attachments to keep snow out of your kit.",
+  "price": 90000,
+  "category": "Men",
+  "color": "Ultima",
+  "image_url": "https://images.arcteryx.com/F26/1350x1710/Sabre-Insulated-Jacket-Ultima.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000009913",
+  "url": "https://arcteryx.com/us/en/shop/mens/sabre-insulated-jacket-9913",
+  "colours": [
+   "Black",
+   "Ultima",
+   "Mantis / Dark Jade"
+  ],
+  "details": {
+   "tagline": "Freeride ski and snowboard jacket optimized for warmth and durability.",
+   "weight": "835g / 1 lb 13.5 oz",
+   "weight_g": 835,
+   "fit": "Regular",
+   "properties": [
+    "Insulated Shell",
+    "Windproof",
+    "Synthetic Fill",
+    "Fair Trade Certified",
+    "bluesign® Approved Materials",
+    "Pit Zippers"
+   ],
+   "activities": [
+    "Freeride"
+   ],
+   "colours": [
+    {
+     "label": "Black",
+     "hex": "#090E0D"
+    },
+    {
+     "label": "Ultima",
+     "hex": "#320C24"
+    },
+    {
+     "label": "Mantis / Dark Jade",
+     "hex": "#B1D041"
+    }
+   ],
+   "features": {
+    "Technical features": [
+     "Waterproof",
+     "Windproof",
+     "Breathable",
+     "Durable"
+    ],
+    "Construction": [
+     "Highly breathable Dope Permeair™ 20 liner is coloured with dope dyed yarns – a process that uses considerably less resources than traditional dye processes",
+     "Coreloft™ insulation regulates temperature, performs even when wet, and is made from 100% recycled materials",
+     "Free from intentionally added PFAS, 100D 2L GORE-TEX® provides waterproof, breathable protection, and improved durability"
+    ],
+    "Design & Fit": [
+     "Garment Centre Back Length: Size M is 31\"/79cm - Varies by size"
+    ],
+    "Hood configuration": [
+     "Adjustable, insulated, helmet compatible StormHood™"
+    ],
+    "Pocket configuration": [
+     "Chest pocket",
+     "Internal chest pocket with zip",
+     "Internal mesh dump pocket",
+     "Two insulated hand pockets with zippers",
+     "Sleeve pocket"
+    ],
+    "Snowsport features": [
+     "RECCO® reflector aids search and rescue in emergency situations",
+     "Slide 'n Loc™ attachment fits compatible pants",
+     "Integrated powder skirt seals out snow"
+    ],
+    "Sustainability": [
+     "Insulation - bluepass Material, recycled content",
+     "Lining - dope dyed, recycled content",
+     "PFAS (Per- and polyfluoroalkyl substances) Compliant",
+     "Shell - bluepass Material, GRS recycled content"
+    ],
+    "Zippers & Fly configuration": [
+     "Pit zippers for easy venting",
+     "Pit zippers with PowderGuard™ mesh backing, for easy venting without snow entry"
+    ]
+   },
+   "materials": [
+    "Lining: 20D recycled dope dyed nylon ripstop, FC0 DWR, 38gsm - 100% Nylon",
+    "Synthetic Insulation: Coreloft™ Compact, 80gsm - 100% Polyester",
+    "Body: 100D 2L GORE-TEX® ePE, 117 gsm, FC0 DWR - 100% Nylon with ePE and PU Membrane",
+    "Origin of fabric: CHINA",
+    "Origin of dyeing: CHINA",
+    "Origin of Manufacture: CHINA",
+    "May release plastic microfibres into the environment when washing"
+   ],
+   "highlights": []
+  }
+ },
+ {
+  "id": 21,
+  "store": "Arc'teryx",
+  "name": "Macai Down Jacket Men's",
+  "description": "Down-insulated GORE-TEX ski and snowboard jacket",
+  "price": 110000,
+  "category": "Men",
+  "color": "Ultima",
+  "image_url": "https://images.arcteryx.com/F26/1350x1710/Macai-Down-Jacket-Ultima.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000010942",
+  "url": "https://arcteryx.com/us/en/shop/mens/macai-jacket-0942",
+  "colours": [
+   "Ultima",
+   "Black",
+   "Dark Jade / Mongoose"
+  ],
+  "details": null
+ },
+ {
+  "id": 22,
+  "store": "Arc'teryx",
+  "name": "Fissile SV Down Jacket Men's",
+  "description": "Our pinnacle resort jacket",
+  "price": 110000,
+  "category": "Men",
+  "color": "Mongoose",
+  "image_url": "https://images.arcteryx.com/F26/1350x1710/Fissile-SV-Down-Jacket-Mongoose.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000009886",
+  "url": "https://arcteryx.com/us/en/shop/mens/fissile-sv-down-jacket-9886",
+  "colours": [
+   "Black",
+   "Mongoose"
+  ],
+  "details": null
+ },
+ {
+  "id": 23,
+  "store": "Arc'teryx",
+  "name": "Fissile Insulated Pant Men's",
+  "description": "Warm, waterproof resort pant",
+  "price": 70000,
+  "category": "Men",
+  "color": "Mongoose",
+  "image_url": "https://images.arcteryx.com/F26/1350x1710/Fissile-Insulated-Pant-Mongoose.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000010855",
+  "url": "https://arcteryx.com/us/en/shop/mens/fissile-insulated-pant-0855",
+  "colours": [
+   "Mongoose",
+   "Black"
+  ],
+  "details": null
+ },
+ {
+  "id": 24,
+  "store": "Arc'teryx",
+  "name": "Rho LT Zip Neck Men's",
+  "description": "Comfort starts with your base layer. Made for performance during lower output activities on cool days, the Rho LT zip-neck adds warmth, moves moisture, and is soft next to the skin. Its Torrent™ fabric is brushed for thermal performance and comfort, and a Polygiene® treatment provides odour control. The trim fit maximizes fabric performance and facilitates layering, a deep front zip makes it easy to pull on and off, the chest pocket secures your smartphone, and the tall collar adds warmth.",
+  "price": 12000,
+  "category": "Men",
+  "color": "Black",
+  "image_url": "https://images.arcteryx.com/F26/1350x1710/Rho-LT-Zip-Neck-Black.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000009425",
+  "url": "https://arcteryx.com/us/en/shop/mens/rho-lt-zip-neck-9425",
+  "colours": [
+   "Black",
+   "Cloud",
+   "Dark Jade",
+   "Stratus"
+  ],
+  "details": {
+   "tagline": "Performance base layer for lower output activities in cool to cold temperatures.",
+   "weight": "245g / 8.6 oz",
+   "weight_g": 245,
+   "fit": "Fitted",
+   "properties": [
+    "Synthetic",
+    "Fair Trade Certified",
+    "bluesign® Approved Materials",
+    "Base Layer Tops"
+   ],
+   "activities": [
+    "Alpine",
+    "Hike",
+    "Touring",
+    "Freeride",
+    "Resort",
+    "Trail Run"
+   ],
+   "colours": [
+    {
+     "label": "Black",
+     "hex": "#090E0D"
+    },
+    {
+     "label": "Cloud",
+     "hex": "#4F5152"
+    },
+    {
+     "label": "Stratus",
+     "hex": "#626979"
+    },
+    {
+     "label": "Dark Jade",
+     "hex": "#24312D"
+    }
+   ],
+   "features": {
+    "Technical features": [
+     "Moisture-wicking",
+     "Antimicrobial"
+    ],
+    "Collar configuration": [
+     "Tall collar"
+    ],
+    "Construction": [
+     "Flatlock seam construction improves next-to-skin comfort",
+     "Torrent™ stretch fleece with Polygiene® manages moisture, provides light warmth and performance stretch, and is brushed for softness"
+    ],
+    "Design & Fit": [
+     "Trim fit makes it an ideal layering piece"
+    ],
+    "Hem configuration": [
+     "Slight drop hem"
+    ],
+    "Patterning": [
+     "Articulated patterning for unrestricted mobility",
+     "Gusseted underarms for mobility and comfort"
+    ],
+    "Pocket configuration": [
+     "Laminated chest pocket with laminated zip"
+    ],
+    "Sustainability": [
+     "Contains materials produced through processes that meet bluesign® criteria",
+     "Body - bluepass Material",
+     "This article was treated with an anti-odour biocidal product (Silvadur™ )",
+     "PFAS (Per- and polyfluoroalkyl substances) Compliant"
+    ],
+    "Zippers & Fly configuration": [
+     "Collar zip for improved venting"
+    ]
+   },
+   "materials": [
+    "Body:  Torrent™ - Jersey knit, 185gsm - 84% Polyester, 16% Elastane",
+    "Origin of fabric: TAIWAN, CHINA",
+    "Origin of dyeing: TAIWAN, CHINA",
+    "Origin of Manufacture: VIETNAM",
+    "May release plastic microfibres into the environment when washing"
+   ],
+   "highlights": []
+  }
+ },
+ {
+  "id": 25,
+  "store": "Arc'teryx",
+  "name": "Satoro Merino Wool Crew Neck LS Men's",
+  "description": "Lightweight Merino wool base layer",
+  "price": 12000,
+  "category": "Men",
+  "color": "Blurple",
+  "image_url": "https://images.arcteryx.com/F26/1350x1710/Satoro-Merino-Wool-Crew-Neck-LS-Blurple.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000010861",
+  "url": "https://arcteryx.com/us/en/shop/mens/satoro-merino-wool-crew-neck-ls-0861",
+  "colours": [
+   "Mongoose",
+   "Blurple",
+   "Cloud",
+   "Black"
+  ],
+  "details": null
+ },
+ {
+  "id": 26,
+  "store": "Arc'teryx",
+  "name": "Satoro Merino Wool Zip Neck Men's",
+  "description": "Lightweight Merino wool base layer",
+  "price": 14000,
+  "category": "Men",
+  "color": "Blurple",
+  "image_url": "https://images.arcteryx.com/F26/1350x1710/Satoro-Merino-Wool-Zip-Neck-Blurple.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000010862",
+  "url": "https://arcteryx.com/us/en/shop/mens/satoro-merino-wool-zip-neck-0862",
+  "colours": [
+   "Blurple",
+   "Mongoose",
+   "Black"
+  ],
+  "details": null
+ },
+ {
+  "id": 27,
+  "store": "Arc'teryx",
+  "name": "Rho LT Hoody Men's",
+  "description": "Lightweight (LT) base layer hoody",
+  "price": 12000,
+  "category": "Men",
+  "color": "Dark Jade",
+  "image_url": "https://images.arcteryx.com/F26/1350x1710/Rho-LT-Hoody-Dark-Jade.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000009423",
+  "url": "https://arcteryx.com/us/en/shop/mens/rho-lt-hoody-9423",
+  "colours": [
+   "Black",
+   "Dark Jade"
+  ],
+  "details": null
+ },
+ {
+  "id": 28,
+  "store": "Arc'teryx",
+  "name": "Satoro Merino Wool Bottom Men's",
+  "description": "Lightweight Merino wool base layer",
+  "price": 12000,
+  "category": "Men",
+  "color": "Mongoose",
+  "image_url": "https://images.arcteryx.com/F26/1350x1710/Satoro-Merino-Wool-Bottom-Mongoose.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000010860",
+  "url": "https://arcteryx.com/us/en/shop/mens/satoro-merino-wool-bottom-0860",
+  "colours": [
+   "Mongoose",
+   "Black",
+   "Cloud"
+  ],
+  "details": null
+ },
+ {
+  "id": 29,
+  "store": "Arc'teryx",
+  "name": "Rho LT Bottom Men's",
+  "description": "Lightweight (LT) Torrent™ base layer",
+  "price": 10000,
+  "category": "Men",
+  "color": "Dark Jade",
+  "image_url": "https://images.arcteryx.com/F26/1350x1710/Rho-LT-Bottom-Dark-Jade.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000010037",
+  "url": "https://arcteryx.com/us/en/shop/mens/rho-lt-bottom-0037",
+  "colours": [
+   "Black",
+   "Mongoose",
+   "Dark Jade",
+   "Cloud"
+  ],
+  "details": null
+ },
+ {
+  "id": 30,
+  "store": "Arc'teryx",
+  "name": "Rho LT Crew Neck Men's",
+  "description": "Versatile lightweight base layer",
+  "price": 10000,
+  "category": "Men",
+  "color": "Mongoose",
+  "image_url": "https://images.arcteryx.com/F26/1350x1710/Rho-LT-Crew-Neck-Mongoose.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000009417",
+  "url": "https://arcteryx.com/us/en/shop/mens/rho-lt-crew-neck-9417",
+  "colours": [
+   "Black",
+   "Cloud",
+   "Mongoose"
+  ],
+  "details": null
+ },
+ {
+  "id": 31,
+  "store": "Arc'teryx",
+  "name": "Micon LiTRIC™ 32 Avalanche Airbag",
+  "description": "A game-changing avalanche airbag for touring",
+  "price": 160000,
+  "category": "Unisex",
+  "color": "Euphoria",
+  "image_url": "https://images.arcteryx.com/F26/1350x1710/Micon-LiTRIC-32-Backpack-Euphoria.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000009987",
+  "url": "https://arcteryx.com/us/en/shop/micon-litric-32-avalanche-airbag-9987",
+  "colours": [
+   "Euphoria",
+   "Black"
+  ],
+  "details": null
+ },
+ {
+  "id": 32,
+  "store": "Arc'teryx",
+  "name": "Quintic 16 Backpack",
+  "description": "Our most compact freeride-specific pack",
+  "price": 23000,
+  "category": "Unisex",
+  "color": "Ultima",
+  "image_url": "https://images.arcteryx.com/F26/1350x1710/Quintic-16-Backpack-Ultima.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000010720",
+  "url": "https://arcteryx.com/us/en/shop/quintic-16-backpack-0720",
+  "colours": [
+   "Black",
+   "Ultima"
+  ],
+  "details": null
+ },
+ {
+  "id": 33,
+  "store": "Arc'teryx",
+  "name": "Micon LiTRIC™ 42 Avalanche Airbag",
+  "description": "A game-changing airbag for multiday missions",
+  "price": 165000,
+  "category": "Unisex",
+  "color": "Euphoria",
+  "image_url": "https://images.arcteryx.com/F26/1350x1710/Micon-LiTRIC-42-Backpack-Euphoria.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000009988",
+  "url": "https://arcteryx.com/us/en/shop/micon-litric-42-avalanche-airbag-9988",
+  "colours": [
+   "Black",
+   "Euphoria"
+  ],
+  "details": null
+ },
+ {
+  "id": 34,
+  "store": "Arc'teryx",
+  "name": "Micon 37 Backpack",
+  "description": "Durable touring pack optimized for the backcountry",
+  "price": 28000,
+  "category": "Unisex",
+  "color": "Dark Jade / Black",
+  "image_url": "https://images.arcteryx.com/F26/1350x1710/Micon-37-Backpack-Dark-Jade-Black.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000010719",
+  "url": "https://arcteryx.com/us/en/shop/micon-37-backpack-0719",
+  "colours": [
+   "Dark Jade / Black",
+   "Black"
+  ],
+  "details": null
+ },
+ {
+  "id": 35,
+  "store": "Arc'teryx",
+  "name": "Micon LiTRIC™ 16 Avalanche Airbag",
+  "description": "Compact avalanche pack for short touring days",
+  "price": 150000,
+  "category": "Unisex",
+  "color": "Euphoria",
+  "image_url": "https://images.arcteryx.com/F26/1350x1710/Micon-LiTRIC-16-Backpack-Euphoria.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000009977",
+  "url": "https://arcteryx.com/us/en/shop/micon-litric-16-avalanche-airbag-9977",
+  "colours": [
+   "Euphoria",
+   "Black"
+  ],
+  "details": null
+ },
+ {
+  "id": 36,
+  "store": "Arc'teryx",
+  "name": "Cerium Hoody Men's",
+  "description": "Lightweight, warm, versatile down hoody",
+  "price": 40000,
+  "category": "Men",
+  "color": "Black Sapphire",
+  "image_url": "https://images.arcteryx.com/F26/1350x1710/Cerium-Hoody-Black-Sapphire.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000010521",
+  "url": "https://arcteryx.com/us/en/shop/mens/cerium-hoody-0521",
+  "colours": [
+   "Black Sapphire",
+   "Black",
+   "Larch"
+  ],
+  "details": null
+ },
+ {
+  "id": 37,
+  "store": "Arc'teryx",
+  "name": "Kyanite Jacket Men's",
+  "description": "Warm Polartec® stretch fleece jacket",
+  "price": 18000,
+  "category": "Men",
+  "color": "Mongoose",
+  "image_url": "https://images.arcteryx.com/F26/1350x1710/Kyanite-Jacket-Mongoose.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000008447",
+  "url": "https://arcteryx.com/us/en/shop/mens/kyanite-jacket-8447",
+  "colours": [
+   "Black",
+   "Mongoose",
+   "Cloud"
+  ],
+  "details": null
+ },
+ {
+  "id": 38,
+  "store": "Arc'teryx",
+  "name": "Kyanite Hoody Men's",
+  "description": "Seriously versatile, the Kyanite is the fleece you grab for quick climbs, ski days, cold hikes, and to cut the chill when you roll out of bed. Worn as a midlayer or standalone, it delivers warmth with freedom of movement and soft comfort. The Polartec® Power Stretch® Pro has a nylon face for abrasion resistance, a lofty brushed interior, and four-way stretch. The clean fit delivers unrestricted comfort and layers easily under a shell, and a low-profile hood adds warmth. What's been updated: Updated with a new fabric made with recycled content.",
+  "price": 20000,
+  "category": "Men",
+  "color": "Bracken",
+  "image_url": "https://images.arcteryx.com/F26/1350x1710/Kyanite-Hoody-Bracken.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000008446",
+  "url": "https://arcteryx.com/us/en/shop/mens/kyanite-hoody-8446",
+  "colours": [
+   "Black",
+   "Cloud",
+   "Bracken"
+  ],
+  "details": {
+   "tagline": "Warm, versatile stretch fleece hoody that wears as a midlayer or on its own.",
+   "weight": "425g / 15 oz",
+   "weight_g": 425,
+   "fit": "Regular",
+   "properties": [
+    "Fleece",
+    "Fair Trade Certified"
+   ],
+   "activities": [
+    "Alpine",
+    "Rock",
+    "Boulder",
+    "Hike",
+    "Touring",
+    "Freeride",
+    "Resort"
+   ],
+   "colours": [
+    {
+     "label": "Bracken",
+     "hex": "#7A6540"
+    },
+    {
+     "label": "Black",
+     "hex": "#090E0D"
+    },
+    {
+     "label": "Cloud",
+     "hex": "#4F5152"
+    }
+   ],
+   "features": {
+    "Technical features": [
+     "Durable",
+     "Versatile",
+     "Warm and comfortable"
+    ],
+    "Construction": [
+     "Four-way stretch textile",
+     "Polartec® Power Stretch® Pro combines a highly durable nylon face with a soft, comfortable, brushed polyester interior",
+     "Cuff, hem, and collar are bound with durable Tanica™ stretch fabric"
+    ],
+    "Design & Fit": [
+     "Regular fit provides freedom of movement with room for layers",
+     "Garment Centre Back Length: Size M is 26\"/67cm - Varies by size"
+    ],
+    "Hood configuration": [
+     "Low profile hood"
+    ],
+    "Patterning": [
+     "Articulated patterning for unrestricted mobility",
+     "No-lift gusseted underarms"
+    ],
+    "Pocket configuration": [
+     "Two hand pockets with laminated zippers"
+    ],
+    "Sustainability": [
+     "Body - recycled content",
+     "PFAS (Per- and polyfluoroalkyl substances) Compliant"
+    ],
+    "Zippers & Fly configuration": [
+     "No Slip Zip™ front zipper",
+     "Chin guard"
+    ]
+   },
+   "materials": [
+    "Body: Polartec® Power Stretch® Pro, 248gsm - 53% Polyester, 38% Nylon, 9% Elastane",
+    "Origin of fabric: UNITED STATES",
+    "Origin of dyeing: UNITED STATES",
+    "Origin of Manufacture: EL SALVADOR",
+    "May release plastic microfibres into the environment when washing"
+   ],
+   "highlights": []
+  }
+ },
+ {
+  "id": 39,
+  "store": "Arc'teryx",
+  "name": "Kyanite Pullover Hoody Men's",
+  "description": "Warm Polartec® stretch fleece hoody",
+  "price": 18000,
+  "category": "Men",
+  "color": "Blurple",
+  "image_url": "https://images.arcteryx.com/F26/1350x1710/Kyanite-Pullover-Hoody-Blurple.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000008444",
+  "url": "https://arcteryx.com/us/en/shop/mens/kyanite-pullover-hoody-8444",
+  "colours": [
+   "Black",
+   "Blurple"
+  ],
+  "details": null
+ },
+ {
+  "id": 40,
+  "store": "Arc'teryx",
+  "name": "Hallam Merino Wool Crew Neck Men's",
+  "description": "Seamless 3D-knit Merino-blend midlayer",
+  "price": 18000,
+  "category": "Men",
+  "color": "Void",
+  "image_url": "https://images.arcteryx.com/F26/1350x1710/Hallam-Merino-Wool-Crew-Neck-Shirt-LS-Void.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000007933",
+  "url": "https://arcteryx.com/us/en/shop/mens/hallam-merino-wool-crew-neck",
+  "colours": [
+   "Black",
+   "Void"
+  ],
+  "details": null
+ },
+ {
+  "id": 41,
+  "store": "Arc'teryx",
+  "name": "Kyanite Pant Men's",
+  "description": "All-mountain stretch fleece pant",
+  "price": 16000,
+  "category": "Men",
+  "color": "Cloud",
+  "image_url": "https://images.arcteryx.com/F26/1350x1710/Kyanite-Pant-Cloud.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000007318",
+  "url": "https://arcteryx.com/us/en/shop/mens/kyanite-pant",
+  "colours": [
+   "Black",
+   "Cloud"
+  ],
+  "details": null
+ },
+ {
+  "id": 42,
+  "store": "Arc'teryx",
+  "name": "Kyanite Lightweight Hoody Men's",
+  "description": "Light, comfortable performance stretch fleece hoody",
+  "price": 15000,
+  "category": "Men",
+  "color": "Tatsu",
+  "image_url": "https://images.arcteryx.com/S26/1350x1710/Kyanite-Lightweight-Hoody-Tatsu.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000009641",
+  "url": "https://arcteryx.com/us/en/shop/mens/kyanite-lightweight-hoody-9641",
+  "colours": [
+   "Black",
+   "Tatsu"
+  ],
+  "details": null
+ },
+ {
+  "id": 43,
+  "store": "Arc'teryx",
+  "name": "Kyanite Lightweight Jacket Men's",
+  "description": "Light, comfortable performance stretch fleece jacket",
+  "price": 14000,
+  "category": "Men",
+  "color": "Black Sapphire",
+  "image_url": "https://images.arcteryx.com/S25/1350x1710/Kyanite-Lightweight-Jacket-Black-Sapphire.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000009640",
+  "url": "https://arcteryx.com/us/en/shop/mens/kyanite-lightweight-jacket-9640",
+  "colours": [
+   "Black Sapphire",
+   "Black"
+  ],
+  "details": null
+ },
+ {
+  "id": 44,
+  "store": "Arc'teryx",
+  "name": "Grotto Toque",
+  "description": "Winter toque made from recycled polyester",
+  "price": 6000,
+  "category": "Unisex",
+  "color": "Shincha / Mantis",
+  "image_url": "https://images.arcteryx.com/F26/1350x1710/Grotto-Toque-Shincha-Mantis.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000010980",
+  "url": "https://arcteryx.com/us/en/shop/grotto-toque-0980",
+  "colours": [
+   "Solitude / Void",
+   "Aquaculture / Black Sapphire",
+   "Bracken / Sea Salt",
+   "Shincha / Mantis",
+   "Black / Void",
+   "Renegade / Lt Renegade"
+  ],
+  "details": null
+ },
+ {
+  "id": 45,
+  "store": "Arc'teryx",
+  "name": "Grotto Toque",
+  "description": "Winter toque made from recycled polyester",
+  "price": 6000,
+  "category": "Unisex",
+  "color": "Moondrop / Mallow",
+  "image_url": "https://images.arcteryx.com/S26/1350x1710/Grotto-Toque-Moondrop-Mallow.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000010067",
+  "url": "https://arcteryx.com/us/en/shop/grotto-toque-0067",
+  "colours": [
+   "Black / Void",
+   "Moondrop / Mallow",
+   "Habitat / Black",
+   "Alpine Blue / Blk Sapp",
+   "Cosmic Bloom"
+  ],
+  "details": null
+ },
+ {
+  "id": 46,
+  "store": "Arc'teryx",
+  "name": "Rho Balaclava",
+  "description": "Light, warm microfleece balaclava",
+  "price": 4500,
+  "category": "Unisex",
+  "color": "Dark Jade",
+  "image_url": "https://images.arcteryx.com/F26/1350x1710/Rho-Synthetic-Balaclava-Dark-Jade.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000007254",
+  "url": "https://arcteryx.com/us/en/shop/rho-balaclava",
+  "colours": [
+   "Black",
+   "Dark Jade"
+  ],
+  "details": null
+ },
+ {
+  "id": 47,
+  "store": "Arc'teryx",
+  "name": "Satoro Merino Toque",
+  "description": "Lightweight base layer toque for all-mountain use",
+  "price": 5000,
+  "category": "Unisex",
+  "color": "Black / Arctic Silk",
+  "image_url": "https://images.arcteryx.com/F26/1350x1710/Satoro-Merino-Toque-Black-Arctic-Silk.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000009936",
+  "url": "https://arcteryx.com/us/en/shop/satoro-merino-toque-9936",
+  "colours": [
+   "Black / Arctic Silk",
+   "Blurple / Violectric",
+   "Mongoose / Black"
+  ],
+  "details": null
+ },
+ {
+  "id": 48,
+  "store": "Arc'teryx",
+  "name": "Grotto Headband",
+  "description": "Winter headband in a Tech Wool knit.",
+  "price": 4000,
+  "category": "Unisex",
+  "color": "Black / Arctic Silk",
+  "image_url": "https://images.arcteryx.com/F26/1350x1710/Grotto-Headband-Black-Arctic-Silk.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000007428",
+  "url": "https://arcteryx.com/us/en/shop/grotto-headband",
+  "colours": [
+   "Sea Salt / Kasumi",
+   "Black / Arctic Silk"
+  ],
+  "details": null
+ },
+ {
+  "id": 49,
+  "store": "Arc'teryx",
+  "name": "Beta AR Jacket Men's",
+  "description": "Durable, protective all-mountain shell",
+  "price": 65000,
+  "category": "Men",
+  "color": "Rune / Sea Salt",
+  "image_url": "https://images.arcteryx.com/F26/1350x1710/Beta-AR-Jacket-Rune-Sea-Salt.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000011062",
+  "url": "https://arcteryx.com/us/en/shop/mens/beta-ar-jacket-1062",
+  "colours": [
+   "Cloud / Void",
+   "Rune / Sea Salt",
+   "Nucleus / Larch",
+   "Black",
+   "Dk Stratus / Stratus"
+  ],
+  "details": null
+ },
+ {
+  "id": 50,
+  "store": "Arc'teryx",
+  "name": "Gamma MX Hoody Men's",
+  "description": "Our warmest Gamma softshell hoody",
+  "price": 40000,
+  "category": "Men",
+  "color": "Dark Jade",
+  "image_url": "https://images.arcteryx.com/F26/1350x1710/Gamma-MX-Hoody-Dark-Jade.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000008485",
+  "url": "https://arcteryx.com/us/en/shop/mens/gamma-mx-hoody-8485",
+  "colours": [
+   "Black",
+   "Black Sapphire II",
+   "Sea Salt",
+   "Spotlight",
+   "Bracken / Mongoose",
+   "Dark Jade",
+   "Cloud"
+  ],
+  "details": null
+ },
+ {
+  "id": 51,
+  "store": "Arc'teryx",
+  "name": "Alpha SV Jacket Men's",
+  "description": "The alpine hardshell for severe conditions",
+  "price": 90000,
+  "category": "Men",
+  "color": "Dark Jade",
+  "image_url": "https://images.arcteryx.com/F26/1350x1710/Alpha-SV-Jacket-Dark-Jade.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000009899",
+  "url": "https://arcteryx.com/us/en/shop/mens/alpha-sv-jacket-9899",
+  "colours": [
+   "24K Black",
+   "Aquaculture AC",
+   "Larch",
+   "Dark Jade"
+  ],
+  "details": null
+ },
+ {
+  "id": 52,
+  "store": "Arc'teryx",
+  "name": "Beta Jacket Men's",
+  "description": "GORE-TEX ePE shell made for maximum versatility",
+  "price": 40000,
+  "category": "Men",
+  "color": "Mongoose",
+  "image_url": "https://images.arcteryx.com/F26/1350x1710/Beta-Jacket-Mongoose.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000010868",
+  "url": "https://arcteryx.com/us/en/shop/mens/beta-jacket-0868",
+  "colours": [
+   "Black Sapphire",
+   "Sea Salt",
+   "Black",
+   "Mongoose",
+   "Vitality"
+  ],
+  "details": null
+ },
+ {
+  "id": 53,
+  "store": "Arc'teryx",
+  "name": "Gamma Hoody Men's",
+  "description": "Durable, breathable, weather-resistant hiking hoody",
+  "price": 30000,
+  "category": "Men",
+  "color": "Cloud",
+  "image_url": "https://images.arcteryx.com/F26/1350x1710/Gamma-Hoody-Cloud.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000009905",
+  "url": "https://arcteryx.com/us/en/shop/mens/gamma-hoody-9905",
+  "colours": [
+   "Black",
+   "Sea Salt",
+   "Cloud"
+  ],
+  "details": null
+ },
+ {
+  "id": 54,
+  "store": "Arc'teryx",
+  "name": "Beta SL Jacket Men's",
+  "description": "Lightweight, highly versatile GORE-TEX ePE shell",
+  "price": 50000,
+  "category": "Men",
+  "color": "Dark Jade",
+  "image_url": "https://images.arcteryx.com/F26/1350x1710/Beta-SL-Jacket-Dark-Jade.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000010854",
+  "url": "https://arcteryx.com/us/en/shop/mens/beta-sl-jacket-0854",
+  "colours": [
+   "Dark Jade",
+   "Cloud",
+   "Black",
+   "Nucleus"
+  ],
+  "details": null
+ },
+ {
+  "id": 55,
+  "store": "Arc'teryx",
+  "name": "Gamma Lightweight Hoody Men's",
+  "description": "Our lightest Gamma all-mountain hoody",
+  "price": 26000,
+  "category": "Men",
+  "color": "Dk Stratus",
+  "image_url": "https://images.arcteryx.com/S26/1350x1710/Gamma-Lightweight-Hoody-Dk-Stratus.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000010606",
+  "url": "https://arcteryx.com/us/en/shop/mens/gamma-lightweight-hoody-0606",
+  "colours": [
+   "Void",
+   "Dk Stratus",
+   "Headwaters"
+  ],
+  "details": null
+ },
+ {
+  "id": 56,
+  "store": "Arc'teryx",
+  "name": "Beta SV Jacket Men's",
+  "description": "Durable all-mountain shell for severe conditions",
+  "price": 80000,
+  "category": "Men",
+  "color": "Ultima",
+  "image_url": "https://images.arcteryx.com/F26/1350x1710/Beta-SV-Jacket-Ultima.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000011003",
+  "url": "https://arcteryx.com/us/en/shop/mens/beta-sv-jacket-1003",
+  "colours": [
+   "Ultima",
+   "Black"
+  ],
+  "details": null
+ },
+ {
+  "id": 57,
+  "store": "Arc'teryx",
+  "name": "Gamma MX Jacket Men's",
+  "description": "Our warmest Gamma softshell jacket",
+  "price": 35000,
+  "category": "Men",
+  "color": "Dark Jade",
+  "image_url": "https://images.arcteryx.com/F26/1350x1710/Gamma-MX-Jacket-Dark-Jade.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000008486",
+  "url": "https://arcteryx.com/us/en/shop/mens/gamma-mx-jacket-8486",
+  "colours": [
+   "Black",
+   "Sea Salt",
+   "Dark Jade"
+  ],
+  "details": null
+ },
+ {
+  "id": 58,
+  "store": "Arc'teryx",
+  "name": "Squamish Hoody Men's",
+  "description": "Lightweight hooded windshell for rock climbers",
+  "price": 20000,
+  "category": "Men",
+  "color": "Bracken",
+  "image_url": "https://images.arcteryx.com/F26/1350x1710/Squamish-Hoody-Bracken.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000010276",
+  "url": "https://arcteryx.com/us/en/shop/mens/squamish-hoody-0276",
+  "colours": [
+   "Black",
+   "Stone Red",
+   "Sea Salt",
+   "Spotlight",
+   "Blurple",
+   "Aquaculture",
+   "Larch",
+   "Bracken"
+  ],
+  "details": null
+ },
+ {
+  "id": 59,
+  "store": "Arc'teryx",
+  "name": "Gamma Lightweight Hoody Men's",
+  "description": "Our lightest Gamma all-mountain hoody",
+  "price": 26000,
+  "category": "Men",
+  "color": "Dark Jade",
+  "image_url": "https://images.arcteryx.com/F26/1350x1710/Gamma-Lightweight-Hoody-Dark-Jade.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000010895",
+  "url": "https://arcteryx.com/us/en/shop/mens/gamma-lightweight-hoody-0895",
+  "colours": [
+   "Dark Jade",
+   "Black",
+   "Sea Salt"
+  ],
+  "details": null
+ },
+ {
+  "id": 60,
+  "store": "Arc'teryx",
+  "name": "Solano Hoody Men's",
+  "description": "Hybrid, highly breathable hoody for alpine hikes",
+  "price": 40000,
+  "category": "Men",
+  "color": "Dark Jade",
+  "image_url": "https://images.arcteryx.com/F26/1350x1710/Solano-Hoody-Dark-Jade.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000010950",
+  "url": "https://arcteryx.com/us/en/shop/mens/solano-hoody-0950",
+  "colours": [
+   "Dark Jade",
+   "Black"
+  ],
+  "details": null
+ },
+ {
+  "id": 61,
+  "store": "Arc'teryx",
+  "name": "Cronin AR Hoody Men's",
+  "description": "Lined stretch-cotton climbing hoody",
+  "price": 30000,
+  "category": "Men",
+  "color": "Bracken",
+  "image_url": "https://images.arcteryx.com/F26/1350x1710/Cronin-AR-Hoody-Bracken.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000010699",
+  "url": "https://arcteryx.com/us/en/shop/mens/cronin-ar-hoody-0699",
+  "colours": [
+   "Bracken",
+   "Black"
+  ],
+  "details": null
+ },
+ {
+  "id": 62,
+  "store": "Arc'teryx",
+  "name": "Norvan Windshell Hoody Men's",
+  "description": "Our lightest trail running windshell",
+  "price": 22000,
+  "category": "Men",
+  "color": "Black/Graphite",
+  "image_url": "https://images.arcteryx.com/S26/1350x1710/Norvan-Windshell-Hoody-Black-Graphite.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000010354",
+  "url": "https://arcteryx.com/us/en/shop/mens/norvan-windshell-hoody-0354",
+  "colours": [
+   "Cloud / Void",
+   "Black/Graphite"
+  ],
+  "details": null
+ },
+ {
+  "id": 63,
+  "store": "Arc'teryx",
+  "name": "Ossa Stowhood Jacket Men's",
+  "description": "Packable, UPF 50+ hiking jacket with stowable hood",
+  "price": 24000,
+  "category": "Men",
+  "color": "Dk Stratus",
+  "image_url": "https://images.arcteryx.com/S26/1350x1710/Ossa-Stowhood-Jacket-Dk-Stratus.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000010285",
+  "url": "https://arcteryx.com/us/en/shop/mens/ossa-stowhood-jacket-0285",
+  "colours": [
+   "Black",
+   "Stone Red",
+   "Sea Salt",
+   "Dk Stratus"
+  ],
+  "details": null
+ },
+ {
+  "id": 64,
+  "store": "Arc'teryx",
+  "name": "Norvan Jacket Men's",
+  "description": "Ultralight and breathable mountain running shell",
+  "price": 45000,
+  "category": "Men",
+  "color": "Solitude / Stratus",
+  "image_url": "https://images.arcteryx.com/F26/1350x1710/Norvan-Jacket-Solitude-Stratus.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000009571",
+  "url": "https://arcteryx.com/us/en/shop/mens/norvan-jacket-9571",
+  "colours": [
+   "Black",
+   "Solitude / Stratus"
+  ],
+  "details": null
+ },
+ {
+  "id": 65,
+  "store": "Arc'teryx",
+  "name": "Serratus Hoody Men's",
+  "description": "The most technical climbing hoody we make",
+  "price": 35000,
+  "category": "Men",
+  "color": "Void / Cloud",
+  "image_url": "https://images.arcteryx.com/F26/1350x1710/Serratus-Hoody-Void-Cloud.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000010941",
+  "url": "https://arcteryx.com/us/en/shop/mens/serratus-hoody-0941",
+  "colours": [
+   "Black",
+   "Nucleus / Larch",
+   "Void / Cloud"
+  ],
+  "details": null
+ },
+ {
+  "id": 66,
+  "store": "Arc'teryx",
+  "name": "Ossa 1/2 Zip Hoody Men's",
+  "description": "Packable, half-zip, UPF 50+ hiking jacket",
+  "price": 20000,
+  "category": "Men",
+  "color": "Stone Red",
+  "image_url": "https://images.arcteryx.com/S26/1350x1710/Ossa-1-2-Zip-Hoody-Stone-Red.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000010275",
+  "url": "https://arcteryx.com/us/en/shop/mens/ossa-1-2-zip-hoody-0275",
+  "colours": [
+   "Black",
+   "Stone Red",
+   "Sea Salt"
+  ],
+  "details": null
+ },
+ {
+  "id": 67,
+  "store": "Arc'teryx",
+  "name": "Gamma Jacket Men's",
+  "description": "Durable, breathable, weather-resistant hiking jacket",
+  "price": 28000,
+  "category": "Men",
+  "color": "Mongoose",
+  "image_url": "https://images.arcteryx.com/F26/1350x1710/Gamma-Jacket-Mongoose.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000010940",
+  "url": "https://arcteryx.com/us/en/shop/mens/gamma-jacket-0940",
+  "colours": [
+   "Mongoose",
+   "Black"
+  ],
+  "details": null
+ },
+ {
+  "id": 68,
+  "store": "Arc'teryx",
+  "name": "Alpha Jacket Men's",
+  "description": "Light, durable hardshell for alpine ascents",
+  "price": 70000,
+  "category": "Men",
+  "color": "Graphite/Black",
+  "image_url": "https://images.arcteryx.com/F26/1350x1710/Alpha-Jacket-Graphite-Black.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000010932",
+  "url": "https://arcteryx.com/us/en/shop/mens/alpha-jacket-0932",
+  "colours": [
+   "Graphite/Black",
+   "Larch / Dk Grey"
+  ],
+  "details": null
+ },
+ {
+  "id": 69,
+  "store": "Arc'teryx",
+  "name": "Therme Jacket Men's",
+  "description": "Minimalist, weatherproof jacket for day hikes and daily wear",
+  "price": 60000,
+  "category": "Men",
+  "color": "Sea Salt",
+  "image_url": "https://images.arcteryx.com/F26/1350x1710/Therme-Jacket-Sea-Salt.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000011001",
+  "url": "https://arcteryx.com/us/en/shop/mens/therme-jacket-1001",
+  "colours": [
+   "Black",
+   "Sea Salt"
+  ],
+  "details": null
+ },
+ {
+  "id": 70,
+  "store": "Arc'teryx",
+  "name": "Solano Jacket Men's",
+  "description": "Hybrid windproof shell jacket for alpine hikes",
+  "price": 35000,
+  "category": "Men",
+  "color": "Void",
+  "image_url": "https://images.arcteryx.com/F26/1350x1710/Solano-Jacket-Void.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000010896",
+  "url": "https://arcteryx.com/us/en/shop/mens/solano-jacket-0896",
+  "colours": [
+   "Void",
+   "Black"
+  ],
+  "details": null
+ },
+ {
+  "id": 71,
+  "store": "Arc'teryx",
+  "name": "Incendo Hybrid Hoody Men's",
+  "description": "Light, breathable softshell for high-output travel",
+  "price": 26000,
+  "category": "Men",
+  "color": "Black",
+  "image_url": "https://images.arcteryx.com/S25/1350x1710/Incendo-Hybrid-Hoody-Black.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000009286",
+  "url": "https://arcteryx.com/us/en/shop/mens/incendo-hybrid-hoody",
+  "colours": [
+   "Black"
+  ],
+  "details": null
+ },
+ {
+  "id": 72,
+  "store": "Arc'teryx",
+  "name": "Rhoam Hybrid Jacket Men's",
+  "description": "Mapped hybrid shell for high-output mountain biking",
+  "price": 45000,
+  "category": "Men",
+  "color": "Forage",
+  "image_url": "https://images.arcteryx.com/S26/1350x1710/Rhoam-Hybrid-Jacket-Forage.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000009572",
+  "url": "https://arcteryx.com/us/en/shop/mens/rhoam-hybrid-jacket-9572",
+  "colours": [
+   "Black",
+   "Forage",
+   "Stone Red"
+  ],
+  "details": null
+ },
+ {
+  "id": 73,
+  "store": "Arc'teryx",
+  "name": "Gamma Lightweight Jacket Men's",
+  "description": "Our lightest Gamma all-mountain softshell jacket",
+  "price": 24000,
+  "category": "Men",
+  "color": "Dk Stratus",
+  "image_url": "https://images.arcteryx.com/S26/1350x1710/Gamma-Lightweight-Jacket-Dk-Stratus.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000010609",
+  "url": "https://arcteryx.com/us/en/shop/mens/gamma-lightweight-jacket-0609",
+  "colours": [
+   "Dk Stratus",
+   "Habitat",
+   "Black"
+  ],
+  "details": null
+ },
+ {
+  "id": 74,
+  "store": "Arc'teryx",
+  "name": "Squamish Jacket Men's",
+  "description": "Lightweight windshell for rock climbers",
+  "price": 18000,
+  "category": "Men",
+  "color": "Black",
+  "image_url": "https://images.arcteryx.com/S26/1350x1710/Squamish-Jacket-Black.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000010284",
+  "url": "https://arcteryx.com/us/en/shop/mens/squamish-jacket-0284",
+  "colours": [
+   "Black"
+  ],
+  "details": null
+ },
+ {
+  "id": 75,
+  "store": "Arc'teryx",
+  "name": "Atom Hoody Men's",
+  "description": "The Atom Hoody is the solution to your “which jacket should I wear?” problem. Wear it solo for chilly forest hikes with windy summits, climbing at the crag, and hanging at the campsite, or as a midlayer for touring and wet winter objectives. The Coreloft synthetic insulation stays warm even if you run into light weather, making it a better alternative to down for high-output days year round. Need a heavier option? Try the Atom SV Hoody .",
+  "price": 30000,
+  "category": "Men",
+  "color": "Stratus",
+  "image_url": "https://images.arcteryx.com/F26/1350x1710/Atom-Hoody-Stratus.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000009556",
+  "url": "https://arcteryx.com/us/en/shop/mens/atom-hoody-9556",
+  "colours": [
+   "Black",
+   "Black Sapphire",
+   "Headwaters",
+   "Fluidity / Blk Sapphire",
+   "Spotlight",
+   "Stone Red",
+   "Cloud / Black",
+   "Stratus",
+   "Mongoose / Bracken",
+   "Aquaculture",
+   "Larch"
+  ],
+  "details": {
+   "tagline": "Warm-even-when-wet hoody you can hike, climb, tour, and live in.",
+   "weight": "355g / 12.5 oz",
+   "weight_g": 355,
+   "fit": "Fitted",
+   "properties": [
+    "Synthetic Fill",
+    "Breathable",
+    "Lightweight",
+    "Wind Resistant",
+    "Insulated",
+    "Fair Trade Certified",
+    "bluesign® Approved Materials",
+    "Packable"
+   ],
+   "activities": [
+    "Hike"
+   ],
+   "colours": [
+    {
+     "label": "Stratus",
+     "hex": "#626979"
+    },
+    {
+     "label": "Mongoose / Bracken",
+     "hex": "#5D5348"
+    },
+    {
+     "label": "Headwaters",
+     "hex": "#969789"
+    },
+    {
+     "label": "Aquaculture",
+     "hex": "#009DC7"
+    },
+    {
+     "label": "Larch",
+     "hex": "#ECA825"
+    },
+    {
+     "label": "Fluidity / Blk Sapphire",
+     "hex": "#428AF0"
+    },
+    {
+     "label": "Black",
+     "hex": "#090E0D"
+    },
+    {
+     "label": "Spotlight",
+     "hex": "#2e2d33"
+    },
+    {
+     "label": "Black Sapphire",
+     "hex": "#323441"
+    },
+    {
+     "label": "Stone Red",
+     "hex": "#B05952"
+    },
+    {
+     "label": "Cloud / Black",
+     "hex": "#6F7074"
+    }
+   ],
+   "features": {
+    "Technical features": [
+     "Moisture-resistant outer face fabric",
+     "Breathable",
+     "Lightweight",
+     "Compressible and packable",
+     "Wind resistant",
+     "Versatile"
+    ],
+    "Construction": [
+     "Performance stretch fleece side panels give ventilation",
+     "Resilient Coreloft™ Compact 60 insulation is breathable, warm, and light, performs if wet, and delivers loft retention that resists packing out",
+     "Light, soft Tyono™ 20 is air permeable",
+     "Breathable 20D recycled nylon liner helps regulate temperature and is soft and comfortable next to the skin"
+    ],
+    "Cuff & Sleeves configuration": [
+     "Stretch-knit cuffs"
+    ],
+    "Design & Fit": [
+     "Fitted, with articulated patterning for mobility and comfort",
+     "Garment Centre Back Length: Size M is 29\"/73cm - Varies by size"
+    ],
+    "Fabric treatment": [
+     "FC0 DWR (Durable Water Repellent) finish repels moisture and is free from intentionally added PFAS"
+    ],
+    "Hem configuration": [
+     "Durable stitched hem with dual adjusters to seal out drafts"
+    ],
+    "Hood configuration": [
+     "Adjustable, insulated, low profile StormHood™ with structured mini hood brim"
+    ],
+    "Pocket configuration": [
+     "Two hand pockets with hidden zippers",
+     "Internal chest pocket with zip"
+    ],
+    "Sustainability": [
+     "Contains materials produced through processes that meet bluesign® criteria",
+     "Insulation - bluepass Material, recycled content",
+     "PFAS (Per- and polyfluoroalkyl substances) Compliant",
+     "Lining  - bluepass Material, FC0 DWR, recycled content",
+     "Contrast - FC0 DWR, recycled content",
+     "Shell - FC0 DWR"
+    ],
+    "Zippers & Fly configuration": [
+     "No Slip Zip™ front zipper",
+     "Custom TPU zipper pulls are easy to operate and glove-friendly"
+    ]
+   },
+   "materials": [
+    "Contrast: Circular Knit Fleece, 215 gsm, FC0 DWR - 93% Polyester, 7% Elastane",
+    "Body: 20dx20d nylon ripstop, FC0 DWR, 45gsm - 100% Nylon",
+    "Synthetic Insulation: Coreloft™ 60 (60 g/m²) - 100% Polyester",
+    "Lining: 20d recycled nylon ripstop with FC0 DWR, 40gsm - 100% Nylon",
+    "Origin of fabric: JAPAN",
+    "Origin of dyeing: JAPAN",
+    "Origin of Manufacture:  BANGLADESH",
+    "May release plastic microfibres into the environment when washing"
+   ],
+   "highlights": [
+    {
+     "title": "Smart head coverage",
+     "text": "The adjustable StormHood™ seals in heat, and its structured brim gives coverage without blocking your view."
+    },
+    {
+     "title": "Lightweight warmth",
+     "text": "Made with Coreloft™ insulation, the Atom stays warm even when wet."
+    },
+    {
+     "title": "Protection from the elements",
+     "text": "Wind-resistant, water-repellent fabric protects you in changing mountain weather."
+    },
+    {
+     "title": "An updated fit",
+     "text": "The wider collar, roomier sleeve openings, and new stretch fleece side panels offer improved mobility."
+    }
+   ]
+  }
+ },
+ {
+  "id": 76,
+  "store": "Arc'teryx",
+  "name": "Atom SV Hoody Men's",
+  "description": "Our warmest Atom hoody for cold-weather hiking",
+  "price": 35000,
+  "category": "Men",
+  "color": "Bracken",
+  "image_url": "https://images.arcteryx.com/F26/1350x1710/Atom-SV-Hoody-Bracken.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000009902",
+  "url": "https://arcteryx.com/us/en/shop/mens/atom-sv-hoody-9902",
+  "colours": [
+   "Black",
+   "Blurple",
+   "Bracken",
+   "Cloud"
+  ],
+  "details": null
+ },
+ {
+  "id": 77,
+  "store": "Arc'teryx",
+  "name": "Therme Down Jacket Men's",
+  "description": "Waterproof down jacket for cold and wet conditions",
+  "price": 80000,
+  "category": "Men",
+  "color": "Ultima",
+  "image_url": "https://images.arcteryx.com/F26/1350x1710/Therme-Down-Jacket-Ultima.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000009915",
+  "url": "https://arcteryx.com/us/en/shop/mens/therme-down-jacket-9915",
+  "colours": [
+   "Black",
+   "Ultima",
+   "Mongoose"
+  ],
+  "details": null
+ },
+ {
+  "id": 78,
+  "store": "Arc'teryx",
+  "name": "Atom SV Jacket Men's",
+  "description": "Our warmest Atom jacket for cold-weather hiking",
+  "price": 30000,
+  "category": "Men",
+  "color": "Bracken",
+  "image_url": "https://images.arcteryx.com/F26/1350x1710/Atom-SV-Jacket-Bracken.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000009901",
+  "url": "https://arcteryx.com/us/en/shop/mens/atom-sv-jacket-9901",
+  "colours": [
+   "Black Sapphire",
+   "Black",
+   "Bracken",
+   "Blurple"
+  ],
+  "details": null
+ },
+ {
+  "id": 79,
+  "store": "Arc'teryx",
+  "name": "Ralle Insulated Jacket Men's",
+  "description": "GORE-TEX jacket with Coreloft™ insulation",
+  "price": 65000,
+  "category": "Men",
+  "color": "Vitality",
+  "image_url": "https://images.arcteryx.com/F26/1350x1710/Ralle-Insulated-Jacket-Vitality.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000010952",
+  "url": "https://arcteryx.com/us/en/shop/mens/ralle-insulated-jacket-0952",
+  "colours": [
+   "Cloud",
+   "Vitality",
+   "Black"
+  ],
+  "details": null
+ },
+ {
+  "id": 80,
+  "store": "Arc'teryx",
+  "name": "Cerium SV Hoody Men's",
+  "description": "Our warmest, most durable Cerium down hoody",
+  "price": 60000,
+  "category": "Men",
+  "color": "Dark Jade",
+  "image_url": "https://images.arcteryx.com/F26/1350x1710/Cerium-SV-Hoody-Dark-Jade.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000010555",
+  "url": "https://arcteryx.com/us/en/shop/mens/cerium-sv-hoody-0555",
+  "colours": [
+   "Black",
+   "Dark Jade",
+   "Ultima"
+  ],
+  "details": null
+ },
+ {
+  "id": 81,
+  "store": "Arc'teryx",
+  "name": "Cronin Insulated Overshirt Men's",
+  "description": "Insulated overshirt for cool-weather bouldering",
+  "price": 28000,
+  "category": "Men",
+  "color": "Bracken",
+  "image_url": "https://images.arcteryx.com/F26/1350x1710/Cronin-Insulated-Overshirt-Bracken.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000010971",
+  "url": "https://arcteryx.com/us/en/shop/mens/cronin-insulated-overshirt-0971",
+  "colours": [
+   "Black",
+   "Bracken"
+  ],
+  "details": null
+ },
+ {
+  "id": 82,
+  "store": "Arc'teryx",
+  "name": "Beta Insulated Jacket Men's",
+  "description": "Insulated GORE-TEX mountain shell",
+  "price": 75000,
+  "category": "Men",
+  "color": "Black",
+  "image_url": "https://images.arcteryx.com/F26/1350x1710/Beta-Insulated-Jacket-Black.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000010866",
+  "url": "https://arcteryx.com/us/en/shop/mens/beta-insulated-jacket-0866",
+  "colours": [
+   "Black"
+  ],
+  "details": null
+ },
+ {
+  "id": 83,
+  "store": "Arc'teryx",
+  "name": "Ralle Parka Men's",
+  "description": "GORE-TEX parka with Coreloft™ insulation",
+  "price": 80000,
+  "category": "Men",
+  "color": "Mongoose",
+  "image_url": "https://images.arcteryx.com/F26/1350x1710/Ralle-Parka-Mongoose.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000010953",
+  "url": "https://arcteryx.com/us/en/shop/mens/ralle-parka-0953",
+  "colours": [
+   "Mongoose"
+  ],
+  "details": null
+ },
+ {
+  "id": 84,
+  "store": "Arc'teryx",
+  "name": "Thorium Hoody Men's",
+  "description": "Durable down belay hoody",
+  "price": 50000,
+  "category": "Men",
+  "color": "Blurple",
+  "image_url": "https://images.arcteryx.com/F26/1350x1710/Thorium-Hoody-Blurple.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000010657",
+  "url": "https://arcteryx.com/us/en/shop/mens/thorium-hoody-0657",
+  "colours": [
+   "Sea Salt",
+   "Blurple",
+   "Black"
+  ],
+  "details": null
+ },
+ {
+  "id": 85,
+  "store": "Arc'teryx",
+  "name": "Atom Jacket Men's",
+  "description": "Warm-even-when-wet synthetically insulated jacket",
+  "price": 28000,
+  "category": "Men",
+  "color": "Bracken",
+  "image_url": "https://images.arcteryx.com/F26/1350x1710/Atom-Jacket-Bracken.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000009561",
+  "url": "https://arcteryx.com/us/en/shop/mens/atom-jacket-9561",
+  "colours": [
+   "Black",
+   "Black Sapphire",
+   "Bracken",
+   "Stratus"
+  ],
+  "details": null
+ },
+ {
+  "id": 86,
+  "store": "Arc'teryx",
+  "name": "Therme Down Parka Men's",
+  "description": "Waterproof down parka for cold and wet conditions",
+  "price": 90000,
+  "category": "Men",
+  "color": "Dark Jade",
+  "image_url": "https://images.arcteryx.com/F26/1350x1710/Therme-Down-Parka-Dark-Jade.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000009914",
+  "url": "https://arcteryx.com/us/en/shop/mens/therme-down-parka-9914",
+  "colours": [
+   "Black",
+   "Dark Jade"
+  ],
+  "details": null
+ },
+ {
+  "id": 87,
+  "store": "Arc'teryx",
+  "name": "Atom SL Hoody Men's",
+  "description": "Lightest Atom Hoody for high-output activities",
+  "price": 28000,
+  "category": "Men",
+  "color": "Dark Jade",
+  "image_url": "https://images.arcteryx.com/F26/1350x1710/Atom-SL-Hoody-Dark-Jade.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000009560",
+  "url": "https://arcteryx.com/us/en/shop/mens/atom-sl-hoody-9560",
+  "colours": [
+   "Black",
+   "Forage",
+   "Arctic Silk",
+   "Cloud",
+   "Sea Salt",
+   "Dark Jade"
+  ],
+  "details": null
+ },
+ {
+  "id": 88,
+  "store": "Arc'teryx",
+  "name": "Cerium Vest Men's",
+  "description": "Lightweight, warm, versatile down vest",
+  "price": 30000,
+  "category": "Men",
+  "color": "Ultima",
+  "image_url": "https://images.arcteryx.com/F26/1350x1710/Cerium-Vest-Ultima.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000010531",
+  "url": "https://arcteryx.com/us/en/shop/mens/cerium-vest-0531",
+  "colours": [
+   "Black",
+   "Black Sapphire",
+   "Ultima"
+  ],
+  "details": null
+ },
+ {
+  "id": 89,
+  "store": "Arc'teryx",
+  "name": "Atom Vest Men's",
+  "description": "Warm-even-when-wet synthetically insulated vest",
+  "price": 20000,
+  "category": "Men",
+  "color": "Mongoose",
+  "image_url": "https://images.arcteryx.com/F26/1350x1710/Atom-Vest-Mongoose.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000009559",
+  "url": "https://arcteryx.com/us/en/shop/mens/atom-vest-9559",
+  "colours": [
+   "Black",
+   "Black Sapphire",
+   "Mongoose"
+  ],
+  "details": null
+ },
+ {
+  "id": 90,
+  "store": "Arc'teryx",
+  "name": "Therme Insulated Jacket Men's",
+  "description": "Waterproof warmth with iconic Therme style",
+  "price": 75000,
+  "category": "Men",
+  "color": "Dark Jade",
+  "image_url": "https://images.arcteryx.com/F26/1350x1710/Therme-Insulated-Jacket-Dark-Jade.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000010894",
+  "url": "https://arcteryx.com/us/en/shop/mens/therme-insulated-jacket-0894",
+  "colours": [
+   "Dark Jade",
+   "Black"
+  ],
+  "details": null
+ },
+ {
+  "id": 91,
+  "store": "Arc'teryx",
+  "name": "Thorium Jacket Men's",
+  "description": "Durable down belay jacket",
+  "price": 45000,
+  "category": "Men",
+  "color": "Bracken",
+  "image_url": "https://images.arcteryx.com/F26/1350x1710/Thorium-Jacket-Bracken.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000010695",
+  "url": "https://arcteryx.com/us/en/shop/mens/thorium-jacket-0695",
+  "colours": [
+   "Black",
+   "Bracken"
+  ],
+  "details": null
+ },
+ {
+  "id": 92,
+  "store": "Arc'teryx",
+  "name": "Proton SL Hoody Men's",
+  "description": "Climber's lightest, most breathable insulation",
+  "price": 28000,
+  "category": "Men",
+  "color": "Bracken",
+  "image_url": "https://images.arcteryx.com/F26/1350x1710/Proton-SL-Hoody-Bracken.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000009557",
+  "url": "https://arcteryx.com/us/en/shop/mens/proton-sl-hoody-9557",
+  "colours": [
+   "Black",
+   "Sea Salt",
+   "Bracken"
+  ],
+  "details": null
+ },
+ {
+  "id": 93,
+  "store": "Arc'teryx",
+  "name": "Konseal Insulated Jacket Men's",
+  "description": "Mid-weight insulated rock-climbing jacket",
+  "price": 35000,
+  "category": "Men",
+  "color": "Dark Jade",
+  "image_url": "https://images.arcteryx.com/F26/1350x1710/Konseal-Insulated-Jacket-Dark-Jade.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000010656",
+  "url": "https://arcteryx.com/us/en/shop/mens/konseal-insulated-jacket-0656",
+  "colours": [
+   "Black Sapphire",
+   "Dark Jade"
+  ],
+  "details": null
+ },
+ {
+  "id": 94,
+  "store": "Arc'teryx",
+  "name": "Nuclei SV Parka Men's",
+  "description": "Our warmest synthetically insulated belay parka",
+  "price": 50000,
+  "category": "Men",
+  "color": "Dynasty",
+  "image_url": "https://images.arcteryx.com/F26/1350x1710/Nuclei-SV-Parka-Dynasty.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000009891",
+  "url": "https://arcteryx.com/us/en/shop/mens/nuclei-sv-parka-9891",
+  "colours": [
+   "Black",
+   "Dynasty"
+  ],
+  "details": null
+ },
+ {
+  "id": 95,
+  "store": "Arc'teryx",
+  "name": "Cerium SV Vest Men's",
+  "description": "Our warmest, most durable Cerium down vest",
+  "price": 35000,
+  "category": "Men",
+  "color": "Dark Jade",
+  "image_url": "https://images.arcteryx.com/F26/1350x1710/Cerium-SV-Vest-Dark-Jade.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000008428",
+  "url": "https://arcteryx.com/us/en/shop/mens/cerium-sv-vest-8428",
+  "colours": [
+   "Black",
+   "Dark Jade"
+  ],
+  "details": null
+ },
+ {
+  "id": 96,
+  "store": "Arc'teryx",
+  "name": "Cerium SL Hoody Men's",
+  "description": "Ultralight, packable down hoody for low output",
+  "price": 45000,
+  "category": "Men",
+  "color": "Black",
+  "image_url": "https://images.arcteryx.com/S26/1350x1710/Cerium-SL-Hoody-Black.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000011036",
+  "url": "https://arcteryx.com/us/en/shop/mens/cerium-sl-hoody-1036",
+  "colours": [
+   "Black"
+  ],
+  "details": null
+ },
+ {
+  "id": 97,
+  "store": "Arc'teryx",
+  "name": "Atom SL Jacket Men's",
+  "description": "Our lightest, most breathable insulated hiking jacket",
+  "price": 26000,
+  "category": "Men",
+  "color": "Cloud",
+  "image_url": "https://images.arcteryx.com/S26/1350x1710/Atom-SL-Jacket-Cloud.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000010282",
+  "url": "https://arcteryx.com/us/en/shop/mens/atom-sl-jacket-0282",
+  "colours": [
+   "Black",
+   "Cloud"
+  ],
+  "details": null
+ },
+ {
+  "id": 98,
+  "store": "Arc'teryx",
+  "name": "Epsilon Down Hoody Men's",
+  "description": "Down-insulated hiking softshell",
+  "price": 55000,
+  "category": "Men",
+  "color": "Black",
+  "image_url": "https://images.arcteryx.com/F26/1350x1710/Epsilon-Down-Hoody-Black.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000009895",
+  "url": "https://arcteryx.com/us/en/shop/mens/epsilon-down-hoody-9895",
+  "colours": [
+   "Black"
+  ],
+  "details": null
+ },
+ {
+  "id": 99,
+  "store": "Arc'teryx",
+  "name": "Gamma MX Pant Men's",
+  "description": "Our warmest Gamma softshell pant",
+  "price": 30000,
+  "category": "Men",
+  "color": "Mongoose",
+  "image_url": "https://images.arcteryx.com/F26/1350x1710/Gamma-MX-Pant-Mongoose.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000008253",
+  "url": "https://arcteryx.com/us/en/shop/mens/gamma-mx-pant-8253",
+  "colours": [
+   "Black",
+   "Black Sapphire",
+   "Mongoose",
+   "Sea Salt"
+  ],
+  "details": null
+ },
+ {
+  "id": 100,
+  "store": "Arc'teryx",
+  "name": "Gamma Pant Men's",
+  "description": "All-season softshell pants for climbing and more",
+  "price": 20000,
+  "category": "Men",
+  "color": "Tatsu",
+  "image_url": "https://images.arcteryx.com/S26/1350x1710/Gamma-Pant-Tatsu.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000010481",
+  "url": "https://arcteryx.com/us/en/shop/mens/gamma-pant-0481",
+  "colours": [
+   "Tatsu",
+   "Black",
+   "Black Sapphire",
+   "Rune",
+   "Cloud"
+  ],
+  "details": null
+ },
+ {
+  "id": 101,
+  "store": "Arc'teryx",
+  "name": "Cronin AR Pant Men's",
+  "description": "Articulated stretch-cotton climbing pant",
+  "price": 24000,
+  "category": "Men",
+  "color": "Dk Stratus",
+  "image_url": "https://images.arcteryx.com/F26/1350x1710/Cronin-AR-Pant-Dk-Stratus.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000010697",
+  "url": "https://arcteryx.com/us/en/shop/mens/cronin-ar-pant-0697",
+  "colours": [
+   "Black",
+   "Dk Stratus",
+   "Sea Salt"
+  ],
+  "details": null
+ },
+ {
+  "id": 102,
+  "store": "Arc'teryx",
+  "name": "Beta Pant Men's",
+  "description": "Waterproof, breathable all-mountain shell pant",
+  "price": 30000,
+  "category": "Men",
+  "color": "Black",
+  "image_url": "https://images.arcteryx.com/F26/1350x1710/Beta-Pant-Black.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000010391",
+  "url": "https://arcteryx.com/us/en/shop/mens/beta-pant-0391",
+  "colours": [
+   "Black"
+  ],
+  "details": null
+ },
+ {
+  "id": 103,
+  "store": "Arc'teryx",
+  "name": "Cronin Cotton Pant Men's",
+  "description": "Climbing pant made for freedom of movement",
+  "price": 20000,
+  "category": "Men",
+  "color": "Bracken",
+  "image_url": "https://images.arcteryx.com/F26/1350x1710/Cronin-Cotton-Pant-Bracken.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000009316",
+  "url": "https://arcteryx.com/us/en/shop/mens/cronin-cotton-pant-9316",
+  "colours": [
+   "Black",
+   "Cloud",
+   "Bracken"
+  ],
+  "details": null
+ },
+ {
+  "id": 104,
+  "store": "Arc'teryx",
+  "name": "Emblem Fleece Jogger Men's",
+  "description": "Stretchy cool-weather comfort, made to climb",
+  "price": 12000,
+  "category": "Men",
+  "color": "Dark Jade",
+  "image_url": "https://images.arcteryx.com/F26/1350x1710/Emblem-Fleece-Jogger-Dark-Jade.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000010393",
+  "url": "https://arcteryx.com/us/en/shop/mens/emblem-fleece-jogger-0393",
+  "colours": [
+   "Black",
+   "Dark Jade"
+  ],
+  "details": null
+ },
+ {
+  "id": 105,
+  "store": "Arc'teryx",
+  "name": "Kragg Cotton Pant Men's",
+  "description": "Technical stretch cotton climbing pant",
+  "price": 18000,
+  "category": "Men",
+  "color": "Black Sapphire",
+  "image_url": "https://images.arcteryx.com/S26/1350x1710/Kragg-Cotton-Pant-Black-Sapphire.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000009530",
+  "url": "https://arcteryx.com/us/en/shop/mens/kragg-cotton-pant-9530",
+  "colours": [
+   "Black",
+   "Black Sapphire",
+   "Habitat",
+   "Cloud"
+  ],
+  "details": null
+ },
+ {
+  "id": 106,
+  "store": "Arc'teryx",
+  "name": "Gamma Jogger Men's",
+  "description": "Light, durable stretch softshell pant",
+  "price": 20000,
+  "category": "Men",
+  "color": "Mongoose",
+  "image_url": "https://images.arcteryx.com/F26/1350x1710/Gamma-Jogger-Mongoose.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000010040",
+  "url": "https://arcteryx.com/us/en/shop/mens/gamma-jogger-0040",
+  "colours": [
+   "Black",
+   "Mongoose"
+  ],
+  "details": null
+ },
+ {
+  "id": 107,
+  "store": "Arc'teryx",
+  "name": "Gamma SL Pant Men's",
+  "description": "Superlight, weather-resistant hiking pant",
+  "price": 16000,
+  "category": "Men",
+  "color": "Forage",
+  "image_url": "https://images.arcteryx.com/S26/1350x1710/Gamma-SL-Pant-Forage.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000009525",
+  "url": "https://arcteryx.com/us/en/shop/mens/gamma-sl-pant-9525",
+  "colours": [
+   "Black",
+   "Forage",
+   "Habitat"
+  ],
+  "details": null
+ },
+ {
+  "id": 108,
+  "store": "Arc'teryx",
+  "name": "Alpha SV Bib Pant Men's",
+  "description": "Maximum protection for severe alpine conditions",
+  "price": 75000,
+  "category": "Men",
+  "color": "Black",
+  "image_url": "https://images.arcteryx.com/F26/1350x1710/Alpha-SV-Bib-Pant-Black.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000010934",
+  "url": "https://arcteryx.com/us/en/shop/mens/alpha-sv-bib-pant-0934",
+  "colours": [
+   "Black"
+  ],
+  "details": null
+ },
+ {
+  "id": 109,
+  "store": "Arc'teryx",
+  "name": "Konseal Pant Men's",
+  "description": "Lightweight, abrasion-resistant climbing pant",
+  "price": 20000,
+  "category": "Men",
+  "color": "Dk Stratus",
+  "image_url": "https://images.arcteryx.com/S26/1350x1710/Konseal-Pant-Dk-Stratus.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000010299",
+  "url": "https://arcteryx.com/us/en/shop/mens/konseal-pant-0299",
+  "colours": [
+   "Dk Stratus",
+   "Black"
+  ],
+  "details": null
+ },
+ {
+  "id": 110,
+  "store": "Arc'teryx",
+  "name": "Serratus Pant Men's",
+  "description": "Most technical softshell pant for alpine climbing",
+  "price": 24000,
+  "category": "Men",
+  "color": "Black/Graphite",
+  "image_url": "https://images.arcteryx.com/F26/1350x1710/Serratus-Pant-Black-Graphite.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000010939",
+  "url": "https://arcteryx.com/us/en/shop/mens/serratous-pant-0939",
+  "colours": [
+   "Black/Graphite",
+   "Void"
+  ],
+  "details": null
+ },
+ {
+  "id": 111,
+  "store": "Arc'teryx",
+  "name": "Beta SV Pant Men's",
+  "description": "Durable all-mountain shell pant for severe conditions",
+  "price": 50000,
+  "category": "Men",
+  "color": "Black",
+  "image_url": "https://images.arcteryx.com/F26/1350x1710/Beta-SV-Pant-Black.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000010280",
+  "url": "https://arcteryx.com/us/en/shop/mens/beta-sv-pant-0280",
+  "colours": [
+   "Black"
+  ],
+  "details": null
+ },
+ {
+  "id": 112,
+  "store": "Arc'teryx",
+  "name": "Covert Pullover Hoody Men's",
+  "description": "Relaxed fleece hoody for low-output hikes",
+  "price": 22000,
+  "category": "Men",
+  "color": "Dark Jade Heather",
+  "image_url": "https://images.arcteryx.com/F26/1350x1710/Covert-Pullover-Hoody-Dark-Jade-Heather.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000010726",
+  "url": "https://arcteryx.com/us/en/shop/mens/covert-pullover-hoody-0726",
+  "colours": [
+   "Solitude Heather",
+   "Black Heather",
+   "Dark Jade Heather"
+  ],
+  "details": null
+ },
+ {
+  "id": 113,
+  "store": "Arc'teryx",
+  "name": "Covert Cardigan Men's",
+  "description": "Abrasion-resistant fleece for low-output hikes",
+  "price": 18000,
+  "category": "Men",
+  "color": "Dark Jade Heather",
+  "image_url": "https://images.arcteryx.com/F26/1350x1710/Covert-Cardigan-Dark-Jade-Heather.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000010727",
+  "url": "https://arcteryx.com/us/en/shop/mens/covert-cardigan-0727",
+  "colours": [
+   "Solitude Heather",
+   "Dark Jade Heather",
+   "Black Heather",
+   "Mongoose Heather"
+  ],
+  "details": null
+ },
+ {
+  "id": 114,
+  "store": "Arc'teryx",
+  "name": "Covert 1/2 Zip Neck Men's",
+  "description": "Durable fleece pullover for low-output hikes",
+  "price": 16000,
+  "category": "Men",
+  "color": "Void Heather",
+  "image_url": "https://images.arcteryx.com/F26/1350x1710/Covert-1-2-Zip-Neck-Void-Heather.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000010729",
+  "url": "https://arcteryx.com/us/en/shop/mens/covert-1-2-zip-neck-0729",
+  "colours": [
+   "Void Heather",
+   "Black Heather"
+  ],
+  "details": null
+ },
+ {
+  "id": 115,
+  "store": "Arc'teryx",
+  "name": "Covert Vest Men's",
+  "description": "Durable fleece vest for low-output hikes",
+  "price": 14000,
+  "category": "Men",
+  "color": "Mongoose Heather",
+  "image_url": "https://images.arcteryx.com/F26/1350x1710/Covert-Vest-Mongoose-Heather.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000010728",
+  "url": "https://arcteryx.com/us/en/shop/mens/covert-vest-0728",
+  "colours": [
+   "Black Heather",
+   "Solitude Heather",
+   "Mongoose Heather"
+  ],
+  "details": null
+ },
+ {
+  "id": 116,
+  "store": "Arc'teryx",
+  "name": "Emblem Fleece Full Zip Hoody Men's",
+  "description": "Made to climb. Worn everywhere",
+  "price": 16000,
+  "category": "Men",
+  "color": "Dark Jade",
+  "image_url": "https://images.arcteryx.com/F26/1350x1710/Emblem-Fleece-Full-Zip-Hoody-Dark-Jade.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000009929",
+  "url": "https://arcteryx.com/us/en/shop/mens/emblem-fleece-full-zip-hoody-9929",
+  "colours": [
+   "Black",
+   "Dk Stratus",
+   "Dark Jade",
+   "Rune"
+  ],
+  "details": null
+ },
+ {
+  "id": 117,
+  "store": "Arc'teryx",
+  "name": "Konseal Pullover Hoody Men's",
+  "description": "Climber’s fleece hoody with added durability",
+  "price": 20000,
+  "category": "Men",
+  "color": "Sea Salt / Dk Sea Salt",
+  "image_url": "https://images.arcteryx.com/F26/1350x1710/Konseal-Pullover-Hoody-Sea-Salt-Dk-Sea-Salt.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000008443",
+  "url": "https://arcteryx.com/us/en/shop/mens/konseal-pullover-hoody-8443",
+  "colours": [
+   "Black",
+   "Sea Salt / Dk Sea Salt"
+  ],
+  "details": null
+ },
+ {
+  "id": 118,
+  "store": "Arc'teryx",
+  "name": "Delta Hoody Men's",
+  "description": "Warm, breathable performance fleece hoody",
+  "price": 22000,
+  "category": "Men",
+  "color": "Black Sapphire",
+  "image_url": "https://images.arcteryx.com/S26/1350x1710/Delta-Hoody-Black-Sapphire.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000010551",
+  "url": "https://arcteryx.com/us/en/shop/mens/delta-hoody-0551",
+  "colours": [
+   "Black Sapphire"
+  ],
+  "details": null
+ },
+ {
+  "id": 119,
+  "store": "Arc'teryx",
+  "name": "Delta Hybrid Hoody Men's",
+  "description": "Airshell-fortified, stretch-fleece midlayer",
+  "price": 24000,
+  "category": "Men",
+  "color": "Stratus",
+  "image_url": "https://images.arcteryx.com/F26/1350x1710/Delta-Hybrid-Hoody-Stratus.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000010633",
+  "url": "https://arcteryx.com/us/en/shop/mens/delta-hybrid-hoody-0633",
+  "colours": [
+   "Stratus",
+   "Nucleus",
+   "Black"
+  ],
+  "details": null
+ },
+ {
+  "id": 120,
+  "store": "Arc'teryx",
+  "name": "Emblem Fleece Crew Neck Pullover Men's",
+  "description": "Comfortable pullover in an organic cotton blend",
+  "price": 12000,
+  "category": "Men",
+  "color": "Dark Jade",
+  "image_url": "https://images.arcteryx.com/F26/1350x1710/Emblem-Fleece-Crew-Neck-Pullover-Dark-Jade.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000009787",
+  "url": "https://arcteryx.com/us/en/shop/mens/emblem-fleece-crew-neck-pullover-9787",
+  "colours": [
+   "Black",
+   "Dk Stratus",
+   "Dark Jade",
+   "Ultima",
+   "Sea Salt"
+  ],
+  "details": null
+ },
+ {
+  "id": 121,
+  "store": "Arc'teryx",
+  "name": "Emblem Fleece Hoody Men's",
+  "description": "Comfortable hoody in an organic cotton blend",
+  "price": 14000,
+  "category": "Men",
+  "color": "Blurple",
+  "image_url": "https://images.arcteryx.com/F26/1350x1710/Emblem-Fleece-Hoody-Blurple.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000009788",
+  "url": "https://arcteryx.com/us/en/shop/mens/emblem-fleece-hoody-9788",
+  "colours": [
+   "Black",
+   "Blurple",
+   "Sea Salt"
+  ],
+  "details": null
+ },
+ {
+  "id": 122,
+  "store": "Arc'teryx",
+  "name": "Delta Jacket Men's",
+  "description": "Fleece jacket delivering warmth for less weight",
+  "price": 20000,
+  "category": "Men",
+  "color": "Stratus",
+  "image_url": "https://images.arcteryx.com/F26/1350x1710/Delta-Jacket-Stratus.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000009165",
+  "url": "https://arcteryx.com/us/en/shop/mens/delta-jacket-9165",
+  "colours": [
+   "Black",
+   "Stratus",
+   "Nucleus / Larch",
+   "Bracken / Mongoose"
+  ],
+  "details": null
+ },
+ {
+  "id": 123,
+  "store": "Arc'teryx",
+  "name": "Delta 1/2 Zip Neck Men's",
+  "description": "Warm, breathable performance fleece zip-neck",
+  "price": 18000,
+  "category": "Men",
+  "color": "Stratus",
+  "image_url": "https://images.arcteryx.com/F26/1350x1710/Delta-1-2-Zip-Neck-Stratus.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000010550",
+  "url": "https://arcteryx.com/us/en/shop/mens/delta-1-2-zip-neck-0550",
+  "colours": [
+   "Black",
+   "Stratus",
+   "Nucleus / Larch"
+  ],
+  "details": null
+ },
+ {
+  "id": 124,
+  "store": "Arc'teryx",
+  "name": "Konseal Crew Neck Pullover Men's",
+  "description": "Crew-neck climber’s fleece with added durability",
+  "price": 18000,
+  "category": "Men",
+  "color": "Bracken / Dk Bracken",
+  "image_url": "https://images.arcteryx.com/F26/1350x1710/Konseal-Crew-Neck-Pullover-Bracken-Dk-Bracken.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000008454",
+  "url": "https://arcteryx.com/us/en/shop/mens/konseal-crew-neck-pullover-8454",
+  "colours": [
+   "Black",
+   "Blurple / Dk Blurple",
+   "Bracken / Dk Bracken"
+  ],
+  "details": null
+ },
+ {
+  "id": 125,
+  "store": "Arc'teryx",
+  "name": "Konseal SL Pullover Hoody Men's",
+  "description": "Superlight technical fleece hoody for climbing",
+  "price": 16000,
+  "category": "Men",
+  "color": "Sea Salt / Habitat",
+  "image_url": "https://images.arcteryx.com/S26/1350x1710/Konseal-SL-Pullover-Hoody-Sea-Salt-Habitat.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000009807",
+  "url": "https://arcteryx.com/us/en/shop/mens/konseal-sl-pullover-hoody-9807",
+  "colours": [
+   "Black",
+   "Sea Salt / Habitat"
+  ],
+  "details": null
+ },
+ {
+  "id": 126,
+  "store": "Arc'teryx",
+  "name": "Sidewinder Jacket Women's",
+  "description": "Our revamped classic shell",
+  "price": 85000,
+  "category": "Women",
+  "color": "Kasumi / Moon / Shinch",
+  "image_url": "https://images.arcteryx.com/F26/1350x1710/Sidewinder-Jacket-W-Kasumi-Moon-Shinch.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000010476",
+  "url": "https://arcteryx.com/us/en/shop/womens/sidewinder-jacket-0476",
+  "colours": [
+   "Kasumi / Moon / Shinch",
+   "Black / Violectric",
+   "Mongoose / Brack / Lum"
+  ],
+  "details": null
+ },
+ {
+  "id": 127,
+  "store": "Arc'teryx",
+  "name": "Sentinel Jacket Women's",
+  "description": "Our iconic women’s freeride jacket",
+  "price": 75000,
+  "category": "Women",
+  "color": "Shincha / Dark Jade",
+  "image_url": "https://images.arcteryx.com/F26/1350x1710/Sentinel-Jacket-W-Shincha-Dark-Jade.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000010454",
+  "url": "https://arcteryx.com/us/en/shop/womens/sentinel-jacket-0454",
+  "colours": [
+   "Black",
+   "Shincha / Dark Jade",
+   "LT Rene / Rene / Rocket"
+  ],
+  "details": null
+ },
+ {
+  "id": 128,
+  "store": "Arc'teryx",
+  "name": "Sperro SV Jacket - 0 Women's",
+  "description": "Multisport hardshell certified by TESTEX® Circularity",
+  "price": 120000,
+  "category": "Women",
+  "color": "Kasumi / Moonstone AC",
+  "image_url": "https://images.arcteryx.com/F26/1350x1710/Sperro-SV-Jacket-0-W-Kasumi-Moonstone-AC.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000010668",
+  "url": "https://arcteryx.com/us/en/shop/womens/sperro-sv-jacket-0-0668",
+  "colours": [
+   "Renegade / Dk Renegade",
+   "Kasumi / Moonstone AC"
+  ],
+  "details": null
+ },
+ {
+  "id": 129,
+  "store": "Arc'teryx",
+  "name": "Beta AR Jacket Women's",
+  "description": "Durable hardshell for severe mountain conditions",
+  "price": 65000,
+  "category": "Women",
+  "color": "Dk Shincha",
+  "image_url": "https://images.arcteryx.com/F26/1350x1710/Beta-AR-Jacket-W-Dk-Shincha.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000009863",
+  "url": "https://arcteryx.com/us/en/shop/womens/beta-ar-jacket-9863",
+  "colours": [
+   "Black",
+   "Arctic Silk / Solitude II",
+   "Mongoose",
+   "Dk Shincha",
+   "Kasumi / Moonstone"
+  ],
+  "details": null
+ },
+ {
+  "id": 130,
+  "store": "Arc'teryx",
+  "name": "Gamma MX Hoody Women's",
+  "description": "Warmest softshell for mixed mountain conditions",
+  "price": 40000,
+  "category": "Women",
+  "color": "Mongoose",
+  "image_url": "https://images.arcteryx.com/F26/1350x1710/Gamma-MX-Hoody-W-Mongoose.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000009456",
+  "url": "https://arcteryx.com/us/en/shop/womens/gamma-mx-hoody-9456",
+  "colours": [
+   "Black",
+   "Arctic Silk",
+   "Alpine Rose",
+   "Mongoose"
+  ],
+  "details": null
+ },
+ {
+  "id": 131,
+  "store": "Arc'teryx",
+  "name": "Incendia Jacket Women's",
+  "description": "Our most customizable freeride jacket",
+  "price": 90000,
+  "category": "Women",
+  "color": "Shincha / Dk Shi / Blk",
+  "image_url": "https://images.arcteryx.com/F26/1350x1710/Incendia-Jacket-W-Shincha-Dk-Shi-Blk.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000009862",
+  "url": "https://arcteryx.com/us/en/shop/womens/incendia-jacket-9862",
+  "colours": [
+   "Solitude / Arctic Silk",
+   "Black / Graphite",
+   "Shincha / Dk Shi / Blk",
+   "Mongoose"
+  ],
+  "details": null
+ },
+ {
+  "id": 132,
+  "store": "Arc'teryx",
+  "name": "Rush Jacket Women's",
+  "description": "Durable women’s jacket for backcountry skiing and riding",
+  "price": 80000,
+  "category": "Women",
+  "color": "Mistline",
+  "image_url": "https://images.arcteryx.com/F26/1350x1710/Rush-Jacket-W-Mistline.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000009856",
+  "url": "https://arcteryx.com/us/en/shop/womens/rush-jacket-9856",
+  "colours": [
+   "Graphite / Black",
+   "Mistline"
+  ],
+  "details": null
+ },
+ {
+  "id": 133,
+  "store": "Arc'teryx",
+  "name": "Beta Jacket Women's",
+  "description": "GORE-TEX ePE shell made for maximum versatility",
+  "price": 40000,
+  "category": "Women",
+  "color": "Alpine Rose II",
+  "image_url": "https://images.arcteryx.com/F26/1350x1710/Beta-Jacket-W-Alpine-Rose-II.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000010867",
+  "url": "https://arcteryx.com/us/en/shop/womens/beta-jacket-0867",
+  "colours": [
+   "Black",
+   "Lt Renegade",
+   "Sea Salt / Arctic Silk",
+   "Alpine Rose II"
+  ],
+  "details": null
+ },
+ {
+  "id": 134,
+  "store": "Arc'teryx",
+  "name": "Altira Cropped Jacket Women's",
+  "description": "Cropped hardshell jacket for rainy day hikes",
+  "price": 65000,
+  "category": "Women",
+  "color": "Kasumi",
+  "image_url": "https://images.arcteryx.com/F26/1350x1710/Altira-Cropped-Jacket-W-Kasumi.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000010094",
+  "url": "https://arcteryx.com/us/en/shop/womens/altira-cropped-jacket-0094",
+  "colours": [
+   "Black",
+   "Rune",
+   "Kasumi"
+  ],
+  "details": null
+ },
+ {
+  "id": 135,
+  "store": "Arc'teryx",
+  "name": "Beta SL Jacket Women's",
+  "description": "Made for alpine travel and mountain realities, the Beta SL Jacket – our lightest Beta – is carefully designed to deliver complete waterproof, windproof, breathable protection without sacrificing features or packability. Its next-generation GORETEX ePE membrane is light, thin, strong, and free from intentionally added PFAS. C-KNIT backer technology improves comfort and breathability. The helmet-compatible StormHood protects without compromising vision, pit zippers ventilate, and a RECCO reflector can aid in search situations.",
+  "price": 50000,
+  "category": "Women",
+  "color": "Renegade",
+  "image_url": "https://images.arcteryx.com/F26/1350x1710/Beta-SL-Jacket-W-Renegade.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000010881",
+  "url": "https://arcteryx.com/us/en/shop/womens/beta-sl-jacket-0881",
+  "colours": [
+   "Solitude",
+   "Kasumi",
+   "Renegade",
+   "Black"
+  ],
+  "details": {
+   "tagline": "Light, packable all-mountain GORE-TEX ePE shell with an extensive feature set. This product was previously the Beta Lightweight Jacket.",
+   "weight": "300g / 10.6 oz",
+   "weight_g": 300,
+   "fit": "Fitted",
+   "properties": [
+    "Windproof",
+    "Breathable",
+    "Lightweight",
+    "GORE-TEX® (Waterproof)",
+    "Fair Trade Certified",
+    "bluesign® Approved Materials",
+    "Pit Zippers",
+    "Hardshell"
+   ],
+   "activities": [
+    "Hike"
+   ],
+   "colours": [
+    {
+     "label": "Solitude",
+     "hex": "#BABCC0"
+    },
+    {
+     "label": "Kasumi",
+     "hex": "#A0ABD3"
+    },
+    {
+     "label": "Renegade",
+     "hex": "#82203D"
+    },
+    {
+     "label": "Black",
+     "hex": "#090E0D"
+    }
+   ],
+   "features": {
+    "Technical features": [
+     "Waterproof",
+     "Windproof",
+     "Breathable",
+     "Lightweight",
+     "Durable",
+     "Versatile"
+    ],
+    "Construction": [
+     "GORE C-KNIT™ backer technology is light, soft and comfortable",
+     "PFC-free GORE-TEX® ePE membrane provides breathable weather protection and is laminated to a bio-based nylon face made with fibres derived from plants",
+     "Made with an innovative GORE-TEX® fabric that provides a long product life, is PFC free, and has a reduced carbon footprint"
+    ],
+    "Cuff & Sleeves configuration": [
+     "Adjustable cuff with Velcro® closure"
+    ],
+    "Design & Fit": [
+     "Garment Centre Back Length: Size S is 28\"/70cm - Varies by size"
+    ],
+    "Fabric treatment": [
+     "FC0-DWR (Durable Water Repellent) finish repels moisture"
+    ],
+    "Hood configuration": [
+     "Helmet compatible StormHood™ provides full coverage without impacting visibility"
+    ],
+    "Patterning": [
+     "Articulated patterning for unrestricted mobility"
+    ],
+    "Pocket configuration": [
+     "Internal chest pocket",
+     "Two hand pockets with zippers"
+    ],
+    "Snowsport features": [
+     "RECCO® reflector aids search and rescue in emergency situations"
+    ],
+    "Sustainability": [
+     "Contains materials produced through processes that meet bluesign® criteria",
+     "PFAS (Per- and polyfluoroalkyl substances) Compliant",
+     "Dope dyed"
+    ],
+    "Zippers & Fly configuration": [
+     "Pit zippers for easy venting",
+     "Full front zip"
+    ]
+   },
+   "materials": [
+    "Contrast: 40dx70d 3L GORE-TEX® ePE, recycled nylon plain weave, FC0 DWR - 100% Nylon with ePE and PU Membrane, 100% Nylon Backing",
+    "Body: 40dx70d 3L GORE-TEX® ePE with C-KNIT™ backer, plain weave recycled nylon, FC0 DWR - 100% Nylon with ePE and PU Membrane",
+    "Origin of fabric: CHINA",
+    "Origin of dyeing: CHINA",
+    "Origin of Manufacture: VIETNAM",
+    "May release plastic microfibres into the environment when washing"
+   ],
+   "highlights": [
+    {
+     "title": "PFAS-free GORE-TEX ePE",
+     "text": "The breakthrough GORE‑TEX ePE membrane delivers complete waterproof, breathable performance without harmful PFAS substances."
+    },
+    {
+     "title": "Adjustable StormHood™",
+     "text": "The StormHood™ provides complete coverage with a unique design that adjusts to pivot with your head and maximize your field of view."
+    },
+    {
+     "title": "Embedded RECCO® reflector",
+     "text": "RECCO® reflectors can help ski patrollers and mountain rescue teams utilizing RECCO® detectors more quickly locate a lost or buried person."
+    }
+   ]
+  }
+ },
+ {
+  "id": 136,
+  "store": "Arc'teryx",
+  "name": "Gamma Hoody Women's",
+  "description": "Lightweight, highly versatile softshell hoody",
+  "price": 30000,
+  "category": "Women",
+  "color": "Bracken",
+  "image_url": "https://images.arcteryx.com/F26/1350x1710/Gamma-Hoody-W-Bracken.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000010561",
+  "url": "https://arcteryx.com/us/en/shop/womens/gamma-hoody-0561",
+  "colours": [
+   "Black",
+   "Alpine Rose",
+   "Lt Renegade",
+   "Bracken"
+  ],
+  "details": null
+ },
+ {
+  "id": 137,
+  "store": "Arc'teryx",
+  "name": "Gamma Lightweight Hoody Women's",
+  "description": "Light, versatile, breathable softshell hoody",
+  "price": 26000,
+  "category": "Women",
+  "color": "Dark Jade",
+  "image_url": "https://images.arcteryx.com/F26/1350x1710/Gamma-Lightweight-Hoody-W-Dark-Jade.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000010924",
+  "url": "https://arcteryx.com/us/en/shop/womens/gamma-lightweight-hoody-0924",
+  "colours": [
+   "Atmos/Solitude",
+   "Larch",
+   "Black",
+   "Dark Jade"
+  ],
+  "details": null
+ },
+ {
+  "id": 138,
+  "store": "Arc'teryx",
+  "name": "Squamish Hoody Women's",
+  "description": "The Squamish Hoody proves that the lightest layers make the biggest difference. Whether thrown over a tee or layered with a fleece, this durable windshell punches above its weight—blocking wind, cutting chill, and moving effortlessly with you on the wall. When the wind picks up, it’s there. When the sun breaks through, it disappears, packing into its own chest pocket and clipping to your harness, always within reach for breezy belays and shiver-inducing cruxes. What's been updated: The Squamish Hoody has been updated with FC0 DWR (Durable Water Repellent), offering the same water-repellant treatment—without any intentionally added PFAS.",
+  "price": 20000,
+  "category": "Women",
+  "color": "Shincha",
+  "image_url": "https://images.arcteryx.com/S26/1350x1710/Squamish-Hoody-W-Shincha.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000010268",
+  "url": "https://arcteryx.com/us/en/shop/womens/squamish-hoody-0268",
+  "colours": [
+   "Alpine Rose",
+   "Shincha",
+   "Arctic Silk / Sea Salt",
+   "Black",
+   "Mongoose",
+   "Lt Renegade"
+  ],
+  "details": {
+   "tagline": "Stretchy wind protection you'll climb in, live in, and always keep within reach.",
+   "weight": "123g / 4.3 oz",
+   "weight_g": 123,
+   "fit": "Fitted",
+   "properties": [
+    "Breathable",
+    "Windshell",
+    "Wind Resistant",
+    "Fair Trade Certified",
+    "Packable"
+   ],
+   "activities": [
+    "Rock",
+    "Hike"
+   ],
+   "colours": [
+    {
+     "label": "Alpine Rose",
+     "hex": "#CFB9BA"
+    },
+    {
+     "label": "Shincha",
+     "hex": "#DCEAB5"
+    },
+    {
+     "label": "Arctic Silk / Sea Salt",
+     "hex": "#EDE9E0"
+    },
+    {
+     "label": "Lt Renegade",
+     "hex": "#9F5069"
+    },
+    {
+     "label": "Black",
+     "hex": "#090E0D"
+    },
+    {
+     "label": "Mongoose",
+     "hex": "#5D5348"
+    }
+   ],
+   "features": {
+    "Technical features": [
+     "Breathable",
+     "Lightweight",
+     "Wind resistant",
+     "Water repellent"
+    ],
+    "Construction": [
+     "Tyono™ 30D fabric offers impressive wind resistance, stretch, breathability, and strength for its weight"
+    ],
+    "Cuff & Sleeves configuration": [
+     "Elasticized cuffs"
+    ],
+    "Design & Fit": [
+     "Garment Centre Back Length: Size S is 25\"/64cm - Varies by size"
+    ],
+    "Fabric treatment": [
+     "FC0 DWR (Durable Water Repellent) finish repels moisture and is free from intentionally added PFAS"
+    ],
+    "Hood configuration": [
+     "Helmet compatible StormHood™ provides full coverage without impacting visibility"
+    ],
+    "Integrated features": [
+     "Reinforced clip-in loop lets you attach the packed jacket to your harness or pack for easy access"
+    ],
+    "Logos & Label configuration": [
+     "Arc'teryx Bird logo"
+    ],
+    "Patterning": [
+     "Articulated patterning for unrestricted mobility"
+    ],
+    "Pocket configuration": [
+     "Single chest pocket stores jacket for compact storage",
+     "Chest pocket with zip allows easy access when wearing harness and pack"
+    ],
+    "Sustainability": [
+     "PFAS (Per- and polyfluoroalkyl substances) Compliant",
+     "FC0 DWR"
+    ]
+   },
+   "materials": [
+    "Body: Tyono™ 30 - Nylon Mini-Rip Lightweight Mechanical Stretch, FC0 DWR, 51gsm - 100% Nylon",
+    "Origin of fabric: JAPAN",
+    "Origin of dyeing: JAPAN",
+    "Origin of Manufacture: VIETNAM",
+    "May release plastic microfibres into the environment when washing"
+   ],
+   "highlights": [
+    {
+     "title": "Powerful weather resistance",
+     "text": "Ultralight yet incredibly windproof, the fabric now has a DWR water-repellent finish."
+    },
+    {
+     "title": "Reliable coverage",
+     "text": "The adjustable, helmet-compatible StormHood™ delivers 360-degree visibility."
+    },
+    {
+     "title": "Packable utility",
+     "text": "It easily stuffs into its own chest pocket and clips to a harness during your climb."
+    },
+    {
+     "title": "Full mobility",
+     "text": "The Tyono™ 30 fabric features impressive stretch for effortless movement."
+    }
+   ]
+  }
+ },
+ {
+  "id": 139,
+  "store": "Arc'teryx",
+  "name": "Squamish Jacket Women's",
+  "description": "Go-to lightweight, packable mountain windshell",
+  "price": 18000,
+  "category": "Women",
+  "color": "Dark Jade",
+  "image_url": "https://images.arcteryx.com/F26/1350x1710/Squamish-Jacket-W-Dark-Jade.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000010269",
+  "url": "https://arcteryx.com/us/en/shop/womens/squamish-jacket-0269",
+  "colours": [
+   "Black",
+   "Dark Jade",
+   "Lt Renegade"
+  ],
+  "details": null
+ },
+ {
+  "id": 140,
+  "store": "Arc'teryx",
+  "name": "Emaris Relaxed Jacket Women's",
+  "description": "Relaxed-fit hardshell jacket for rainy hikes",
+  "price": 75000,
+  "category": "Women",
+  "color": "Blurple",
+  "image_url": "https://images.arcteryx.com/F26/1350x1710/Emaris-Relaxed-Jacket-W-Blurple.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000010089",
+  "url": "https://arcteryx.com/us/en/shop/womens/emaris-relaxed-jacket-0089",
+  "colours": [
+   "Black",
+   "Blurple",
+   "Rune / Sea Salt"
+  ],
+  "details": null
+ },
+ {
+  "id": 141,
+  "store": "Arc'teryx",
+  "name": "Naya Cropped Jacket Women's",
+  "description": "Lightweight, cropped, waterproof shell for hiking",
+  "price": 50000,
+  "category": "Women",
+  "color": "Habitat",
+  "image_url": "https://images.arcteryx.com/S26/1350x1710/Naya-Cropped-Jacket-W-Habitat.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000010327",
+  "url": "https://arcteryx.com/us/en/shop/womens/naya-cropped-jacket-0327",
+  "colours": [
+   "Black",
+   "Habitat"
+  ],
+  "details": null
+ },
+ {
+  "id": 142,
+  "store": "Arc'teryx",
+  "name": "Beta Jacket Women's",
+  "description": "GORE-TEX ePE shell made for maximum versatility",
+  "price": 40000,
+  "category": "Women",
+  "color": "Stone Red",
+  "image_url": "https://images.arcteryx.com/S26/1350x1710/Beta-Jacket-W-Stone-Red.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000010516",
+  "url": "https://arcteryx.com/us/en/shop/womens/beta-jacket-0516",
+  "colours": [
+   "Sea Salt / Arctic Silk",
+   "Stone Red"
+  ],
+  "details": null
+ },
+ {
+  "id": 143,
+  "store": "Arc'teryx",
+  "name": "Sonii MX Jacket Women's",
+  "description": "Workwear-inspired softshell jacket for day hikes",
+  "price": 40000,
+  "category": "Women",
+  "color": "Kasumi",
+  "image_url": "https://images.arcteryx.com/F26/1350x1710/Sonii-MX-Jacket-W-Kasumi.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000010088",
+  "url": "https://arcteryx.com/us/en/shop/womens/sonii-mx-jacket-0088",
+  "colours": [
+   "Black",
+   "Mongoose",
+   "Kasumi"
+  ],
+  "details": null
+ },
+ {
+  "id": 144,
+  "store": "Arc'teryx",
+  "name": "Coelle Jacket Women's",
+  "description": "Lightweight, waterproof GORE-TEX hiking shell",
+  "price": 40000,
+  "category": "Women",
+  "color": "Alpine Blue",
+  "image_url": "https://images.arcteryx.com/S26/1350x1710/Coelle-Jacket-W-Alpine-Blue.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000009466",
+  "url": "https://arcteryx.com/us/en/shop/womens/coelle-jacket-9466",
+  "colours": [
+   "Black",
+   "Alpine Blue",
+   "Dk Reef"
+  ],
+  "details": null
+ },
+ {
+  "id": 145,
+  "store": "Arc'teryx",
+  "name": "Alpha SV Jacket Women's",
+  "description": "The alpine hardshell for severe conditions",
+  "price": 90000,
+  "category": "Women",
+  "color": "Lt Renegade",
+  "image_url": "https://images.arcteryx.com/F26/1350x1710/Alpha-SV-Jacket-W-Lt-Renegade.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000009990",
+  "url": "https://arcteryx.com/us/en/shop/womens/alpha-sv-jacket-9990",
+  "colours": [
+   "Black",
+   "Alpine Blue / Black",
+   "Lt Renegade"
+  ],
+  "details": null
+ },
+ {
+  "id": 146,
+  "store": "Arc'teryx",
+  "name": "Norvan Jacket Women's",
+  "description": "Ultralight and breathable mountain running shell",
+  "price": 45000,
+  "category": "Women",
+  "color": "Black",
+  "image_url": "https://images.arcteryx.com/F26/1350x1710/Norvan-Jacket-W-Black.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000009469",
+  "url": "https://arcteryx.com/us/en/shop/womens/norvan-jacket-9469",
+  "colours": [
+   "Black"
+  ],
+  "details": null
+ },
+ {
+  "id": 147,
+  "store": "Arc'teryx",
+  "name": "Sonii Utility Jacket Women's",
+  "description": "Multi-pocket softshell jacket for pack-free hiking",
+  "price": 30000,
+  "category": "Women",
+  "color": "Habitat",
+  "image_url": "https://images.arcteryx.com/S26/1350x1710/Sonii-Utility-Jacket-W-Habitat.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000010265",
+  "url": "https://arcteryx.com/us/en/shop/womens/sonii-utility-jacket-0265",
+  "colours": [
+   "Habitat",
+   "Black"
+  ],
+  "details": null
+ },
+ {
+  "id": 148,
+  "store": "Arc'teryx",
+  "name": "Beta SV Jacket Women's",
+  "description": "Durable all-mountain hardshell for severe conditions",
+  "price": 80000,
+  "category": "Women",
+  "color": "Dark Jade",
+  "image_url": "https://images.arcteryx.com/F26/1350x1710/Beta-SV-Jacket-W-Dark-Jade.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000011013",
+  "url": "https://arcteryx.com/us/en/shop/womens/beta-sv-jacket-1013",
+  "colours": [
+   "Dark Jade",
+   "Black"
+  ],
+  "details": null
+ },
+ {
+  "id": 149,
+  "store": "Arc'teryx",
+  "name": "Rhoam Hybrid Jacket Women's",
+  "description": "Mapped hybrid shell for high-output mountain biking",
+  "price": 45000,
+  "category": "Women",
+  "color": "Forage",
+  "image_url": "https://images.arcteryx.com/S26/1350x1710/Rhoam-Hybrid-Jacket-W-Forage.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000009562",
+  "url": "https://arcteryx.com/us/en/shop/womens/rhoam-hybrid-jacket-9562",
+  "colours": [
+   "Black",
+   "Forage"
+  ],
+  "details": null
+ },
+ {
+  "id": 150,
+  "store": "Arc'teryx",
+  "name": "Gamma Jacket Women's",
+  "description": "Our most versatile softshell jacket",
+  "price": 28000,
+  "category": "Women",
+  "color": "Arctic Silk",
+  "image_url": "https://images.arcteryx.com/F26/1350x1710/Gamma-Jacket-W-Arctic-Silk.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000010378",
+  "url": "https://arcteryx.com/us/en/shop/womens/gamma-jacket-0378",
+  "colours": [
+   "Black",
+   "Arctic Silk"
+  ],
+  "details": null
+ },
+ {
+  "id": 151,
+  "store": "Arc'teryx",
+  "name": "Sonii Utility Vest Women's",
+  "description": "Multi-pocket softshell vest for pack-free hiking",
+  "price": 24000,
+  "category": "Women",
+  "color": "Habitat",
+  "image_url": "https://images.arcteryx.com/S26/1350x1710/Sonii-Utility-Vest-W-Habitat.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000010266",
+  "url": "https://arcteryx.com/us/en/shop/womens/sonii-utility-vest-0266",
+  "colours": [
+   "Habitat",
+   "Black",
+   "Sea Salt"
+  ],
+  "details": null
+ },
+ {
+  "id": 152,
+  "store": "Arc'teryx",
+  "name": "Naya Cropped Stowhood Jacket Women's",
+  "description": "Lightweight, stow-hood jacket for windy hikes",
+  "price": 24000,
+  "category": "Women",
+  "color": "Habitat",
+  "image_url": "https://images.arcteryx.com/S26/1350x1710/Naya-Cropped-Stowhood-Jacket-W-Habitat.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000010263",
+  "url": "https://arcteryx.com/us/en/shop/womens/naya-cropped-stowhood-jacket-0263",
+  "colours": [
+   "Habitat",
+   "Black"
+  ],
+  "details": null
+ },
+ {
+  "id": 153,
+  "store": "Arc'teryx",
+  "name": "Alpha SL Anorak Women's",
+  "description": "Our lightest, most durable alpine hardshell",
+  "price": 45000,
+  "category": "Women",
+  "color": "Black",
+  "image_url": "https://images.arcteryx.com/S26/1350x1710/Alpha-SL-Anorak-W-Black.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000010328",
+  "url": "https://arcteryx.com/us/en/shop/womens/alpha-sl-anorak-0328",
+  "colours": [
+   "Black"
+  ],
+  "details": null
+ },
+ {
+  "id": 154,
+  "store": "Arc'teryx",
+  "name": "Sima Pullover Women's",
+  "description": "Ultralight sun and weather protection",
+  "price": 14000,
+  "category": "Women",
+  "color": "Arctic Silk",
+  "image_url": "https://images.arcteryx.com/S26/1350x1710/Sima-Pullover-W-Arctic-Silk.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000010619",
+  "url": "https://arcteryx.com/us/en/shop/womens/sima-pullover-0619",
+  "colours": [
+   "Arctic Silk"
+  ],
+  "details": null
+ },
+ {
+  "id": 155,
+  "store": "Arc'teryx",
+  "name": "Sinsola Jacket Women's",
+  "description": "Woven, vented, UPF 40+ jacket for alpine environments",
+  "price": 20000,
+  "category": "Women",
+  "color": "Sea Salt",
+  "image_url": "https://images.arcteryx.com/S26/1350x1710/Sinsola-Jacket-W-Sea-Salt.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000010271",
+  "url": "https://arcteryx.com/us/en/shop/womens/sinsola-jacket-0271",
+  "colours": [
+   "Sea Salt"
+  ],
+  "details": null
+ },
+ {
+  "id": 156,
+  "store": "Arc'teryx",
+  "name": "Alpha Jacket Women's",
+  "description": "Light, durable hardshell for alpine ascents",
+  "price": 70000,
+  "category": "Women",
+  "color": "Graphite / Black",
+  "image_url": "https://images.arcteryx.com/F25/1350x1710/Alpha-Jacket-W-Graphite-Black.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000009866",
+  "url": "https://arcteryx.com/us/en/shop/womens/alpha-jacket-9866",
+  "colours": [
+   "Graphite / Black"
+  ],
+  "details": null
+ },
+ {
+  "id": 157,
+  "store": "Arc'teryx",
+  "name": "Sima Jacket Women's",
+  "description": "Ultralight sun and weather protection",
+  "price": 14000,
+  "category": "Women",
+  "color": "Arctic Silk",
+  "image_url": "https://images.arcteryx.com/S26/1350x1710/Sima-Jacket-W-Arctic-Silk.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000010617",
+  "url": "https://arcteryx.com/us/en/shop/womens/sima-jacket-0617",
+  "colours": [
+   "Arctic Silk"
+  ],
+  "details": null
+ },
+ {
+  "id": 158,
+  "store": "Arc'teryx",
+  "name": "Sinsola Hoody Women's",
+  "description": "Woven, vented, UPF hoody for alpine environments",
+  "price": 22000,
+  "category": "Women",
+  "color": "Sea Salt",
+  "image_url": "https://images.arcteryx.com/S26/1350x1710/Sinsola-Hoody-W-Sea-Salt.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000010270",
+  "url": "https://arcteryx.com/us/en/shop/womens/sinsola-hoody-0270",
+  "colours": [
+   "Sea Salt"
+  ],
+  "details": null
+ },
+ {
+  "id": 159,
+  "store": "Arc'teryx",
+  "name": "Patera Parka Women's",
+  "description": "Down insulated GORE-TEX parka",
+  "price": 80000,
+  "category": "Women",
+  "color": "Kasumi",
+  "image_url": "https://images.arcteryx.com/F26/1350x1710/Patera-Parka-W-Kasumi.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000009949",
+  "url": "https://arcteryx.com/us/en/shop/womens/patera-parka-9949",
+  "colours": [
+   "Black",
+   "Mongoose",
+   "Kasumi"
+  ],
+  "details": null
+ },
+ {
+  "id": 160,
+  "store": "Arc'teryx",
+  "name": "Atom SV Hoody Women's",
+  "description": "Warmest Atom for cold mountain activities",
+  "price": 35000,
+  "category": "Women",
+  "color": "Mongoose",
+  "image_url": "https://images.arcteryx.com/F26/1350x1710/Atom-SV-Hoody-W-Mongoose.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000009853",
+  "url": "https://arcteryx.com/us/en/shop/womens/atom-sv-hoody-9853",
+  "colours": [
+   "Black",
+   "Mongoose",
+   "Alpine Rose",
+   "Arctic Silk II"
+  ],
+  "details": null
+ },
+ {
+  "id": 161,
+  "store": "Arc'teryx",
+  "name": "Cerium SV Hoody Women's",
+  "description": "Our warmest Cerium down hoody",
+  "price": 60000,
+  "category": "Women",
+  "color": "Dark Jade",
+  "image_url": "https://images.arcteryx.com/F26/1350x1710/Cerium-SV-Hoody-W-Dark-Jade.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000010558",
+  "url": "https://arcteryx.com/us/en/shop/womens/cerium-sv-hoody-0558",
+  "colours": [
+   "Black",
+   "Dark Jade"
+  ],
+  "details": null
+ },
+ {
+  "id": 162,
+  "store": "Arc'teryx",
+  "name": "Atom Hoody Women's",
+  "description": "The Atom Hoody is the solution to your “which jacket should I wear?” problem. Wear it solo for chilly forest hikes with windy summits, climbing at the crag, and hanging at the campsite, or as a midlayer for touring and wet winter objectives. The Coreloft synthetic insulation stays warm even if you run into light weather, making it a better alternative to down for high-output days year round. Need a heavier option? Try the Atom SV Hoody .",
+  "price": 30000,
+  "category": "Women",
+  "color": "Bracken",
+  "image_url": "https://images.arcteryx.com/F26/1350x1710/Atom-Hoody-W-Bracken.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000009452",
+  "url": "https://arcteryx.com/us/en/shop/womens/atom-hoody-9452",
+  "colours": [
+   "Black",
+   "Dk Stratus / Blk Sapphire",
+   "Bracken",
+   "Larch",
+   "Alpine Rose",
+   "Arctic Silk II"
+  ],
+  "details": {
+   "tagline": "Warm-even-when-wet hoody you can hike, climb, tour, and live in.",
+   "weight": "320g / 11.3 oz",
+   "weight_g": 320,
+   "fit": "Fitted",
+   "properties": [
+    "Synthetic Fill",
+    "Breathable",
+    "Lightweight",
+    "Wind Resistant",
+    "Insulated",
+    "Fair Trade Certified",
+    "bluesign® Approved Materials",
+    "Packable"
+   ],
+   "activities": [
+    "Hike"
+   ],
+   "colours": [
+    {
+     "label": "Arctic Silk II",
+     "hex": "#EDE9E0"
+    },
+    {
+     "label": "Bracken",
+     "hex": "#7A6540"
+    },
+    {
+     "label": "Larch",
+     "hex": "#ECA825"
+    },
+    {
+     "label": "Alpine Rose",
+     "hex": "#CFB9BA"
+    },
+    {
+     "label": "Dk Stratus / Blk Sapphire",
+     "hex": "#434456"
+    },
+    {
+     "label": "Black",
+     "hex": "#090E0D"
+    }
+   ],
+   "features": {
+    "Technical features": [
+     "Moisture-resistant outer face fabric",
+     "Breathable",
+     "Lightweight",
+     "Compressible and packable",
+     "Wind resistant",
+     "Versatile"
+    ],
+    "Construction": [
+     "Performance stretch fleece side panels give ventilation",
+     "Resilient Coreloft™ Compact 60 insulation is breathable, warm, and light, performs if wet, and delivers loft retention that resists packing out",
+     "Light, soft Tyono™ 20 is air permeable",
+     "Breathable 20D recycled nylon liner helps regulate temperature and is soft and comfortable next to the skin"
+    ],
+    "Cuff & Sleeves configuration": [
+     "Stretch-knit cuffs"
+    ],
+    "Design & Fit": [
+     "Fitted, with articulated patterning for mobility and comfort",
+     "Garment Centre Back Length: Size S is 26\"/66cm - Varies by size"
+    ],
+    "Fabric treatment": [
+     "FC0 DWR (Durable Water Repellent) finish repels moisture and is free from intentionally added PFAS"
+    ],
+    "Hem configuration": [
+     "Durable stitched hem with dual adjusters to seal out drafts"
+    ],
+    "Hood configuration": [
+     "Adjustable, insulated, low profile StormHood™ with structured mini hood brim"
+    ],
+    "Patterning": [
+     "Articulated patterning for unrestricted mobility",
+     "Gusseted underarms for mobility and comfort"
+    ],
+    "Pocket configuration": [
+     "Two hand pockets with hidden zippers",
+     "Internal chest pocket with zip",
+     "Stows into its chest pocket and clips to carabiner for compact transport"
+    ],
+    "Sustainability": [
+     "Contains materials produced through processes that meet bluesign® criteria",
+     "Insulation - bluepass Material, recycled content",
+     "PFAS (Per- and polyfluoroalkyl substances) Compliant",
+     "Lining  - bluepass Material, FC0 DWR, recycled content",
+     "Contrast - FC0 DWR, recycled content",
+     "Shell - FC0 DWR"
+    ],
+    "Zippers & Fly configuration": [
+     "No Slip Zip™ front zipper",
+     "Custom TPU zipper pulls are easy to operate and glove-friendly"
+    ]
+   },
+   "materials": [
+    "Contrast: Circular Knit Fleece, 215 gsm, FC0 DWR - 93% Polyester, 7% Elastane",
+    "Body: 20dx20d nylon ripstop, FC0 DWR, 45gsm - 100% Nylon",
+    "Synthetic Insulation: Coreloft™ 60 (60 g/m²) - 100% Polyester",
+    "Lining: 20d recycled nylon ripstop with FC0 DWR, 40gsm - 100% Nylon",
+    "Origin of fabric: JAPAN",
+    "Origin of dyeing: JAPAN",
+    "Origin of Manufacture:  BANGLADESH",
+    "May release plastic microfibres into the environment when washing"
+   ],
+   "highlights": [
+    {
+     "title": "Lightweight warmth",
+     "text": "Made with Coreloft™ insulation, the Atom stays warm even when wet."
+    },
+    {
+     "title": "Smart head coverage",
+     "text": "The adjustable StormHood™ seals in heat, and its structured brim gives coverage without blocking your view."
+    },
+    {
+     "title": "An updated fit",
+     "text": "The wider collar, roomier sleeve openings, and new stretch fleece side panels offer improved mobility."
+    },
+    {
+     "title": "Protection from the elements",
+     "text": "Wind-resistant, water-repellent fabric protects you in changing mountain weather."
+    }
+   ]
+  }
+ },
+ {
+  "id": 163,
+  "store": "Arc'teryx",
+  "name": "Cerium Hoody Women's",
+  "description": "The Cerium is a go-to for virtually any alpine undertaking. Taking it higher, we refined the design and sourced more sustainable materials while maintaining its exceptional warmth-to-weight ratio and packability. Responsibly-sourced 850 fill down – with Coreloft™ synthetic utilized in areas prone to moisture – provides premium insulation. The outer, recycled 15D Arato™ nylon with dope-dyed yarns, is light and durable. An insulated StormHood™ extends the warmth, and the streamlined ergonomic fit layers easily. Need a heavier option? Try the Cerium SV Hoody .",
+  "price": 40000,
+  "category": "Women",
+  "color": "Blurple",
+  "image_url": "https://images.arcteryx.com/F26/1350x1710/Cerium-Hoody-W-Blurple.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000010554",
+  "url": "https://arcteryx.com/us/en/shop/womens/cerium-hoody-0554",
+  "colours": [
+   "Black",
+   "Blurple",
+   "Mongoose"
+  ],
+  "details": {
+   "tagline": "Light, warm down hoody shines as an alpine midlayer and versatile standalone. This product was previously the Cerium LT Hoody.",
+   "weight": "290g / 10.2 oz",
+   "weight_g": 290,
+   "fit": "Fitted",
+   "properties": [
+    "Down Fill",
+    "Fair Trade Certified",
+    "bluesign® Approved Materials",
+    "Packable"
+   ],
+   "activities": [
+    "Alpine",
+    "Rock",
+    "Hike",
+    "Resort"
+   ],
+   "colours": [
+    {
+     "label": "Mongoose",
+     "hex": "#5D5348"
+    },
+    {
+     "label": "Black",
+     "hex": "#090E0D"
+    },
+    {
+     "label": "Blurple",
+     "hex": "#55547F"
+    }
+   ],
+   "features": {
+    "Technical features": [
+     "Moisture-resistant outer face fabric",
+     "Breathable",
+     "Great warmth-to-weight ratio",
+     "Lightweight",
+     "Compressible and packable",
+     "Wind resistant",
+     "Versatile"
+    ],
+    "Construction": [
+     "Down Composite Mapping™ strategically places synthetic insulation in areas where moisture may buildup and down in areas for maximum warmth",
+     "850 fill European white goose down for exceptional warmth-to-weight ratio",
+     "Recycled 15D Arato™ outer is light, durable, and coloured with dope dyed yarns",
+     "Downproof 20D plant-based Arato™ liner is exceptionally lightweight and reduces petroleum use"
+    ],
+    "Cuff & Sleeves configuration": [
+     "Stretchy cuffs"
+    ],
+    "Design & Fit": [
+     "Trim fit makes it an ideal layering piece",
+     "Garment Centre Back Length: Size S is 24\"/62cm - Varies by size"
+    ],
+    "Fabric treatment": [
+     "FC0-DWR (Durable Water Repellent) finish repels moisture"
+    ],
+    "Hem configuration": [
+     "Adjustable hem draw cord seals out drafts"
+    ],
+    "Hood configuration": [
+     "Adjustable, insulated StormHood™",
+     "Helmet compatible",
+     "Single pull adjuster does not restrict vision"
+    ],
+    "Integrated features": [
+     "Includes a stuff sack for easy packability — the stuff sack comes attached within the inner pocket, but can be easily removed by undoing the loop"
+    ],
+    "Patterning": [
+     "Articulated patterning for unrestricted mobility"
+    ],
+    "Pocket configuration": [
+     "Two hand pockets with zippers",
+     "Zippered internal security pocket"
+    ],
+    "Sustainability": [
+     "Lining - bio-derived material",
+     "RDS (Responsible Down Standard) - 100% of our down is certified to the RDS by IDFL (No.TE-99950273)",
+     "Feather - This product contains feather not exceeding that allowable by law",
+     "PFAS (Per- and polyfluoroalkyl substances) Compliant",
+     "Sterilization Permit Number- PER. NO. PA-8811 (CA)",
+     "Padding - bluepass Material",
+     "Shell - FC0 DWR, recycled content"
+    ],
+    "Zippers & Fly configuration": [
+     "TPU zipper-pulls reduce noise and are easy to grab",
+     "Reverse coil centre-front zipper improves durability and creates a streamlined profile"
+    ]
+   },
+   "materials": [
+    "Synthetic Insulation: Coreloft™ 80 (80 g/m²) - 100% Polyester",
+    "Down Insulation: 850 fill European white goose down - 100% White Goose Down (minimum 90% down)",
+    "Lining:  10D x 20D Ripstop - 100% Nylon",
+    "Body: Arato™ 15, recycled N6 microrip, jigger dyed - 100% Recycled Nylon",
+    "Origin of fabric: JAPAN",
+    "Origin of dyeing: JAPAN",
+    "Origin of Manufacture: VIETNAM",
+    "May release plastic microfibres into the environment when washing"
+   ],
+   "highlights": [
+    {
+     "title": "High warmth-to-weight ratio",
+     "text": "Responsibly sourced 850-fill down is ultralight and ultrawarm for cold, dry days on the trail."
+    },
+    {
+     "title": "Mapped construction",
+     "text": "A mix of heat-preserving lightweight down and moisture-wicking synthetic insulation delivers strategic warmth."
+    },
+    {
+     "title": "Packable design",
+     "text": "Integrated stuff sack and compressive fill make this the perfect just-in-case layer."
+    }
+   ]
+  }
+ },
+ {
+  "id": 164,
+  "store": "Arc'teryx",
+  "name": "Thorium Jacket Women's",
+  "description": "Warm, durable standalone down jacket",
+  "price": 45000,
+  "category": "Women",
+  "color": "Kasumi",
+  "image_url": "https://images.arcteryx.com/F26/1350x1710/Thorium-Jacket-W-Kasumi.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000010546",
+  "url": "https://arcteryx.com/us/en/shop/womens/thorium-jacket-0546",
+  "colours": [
+   "Black II",
+   "Kasumi",
+   "Sea Salt"
+  ],
+  "details": null
+ },
+ {
+  "id": 165,
+  "store": "Arc'teryx",
+  "name": "Clarkia AR Insulated Hoody Women's",
+  "description": "Insulated stretch-cotton climbing jacket",
+  "price": 35000,
+  "category": "Women",
+  "color": "Bracken",
+  "image_url": "https://images.arcteryx.com/F26/1350x1710/Clarkia-AR-Insulated-Hoody-W-Bracken.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000010746",
+  "url": "https://arcteryx.com/us/en/shop/womens/clarkia-ar-insulated-hoody-0746",
+  "colours": [
+   "Lt Renegade",
+   "Black",
+   "Bracken"
+  ],
+  "details": null
+ },
+ {
+  "id": 166,
+  "store": "Arc'teryx",
+  "name": "Omineca Short Jacket Women's",
+  "description": "Ultra-lightweight, thermomapped down jacket",
+  "price": 50000,
+  "category": "Women",
+  "color": "Blurple",
+  "image_url": "https://images.arcteryx.com/F26/1350x1710/Omineca-Short-Jacket-W-Blurple.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000010498",
+  "url": "https://arcteryx.com/us/en/shop/womens/omineca-short-jacket-0498",
+  "colours": [
+   "Blurple",
+   "Sea Salt / Rune",
+   "Black"
+  ],
+  "details": null
+ },
+ {
+  "id": 167,
+  "store": "Arc'teryx",
+  "name": "Altira Insulated Cropped Jacket Women's",
+  "description": "Cropped, insulated hardshell jacket for day hikes",
+  "price": 70000,
+  "category": "Women",
+  "color": "Dark Jade",
+  "image_url": "https://images.arcteryx.com/F26/1350x1710/Altira-Insulated-Cropped-Jacket-W-Dark-Jade.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000010747",
+  "url": "https://arcteryx.com/us/en/shop/womens/altira-insulated-cropped-jacket-0747",
+  "colours": [
+   "Arctic Silk",
+   "Dark Jade",
+   "Black"
+  ],
+  "details": null
+ },
+ {
+  "id": 168,
+  "store": "Arc'teryx",
+  "name": "Atom SL Hoody Women's",
+  "description": "Lighter than the original, the Atom SL Hoody is one of the most useful (and packable) pieces you can own. Wear it as a standalone layer when trail runs take you through cold, wet weather or layer it with a waterproof shell when mountain pursuits demand additional warmth and mobility. Breathable and weather-resistant, it has stretch insulation in the body but not the sleeves or hood — maximizing packability while still delivering focused warmth to your core. Need a heavier option? Try the Atom Hoody .",
+  "price": 28000,
+  "category": "Women",
+  "color": "Kasumi",
+  "image_url": "https://images.arcteryx.com/F26/1350x1710/Atom-SL-Hoody-W-Kasumi.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000009511",
+  "url": "https://arcteryx.com/us/en/shop/womens/atom-sl-hoody-9511",
+  "colours": [
+   "Arctic Silk",
+   "Black",
+   "Kasumi",
+   "Sea Salt"
+  ],
+  "details": {
+   "tagline": "Lightest, most packable Atom Hoody for big efforts in cold, wet conditions. The Atom SL Hoody was previously the Atom Lightweight Hoody.",
+   "weight": "240g / 8.5 oz",
+   "weight_g": 240,
+   "fit": "Fitted",
+   "properties": [
+    "Synthetic Fill",
+    "Breathable",
+    "Lightweight",
+    "Wind Resistant",
+    "Insulated",
+    "Fair Trade Certified",
+    "bluesign® Approved Materials",
+    "Packable"
+   ],
+   "activities": [
+    "Alpine",
+    "Hike"
+   ],
+   "colours": [
+    {
+     "label": "Arctic Silk",
+     "hex": "#EDE9E0"
+    },
+    {
+     "label": "Black",
+     "hex": "#090E0D"
+    },
+    {
+     "label": "Kasumi",
+     "hex": "#A0ABD3"
+    },
+    {
+     "label": "Sea Salt",
+     "hex": "#D6CFBE"
+    }
+   ],
+   "features": {
+    "Technical features": [
+     "Moisture-resistant outer face fabric",
+     "Breathable",
+     "Lightweight",
+     "Compressible and packable",
+     "Durable",
+     "Wind resistant",
+     "Ultralight"
+    ],
+    "Construction": [
+     "Fortius™ Air 20 face fabric effectively balances air permeability and weather resistance with lightweight durability and stretch",
+     "Stretch synthetic insulation is breathable, warm, and light, adds freedom of movement, and is made with recycled content",
+     "Lightweight stretch Octa® Fleece side panels provide freedom of movement and improve ventilation"
+    ],
+    "Cuff & Sleeves configuration": [
+     "Uninsulated, mesh lined sleeves give light protection and regulate temperature"
+    ],
+    "Design & Fit": [
+     "Fitted, with articulated patterning for mobility and comfort",
+     "Garment Centre Back Length: Size S is 26\"/65cm - Varies by size"
+    ],
+    "Fabric treatment": [
+     "FC0 DWR (Durable Water Repellent) finish repels moisture and is free from intentionally added PFAS"
+    ],
+    "Hem configuration": [
+     "Adjustable hem draw cord seals out drafts"
+    ],
+    "Hood configuration": [
+     "Adjustable, low profile uninsulated StormHood™"
+    ],
+    "Pocket configuration": [
+     "Two hand pockets with zippers"
+    ],
+    "Sustainability": [
+     "Contains materials produced through processes that meet bluesign® criteria",
+     "Contrast - recycled content",
+     "Insulation - recycled content",
+     "This article was treated with an anti-odour biocidal product (Polygiene)",
+     "PFAS (Per- and polyfluoroalkyl substances) Compliant",
+     "Lining  - bluepass Material, FC0 DWR, recycled content",
+     "Shell - recycled content, FC0 DWR, bluepass Material"
+    ]
+   },
+   "materials": [
+    "Contrast: Octa® Polyester Fleece, 40D Delta Face, 122gsm - 100% Polyester",
+    "Synthetic Insulation: Coreloft™ Stretch, 40gsm - 100% Polyester",
+    "Lining: Recycled 20d nylon plain weave weft stretch FC0 DWR, 58gsm - 88% Nylon, 12% Elastane",
+    "Body: Fortius™ Air 20 - Plain Weave, FC0 DWR, 58gsm - 88% Nylon, 12% Elastane",
+    "Origin of fabric: TAIWAN, CHINA",
+    "Origin of dyeing: TAIWAN, CHINA",
+    "Origin of Manufacture:  BANGLADESH",
+    "May release plastic microfibres into the environment when washing"
+   ],
+   "highlights": [
+    {
+     "title": "Stretch synthetic insulation",
+     "text": "100% recycled stretch synthetic insulation throughout the core is warm yet highly breathable. "
+    },
+    {
+     "title": "Side panels",
+     "text": "Stretchy fleece side panels up the breathability and give room to move. "
+    },
+    {
+     "title": "DWR finish ",
+     "text": "A FC0 DWR Durable Water Repellent finish protects against light weather. "
+    }
+   ]
+  }
+ },
+ {
+  "id": 169,
+  "store": "Arc'teryx",
+  "name": "Proton Hoody Women's",
+  "description": "Highly breathable insulated hoody",
+  "price": 35000,
+  "category": "Women",
+  "color": "Kasumi",
+  "image_url": "https://images.arcteryx.com/F26/1350x1710/Proton-Hoody-W-Kasumi.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000009095",
+  "url": "https://arcteryx.com/us/en/shop/womens/proton-hoody-9095",
+  "colours": [
+   "Black",
+   "Lt Renegade",
+   "Kasumi"
+  ],
+  "details": null
+ },
+ {
+  "id": 170,
+  "store": "Arc'teryx",
+  "name": "Cerium Vest Women's",
+  "description": "Warm, versatile lightweight down vest",
+  "price": 30000,
+  "category": "Women",
+  "color": "Blurple",
+  "image_url": "https://images.arcteryx.com/F26/1350x1710/Cerium-Vest-W-Blurple.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000010556",
+  "url": "https://arcteryx.com/us/en/shop/womens/cerium-vest-0556",
+  "colours": [
+   "Black",
+   "Bracken",
+   "Blurple"
+  ],
+  "details": null
+ },
+ {
+  "id": 171,
+  "store": "Arc'teryx",
+  "name": "Atom Vest Women's",
+  "description": "Warm-even-when-wet synthetically insulated vest",
+  "price": 20000,
+  "category": "Women",
+  "color": "Bracken",
+  "image_url": "https://images.arcteryx.com/F26/1350x1710/Atom-Vest-W-Bracken.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000009507",
+  "url": "https://arcteryx.com/us/en/shop/womens/atom-vest-9507",
+  "colours": [
+   "Black",
+   "Dk Stratus / Blk Sapphire",
+   "Alpine Rose",
+   "Bracken"
+  ],
+  "details": null
+ },
+ {
+  "id": 172,
+  "store": "Arc'teryx",
+  "name": "Cerium Jacket Women's",
+  "description": "Warm, versatile lightweight down jacket",
+  "price": 38000,
+  "category": "Women",
+  "color": "Shincha",
+  "image_url": "https://images.arcteryx.com/F26/1350x1710/Cerium-Jacket-W-Shincha.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000010584",
+  "url": "https://arcteryx.com/us/en/shop/womens/cerium-jacket-0584",
+  "colours": [
+   "Black II",
+   "Shincha"
+  ],
+  "details": null
+ },
+ {
+  "id": 173,
+  "store": "Arc'teryx",
+  "name": "Liatris Down Parka Women's",
+  "description": "GORE-TEX down parka for extreme cold",
+  "price": 100000,
+  "category": "Women",
+  "color": "Rune / Black",
+  "image_url": "https://images.arcteryx.com/F25/1350x1710/Liatris-Down-Parka-W-Rune-Black.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000009858",
+  "url": "https://arcteryx.com/us/en/shop/womens/liatris-down-parka-9858",
+  "colours": [
+   "Black",
+   "Rune / Black"
+  ],
+  "details": null
+ },
+ {
+  "id": 174,
+  "store": "Arc'teryx",
+  "name": "Atom Jacket Women's",
+  "description": "Breathable, hybrid-insulation all-mountain jacket",
+  "price": 28000,
+  "category": "Women",
+  "color": "Alpine Rose",
+  "image_url": "https://images.arcteryx.com/F26/1350x1710/Atom-Jacket-W-Alpine-Rose.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000009855",
+  "url": "https://arcteryx.com/us/en/shop/womens/atom-jacket-9855",
+  "colours": [
+   "Black",
+   "Alpine Rose",
+   "Arctic Silk II"
+  ],
+  "details": null
+ },
+ {
+  "id": 175,
+  "store": "Arc'teryx",
+  "name": "Elec Insulated Jacket Women's",
+  "description": "Durable warmth for your next hike and beyond",
+  "price": 30000,
+  "category": "Women",
+  "color": "Black",
+  "image_url": "https://images.arcteryx.com/F26/1350x1710/Elec-Insulated-Jacket-W-Black.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000009512",
+  "url": "https://arcteryx.com/us/en/shop/womens/elec-insulated-jacket-9512",
+  "colours": [
+   "Black"
+  ],
+  "details": null
+ },
+ {
+  "id": 176,
+  "store": "Arc'teryx",
+  "name": "Andessa Down Jacket Women's",
+  "description": "Warm, waterproof jacket for the resort",
+  "price": 110000,
+  "category": "Women",
+  "color": "Kasumi",
+  "image_url": "https://images.arcteryx.com/F26/1350x1710/Andessa-Down-Jacket-W-Kasumi.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000009948",
+  "url": "https://arcteryx.com/us/en/shop/womens/andessa-down-jacket-9948",
+  "colours": [
+   "Black",
+   "Arctic Silk",
+   "Kasumi"
+  ],
+  "details": null
+ },
+ {
+  "id": 177,
+  "store": "Arc'teryx",
+  "name": "Thorium Vest Women's",
+  "description": "Warm, durable standalone down vest",
+  "price": 35000,
+  "category": "Women",
+  "color": "Kasumi",
+  "image_url": "https://images.arcteryx.com/F26/1350x1710/Thorium-Vest-W-Kasumi.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000010547",
+  "url": "https://arcteryx.com/us/en/shop/womens/thorium-vest-0547",
+  "colours": [
+   "Black II",
+   "Kasumi"
+  ],
+  "details": null
+ },
+ {
+  "id": 178,
+  "store": "Arc'teryx",
+  "name": "Liatris Down Jacket Women's",
+  "description": "GORE-TEX down jacket for extreme cold",
+  "price": 85000,
+  "category": "Women",
+  "color": "Mongoose",
+  "image_url": "https://images.arcteryx.com/F26/1350x1710/Liatris-Down-Jacket-W-Mongoose.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000009859",
+  "url": "https://arcteryx.com/us/en/shop/womens/liatris-down-jacket-9859",
+  "colours": [
+   "Black",
+   "Alpine Rose",
+   "Mongoose"
+  ],
+  "details": null
+ },
+ {
+  "id": 179,
+  "store": "Arc'teryx",
+  "name": "Beta Insulated Jacket Women's",
+  "description": "Synthetically insulated Beta hardshell",
+  "price": 75000,
+  "category": "Women",
+  "color": "Black",
+  "image_url": "https://images.arcteryx.com/F25/1350x1710/Beta-Insulated-Jacket-W-Black.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000010512",
+  "url": "https://arcteryx.com/us/en/shop/womens/beta-insulated-jacket-0512",
+  "colours": [
+   "Black"
+  ],
+  "details": null
+ },
+ {
+  "id": 180,
+  "store": "Arc'teryx",
+  "name": "Cerium SL Hoody Women's",
+  "description": "Ultralight, packable down hoody for low output",
+  "price": 45000,
+  "category": "Women",
+  "color": "Black",
+  "image_url": "https://images.arcteryx.com/S26/1350x1710/Cerium-SL-Hoody-W-Black.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000011029",
+  "url": "https://arcteryx.com/us/en/shop/womens/cerium-sl-hoody-1029",
+  "colours": [
+   "Black"
+  ],
+  "details": null
+ },
+ {
+  "id": 181,
+  "store": "Arc'teryx",
+  "name": "Atom SL Jacket Women's",
+  "description": "Lightest Atom Jacket for high-output activities",
+  "price": 26000,
+  "category": "Women",
+  "color": "Arctic Silk",
+  "image_url": "https://images.arcteryx.com/S26/1350x1710/Atom-SL-Jacket-W-Arctic-Silk.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000009510",
+  "url": "https://arcteryx.com/us/en/shop/womens/atom-sl-jacket-9510",
+  "colours": [
+   "Black",
+   "Arctic Silk"
+  ],
+  "details": null
+ },
+ {
+  "id": 182,
+  "store": "Arc'teryx",
+  "name": "Proton SL Hoody Women's",
+  "description": "Climber's lightest, most breathable insulation",
+  "price": 28000,
+  "category": "Women",
+  "color": "Black",
+  "image_url": "https://images.arcteryx.com/S25/1350x1710/Proton-SL-Hoody-W-Black.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000009508",
+  "url": "https://arcteryx.com/us/en/shop/womens/proton-sl-hoody-9508",
+  "colours": [
+   "Black"
+  ],
+  "details": null
+ },
+ {
+  "id": 183,
+  "store": "Arc'teryx",
+  "name": "Atom SV Jacket Women's",
+  "description": "Our warmest Atom jacket for cold-weather hiking",
+  "price": 30000,
+  "category": "Women",
+  "color": "Kasumi",
+  "image_url": "https://images.arcteryx.com/F26/1350x1710/Atom-SV-Jacket-W-Kasumi.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000009852",
+  "url": "https://arcteryx.com/us/en/shop/womens/atom-sv-jacket-9852",
+  "colours": [
+   "Black",
+   "Kasumi"
+  ],
+  "details": null
+ },
+ {
+  "id": 184,
+  "store": "Arc'teryx",
+  "name": "Norvan Insulated Hoody Women's",
+  "description": "Superlight insulated mountain-running hoody",
+  "price": 30000,
+  "category": "Women",
+  "color": "Black",
+  "image_url": "https://images.arcteryx.com/F25/1350x1710/Norvan-Insulated-Hoody-W-Black.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000008528",
+  "url": "https://arcteryx.com/us/en/shop/womens/norvan-insulated-hoody-8528",
+  "colours": [
+   "Black"
+  ],
+  "details": null
+ },
+ {
+  "id": 185,
+  "store": "Arc'teryx",
+  "name": "Sentinel Insulated Jacket Women's",
+  "description": "The cold-weather freeride solution",
+  "price": 90000,
+  "category": "Women",
+  "color": "Dark Jade",
+  "image_url": "https://images.arcteryx.com/F26/1350x1710/Sentinel-Insulated-Jacket-W-Dark-Jade.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000010455",
+  "url": "https://arcteryx.com/us/en/shop/womens/sentinel-insulated-jacket-0455",
+  "colours": [
+   "Dark Jade",
+   "Black",
+   "Arctic Silk / Black"
+  ],
+  "details": null
+ },
+ {
+  "id": 186,
+  "store": "Arc'teryx",
+  "name": "Proton Heavyweight Hoody Women's",
+  "description": "Warm, breathable insulated hoody",
+  "price": 40000,
+  "category": "Women",
+  "color": "Sea Salt",
+  "image_url": "https://images.arcteryx.com/F26/1350x1710/Proton-Heavyweight-Hoody-W-Sea-Salt.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000010588",
+  "url": "https://arcteryx.com/us/en/shop/womens/proton-heavyweight-hoody-0588",
+  "colours": [
+   "Black",
+   "Sea Salt"
+  ],
+  "details": null
+ },
+ {
+  "id": 187,
+  "store": "Arc'teryx",
+  "name": "Cerium SV Vest Women's",
+  "description": "Our warmest Cerium down vest",
+  "price": 35000,
+  "category": "Women",
+  "color": "Dark Jade",
+  "image_url": "https://images.arcteryx.com/F26/1350x1710/Cerium-SV-Vest-W-Dark-Jade.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000008532",
+  "url": "https://arcteryx.com/us/en/shop/womens/cerium-sv-vest-8532",
+  "colours": [
+   "Black",
+   "Dark Jade"
+  ],
+  "details": null
+ },
+ {
+  "id": 188,
+  "store": "Arc'teryx",
+  "name": "Covert Cardigan Women's",
+  "description": "Abrasion-resistant fleece for low-output hikes",
+  "price": 18000,
+  "category": "Women",
+  "color": "Alpine Rose Heather",
+  "image_url": "https://images.arcteryx.com/F26/1350x1710/Covert-Cardigan-W-Alpine-Rose-Heather.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000010735",
+  "url": "https://arcteryx.com/us/en/shop/womens/covert-cardigan-0735",
+  "colours": [
+   "Alpine Rose Heather",
+   "Black Heather",
+   "Arc Silk Hthr / Salt",
+   "Mongoose Heather"
+  ],
+  "details": null
+ },
+ {
+  "id": 189,
+  "store": "Arc'teryx",
+  "name": "Covert 1/2 Zip Neck Women's",
+  "description": "Durable fleece pullover for low-output hikes",
+  "price": 16000,
+  "category": "Women",
+  "color": "Larch Heather",
+  "image_url": "https://images.arcteryx.com/F26/1350x1710/Covert-1-2-Zip-Neck-W-Larch-Heather.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000010736",
+  "url": "https://arcteryx.com/us/en/shop/womens/covert-1-2-zip-neck-0736",
+  "colours": [
+   "Black Heather",
+   "Larch Heather",
+   "Kasumi Heather",
+   "Arc Silk Hthr / Salt"
+  ],
+  "details": null
+ },
+ {
+  "id": 190,
+  "store": "Arc'teryx",
+  "name": "Covert Pant Women's",
+  "description": "Abrasion-resistant, technical fleece pant",
+  "price": 18000,
+  "category": "Women",
+  "color": "Mongoose Heather",
+  "image_url": "https://images.arcteryx.com/F26/1350x1710/Covert-Pant-W-Mongoose-Heather.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000010737",
+  "url": "https://arcteryx.com/us/en/shop/womens/covert-pant-0737",
+  "colours": [
+   "Mongoose Heather",
+   "Black Heather"
+  ],
+  "details": null
+ },
+ {
+  "id": 191,
+  "store": "Arc'teryx",
+  "name": "Rho Zip Neck Women's",
+  "description": "Cold days and long approaches call for breathable insulation and plenty of venting. Made for multiple activities with chafe-free seams throughout, the Rho Zip Neck is your base layer of choice for steady efforts in cool to cold temperatures. Its zip-down collar regulates extra warmth, while the light next-to-skin fit ensures soft, fleecy comfort as well as excellent heat trapping and moisture wicking. What's been updated: The Rho Zip Neck is even comfier than before, with baby-merrow stitching for a seamless inner feel.",
+  "price": 12000,
+  "category": "Women",
+  "color": "Kasumi / Blurple",
+  "image_url": "https://images.arcteryx.com/F26/1350x1710/Rho-Zip-Neck-W-Kasumi-Blurple.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000010749",
+  "url": "https://arcteryx.com/us/en/shop/womens/rho-zip-neck-0749",
+  "colours": [
+   "Black",
+   "LT Rene / Rene / Rocket",
+   "Kasumi / Blurple"
+  ],
+  "details": {
+   "tagline": "A lightweight zipped fleece base layer with excellent moisture management for cold weather.",
+   "weight": "197g / 6.9 oz",
+   "weight_g": 197,
+   "fit": "Fitted",
+   "properties": [
+    "Breathable",
+    "Fleece",
+    "Lightweight",
+    "Synthetic",
+    "Moisture Wicking",
+    "Fair Trade Certified",
+    "bluesign® Approved Materials",
+    "Thumbholes",
+    "Base Layer Tops"
+   ],
+   "activities": [
+    "Touring",
+    "Freeride",
+    "Resort"
+   ],
+   "colours": [
+    {
+     "label": "Black",
+     "hex": "#090E0D"
+    },
+    {
+     "label": "LT Rene / Rene / Rocket",
+     "hex": "#9F5069"
+    },
+    {
+     "label": "Kasumi / Blurple",
+     "hex": "#A0ABD3"
+    }
+   ],
+   "features": {
+    "Technical features": [
+     "Moisture-wicking",
+     "Breathable",
+     "Lightweight",
+     "Versatile",
+     "Warm and comfortable"
+    ],
+    "Collar configuration": [
+     "Low profile collar"
+    ],
+    "Construction": [
+     "Torrent™ stretch fleece manages moisture and provides light warmth and brushed softness"
+    ],
+    "Cuff & Sleeves configuration": [
+     "Thumb holes in cuffs add warmth and coverage"
+    ],
+    "Design & Fit": [
+     "Next-to-skin fit for comfort and easy layering",
+     "Designed for a variety of activities"
+    ],
+    "Fabric treatment": [
+     "Silvadur™ antimicrobial treatment provides lasting odour resistance"
+    ],
+    "Pocket configuration": [
+     "Zippered upper arm pocket for small storage"
+    ],
+    "Sustainability": [
+     "Contains materials produced through processes that meet bluesign® criteria",
+     "This article was treated with an anti-odour biocidal product (Silvadur™ )",
+     "PFAS (Per- and polyfluoroalkyl substances) Compliant"
+    ],
+    "Zippers & Fly configuration": [
+     "Chest half zip"
+    ]
+   },
+   "materials": [
+    "Body:  Torrent™ - Jersey knit, 185gsm - 84% Polyester, 16% Elastane",
+    "Origin of fabric: TAIWAN, CHINA",
+    "Origin of dyeing: TAIWAN, CHINA",
+    "Origin of Manufacture: VIETNAM",
+    "May release plastic microfibres into the environment when washing"
+   ],
+   "highlights": []
+  }
+ },
+ {
+  "id": 192,
+  "store": "Arc'teryx",
+  "name": "Olera Zip Neck Women's",
+  "description": "Insulating zip-neck midlayer with high warmth-to-weight ratio",
+  "price": 18000,
+  "category": "Women",
+  "color": "Mongoose",
+  "image_url": "https://images.arcteryx.com/F26/1350x1710/Olera-Zip-Neck-W-Mongoose.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000010928",
+  "url": "https://arcteryx.com/us/en/shop/womens/olera-zip-neck-0928",
+  "colours": [
+   "Solitude",
+   "Mongoose"
+  ],
+  "details": null
+ },
+ {
+  "id": 193,
+  "store": "Arc'teryx",
+  "name": "Kyanite Hoody Women's",
+  "description": "Midweight stretch fleece hoody",
+  "price": 20000,
+  "category": "Women",
+  "color": "Kasumi",
+  "image_url": "https://images.arcteryx.com/F26/1350x1710/Kyanite-Hoody-W-Kasumi.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000008535",
+  "url": "https://arcteryx.com/us/en/shop/womens/kyanite-hoody-8535",
+  "colours": [
+   "Black",
+   "Kasumi",
+   "Bracken",
+   "Lt Renegade / Renegade",
+   "Blurple"
+  ],
+  "details": null
+ },
+ {
+  "id": 194,
+  "store": "Arc'teryx",
+  "name": "Kyanite Jacket Women's",
+  "description": "Midweight stretch fleece jacket",
+  "price": 18000,
+  "category": "Women",
+  "color": "Kasumi",
+  "image_url": "https://images.arcteryx.com/F26/1350x1710/Kyanite-Jacket-W-Kasumi.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000008516",
+  "url": "https://arcteryx.com/us/en/shop/womens/kyanite-jacket-8516",
+  "colours": [
+   "Black",
+   "Lt Renegade / Renegade",
+   "Arctic Silk / Sea Salt",
+   "Kasumi"
+  ],
+  "details": null
+ },
+ {
+  "id": 195,
+  "store": "Arc'teryx",
+  "name": "Rho Crew Neck LS Women's",
+  "description": "Our simplest fleece top",
+  "price": 10000,
+  "category": "Women",
+  "color": "Kasumi / Blurple",
+  "image_url": "https://images.arcteryx.com/F26/1350x1710/Rho-Crew-Neck-LS-W-Kasumi-Blurple.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000010757",
+  "url": "https://arcteryx.com/us/en/shop/womens/rho-crew-neck-ls-0757",
+  "colours": [
+   "Kasumi / Blurple",
+   "LT Rene / Rene / Rocket",
+   "Black"
+  ],
+  "details": null
+ },
+ {
+  "id": 196,
+  "store": "Arc'teryx",
+  "name": "Emblem Fleece Jogger Women's",
+  "description": "Midweight fleece climbing pant",
+  "price": 12000,
+  "category": "Women",
+  "color": "Mongoose",
+  "image_url": "https://images.arcteryx.com/F26/1350x1710/Emblem-Fleece-Jogger-W-Mongoose.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000010222",
+  "url": "https://arcteryx.com/us/en/shop/womens/emblem-fleece-jogger-0222",
+  "colours": [
+   "Black",
+   "Habitat",
+   "Sea Salt",
+   "Mongoose"
+  ],
+  "details": null
+ },
+ {
+  "id": 197,
+  "store": "Arc'teryx",
+  "name": "Emblem Fleece Hoody Women's",
+  "description": "Ultra-comfortable, oversized fleece hoody",
+  "price": 14000,
+  "category": "Women",
+  "color": "Mongoose",
+  "image_url": "https://images.arcteryx.com/F26/1350x1710/Emblem-Fleece-Hoody-W-Mongoose.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000010740",
+  "url": "https://arcteryx.com/us/en/shop/womens/emblem-fleece-hoody-0740",
+  "colours": [
+   "Lt Renegade",
+   "Mongoose",
+   "Sea Salt",
+   "Black"
+  ],
+  "details": null
+ },
+ {
+  "id": 198,
+  "store": "Arc'teryx",
+  "name": "Rho Bottom Women's",
+  "description": "Trusted cold-weather fleece bottom",
+  "price": 10000,
+  "category": "Women",
+  "color": "Blurple",
+  "image_url": "https://images.arcteryx.com/F26/1350x1710/Rho-Bottom-W-Blurple.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000010753",
+  "url": "https://arcteryx.com/us/en/shop/womens/rho-bottom-0753",
+  "colours": [
+   "Blurple",
+   "Black",
+   "LT Rene / Rene / Rocket"
+  ],
+  "details": null
+ },
+ {
+  "id": 199,
+  "store": "Arc'teryx",
+  "name": "Emblem Fleece Crew Women's",
+  "description": "Hardworking, soft-wearing fleece climbing crew",
+  "price": 12000,
+  "category": "Women",
+  "color": "Mongoose",
+  "image_url": "https://images.arcteryx.com/F26/1350x1710/Emblem-Fleece-Crew-W-Mongoose.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000010260",
+  "url": "https://arcteryx.com/us/en/shop/womens/emblem-fleece-crew-0260",
+  "colours": [
+   "Black",
+   "Lt Renegade",
+   "Mongoose",
+   "Sea Salt"
+  ],
+  "details": null
+ },
+ {
+  "id": 200,
+  "store": "Arc'teryx",
+  "name": "Rho SV Zip Neck Women's",
+  "description": "Warm Polartec® stretch fleece base layer",
+  "price": 14000,
+  "category": "Women",
+  "color": "Renegade",
+  "image_url": "https://images.arcteryx.com/F26/1350x1710/Rho-SV-Zip-Neck-W-Renegade.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000010920",
+  "url": "https://arcteryx.com/us/en/shop/womens/rho-sv-zip-neck-0920",
+  "colours": [
+   "Renegade",
+   "Arctic Silk / Sea Salt",
+   "Blurple",
+   "Black"
+  ],
+  "details": null
+ },
+ {
+  "id": 201,
+  "store": "Arc'teryx",
+  "name": "Olera Crew Neck Pullover Women's",
+  "description": "Insulating midlayer with high warmth-to-weight ratio",
+  "price": 16000,
+  "category": "Women",
+  "color": "Alpine Rose",
+  "image_url": "https://images.arcteryx.com/F26/1350x1710/Olera-Crew-Neck-Pullover-W-Alpine-Rose.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000010944",
+  "url": "https://arcteryx.com/us/en/shop/womens/olera-crew-neck-pullover-0944",
+  "colours": [
+   "Solitude",
+   "Alpine Rose"
+  ],
+  "details": null
+ },
+ {
+  "id": 202,
+  "store": "Arc'teryx",
+  "name": "Rho Hoody Women's",
+  "description": "The hooded fleece base layer for winter",
+  "price": 12000,
+  "category": "Women",
+  "color": "Kasumi / Blurple",
+  "image_url": "https://images.arcteryx.com/F26/1350x1710/Rho-Hoody-W-Kasumi-Blurple.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000010754",
+  "url": "https://arcteryx.com/us/en/shop/womens/rho-hoody-0754",
+  "colours": [
+   "Kasumi / Blurple",
+   "Black"
+  ],
+  "details": null
+ },
+ {
+  "id": 203,
+  "store": "Arc'teryx",
+  "name": "Delta Jacket Women's",
+  "description": "Our most technical fleece midlayer jacket delivers performance that transcends cozy. Breathable, durable, and soft, the fleece’s innovative hollow-core fibre construction provides superior warmth for its weight. The smooth face adds durability, and Phasic AR II panels under the arms add stretch and are made with wicking fibres. Patterned for ergonomic freedom and fit for easy layering under a shell, the Delta also shines as a standalone warming layer at camp or on the move. Size and fit tip: The Deltas offer a roomier fit in the body and sleeves than their predecessors, for improved comfort, versatility, and freedom of movement during high-output activities.",
+  "price": 20000,
+  "category": "Women",
+  "color": "Forage / Habitat",
+  "image_url": "https://images.arcteryx.com/S26/1350x1710/Delta-Jacket-W-Forage-Habitat.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000010560",
+  "url": "https://arcteryx.com/us/en/shop/womens/delta-jacket-0560",
+  "colours": [
+   "Black",
+   "Forage / Habitat"
+  ],
+  "details": {
+   "tagline": "Our most technical fleece jacket delivers thermal performance for minimal weight.",
+   "weight": "195g / 6.9 oz",
+   "weight_g": 195,
+   "fit": "Fitted",
+   "properties": [
+    "Fleece",
+    "Synthetic",
+    "Fair Trade Certified",
+    "bluesign® Approved Materials"
+   ],
+   "activities": [
+    "Alpine",
+    "Rock"
+   ],
+   "colours": [
+    {
+     "label": "Forage / Habitat",
+     "hex": "#4A4739"
+    },
+    {
+     "label": "Black",
+     "hex": "#090E0D"
+    }
+   ],
+   "features": {
+    "Technical features": [
+     "Breathable",
+     "Durable",
+     "Warm and comfortable"
+    ],
+    "Collar configuration": [
+     "Chin guard for added comfort"
+    ],
+    "Construction": [
+     "Flatlock seam construction improves next-to-skin comfort",
+     "Phasic™ AR II engineered polyester fabric is soft, offers stretch and thermal comfort, and is made with wicking fibres",
+     "Innovative fleece insulation has a unique hollow-core fibre construction delivering an exceptional warmth-to-weight ratio, soft comfort, has a smooth face for improved durability",
+     "Fleece’s construction creates a smooth face for improved durability and layers more comfortably"
+    ],
+    "Design & Fit": [
+     "Garment Centre Back Length: Size S is 24\"/62cm - Varies by size"
+    ],
+    "Patterning": [
+     "Articulated patterning for unrestricted mobility"
+    ],
+    "Pocket configuration": [
+     "Two hand pockets with zippers",
+     "Laminated chest pocket with laminated zip"
+    ],
+    "Sustainability": [
+     "Recycled content",
+     "This article was treated with an anti-odour biocidal product (Silvadur™ )",
+     "PFAS (Per- and polyfluoroalkyl substances) Compliant"
+    ],
+    "Zippers & Fly configuration": [
+     "Full front zip"
+    ]
+   },
+   "materials": [
+    "Contrast: Warp knit mesh - 100% Polyester",
+    "Body:  Octa Polyester Fleece, 40D Delta Face, 122gsm - 100% Polyester",
+    "Origin of fabric: JAPAN",
+    "Origin of dyeing: JAPAN",
+    "Origin of Manufacture: VIETNAM",
+    "May release plastic microfibres into the environment when washing"
+   ],
+   "highlights": []
+  }
+ },
+ {
+  "id": 204,
+  "store": "Arc'teryx",
+  "name": "Rho SV Crew Neck LS Women's",
+  "description": "Our warmest stretch-fleece base layer crew",
+  "price": 12000,
+  "category": "Women",
+  "color": "Renegade",
+  "image_url": "https://images.arcteryx.com/F26/1350x1710/Rho-SV-Crew-Neck-LS-W-Renegade.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000010922",
+  "url": "https://arcteryx.com/us/en/shop/womens/rho-sv-crew-neck-ls-0922",
+  "colours": [
+   "Black",
+   "Blurple",
+   "Renegade"
+  ],
+  "details": null
+ },
+ {
+  "id": 205,
+  "store": "Arc'teryx",
+  "name": "Emblem Fleece Short 6\" Women's",
+  "description": "Fleece climbing short for warm-ups and cool-downs",
+  "price": 8000,
+  "category": "Women",
+  "color": "Pineberry",
+  "image_url": "https://images.arcteryx.com/S26/1350x1710/Emblem-Fleece-Short-6-W-Pineberry.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000010221",
+  "url": "https://arcteryx.com/us/en/shop/womens/emblem-fleece-short-6-0221",
+  "colours": [
+   "Black",
+   "Sea Salt",
+   "Pineberry"
+  ],
+  "details": null
+ },
+ {
+  "id": 206,
+  "store": "Arc'teryx",
+  "name": "Rho SV Bottom Women's",
+  "description": "Warm Polartec® stretch fleece base layer",
+  "price": 12000,
+  "category": "Women",
+  "color": "Renegade",
+  "image_url": "https://images.arcteryx.com/F26/1350x1710/Rho-SV-Bottom-W-Renegade.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000010921",
+  "url": "https://arcteryx.com/us/en/shop/womens/rho-sv-bottom-0921",
+  "colours": [
+   "Renegade",
+   "Black"
+  ],
+  "details": null
+ },
+ {
+  "id": 207,
+  "store": "Arc'teryx",
+  "name": "Kyanite LT Hoody Women's",
+  "description": "Simplicity melts boundaries. Designed to provide appropriate warmth for shoulder season conditions, and refined to perform across a range of activities, the Kyanite is a lightweight technical hoody that shines as a midlayer or standalone. Providing warmth, mobility and moisture management, the Torrent™ fleece offers four-way stretch and is incredibly soft against skin. The trim fit layers easily, a low-profile ScubaHood™ adds warmth, and a No Slip Zip™ prevents inadvertent opening. Size and fit tip: Fitted fit - This trimmer fit is patterned to stay close to the body through the chest, waist, hip, and thigh. Its low profile eliminates bulk, moves with the body, and fits comfortably under our outer layers. This model's fit has evolved. Before you check out, please make sure to reference our sizing chart to determine your correct size.",
+  "price": 15000,
+  "category": "Women",
+  "color": "Sea Salt",
+  "image_url": "https://images.arcteryx.com/S26/1350x1710/Kyanite-LT-Hoody-W-Sea-Salt.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000009645",
+  "url": "https://arcteryx.com/us/en/shop/womens/kyanite-lt-hoody-9645",
+  "colours": [
+   "Black",
+   "Sea Salt"
+  ],
+  "details": {
+   "tagline": "Light, versatile stretch fleece with exceptional next-to-skin comfort for layering or standalone piece for a range of mountain acitivities.",
+   "weight": "235g / 8.3 oz",
+   "weight_g": 235,
+   "fit": "Fitted",
+   "properties": [
+    "Fleece",
+    "Fair Trade Certified",
+    "bluesign® Approved Materials"
+   ],
+   "activities": [
+    "Alpine",
+    "Rock",
+    "Boulder",
+    "Hike",
+    "Touring",
+    "Freeride",
+    "Resort"
+   ],
+   "colours": [
+    {
+     "label": "Sea Salt",
+     "hex": "#D6CFBE"
+    },
+    {
+     "label": "Black",
+     "hex": "#090E0D"
+    }
+   ],
+   "features": {
+    "Technical features": [
+     "Durable",
+     "Versatile"
+    ],
+    "Construction": [
+     "Four-way stretch textile",
+     "Torrent™ stretch fleece is extremely soft next-to-skin, manages moisture, provides light warmth and performance stretch, is brushed for softness",
+     "Merrow stitch seam construction reduces seam size and irritation"
+    ],
+    "Design & Fit": [
+     "Trim, slim fit, optimizes exceptional breathability during high output",
+     "This model’s fit has evolved. Please reference our sizing chart to make sure it’s the right size for you",
+     "Garment Centre Back Length: Size S is 26\"/65cm - Varies by size"
+    ],
+    "Hood configuration": [
+     "Low profile hood"
+    ],
+    "Patterning": [
+     "Articulated patterning for unrestricted mobility",
+     "Gusseted underarms for mobility and comfort"
+    ],
+    "Pocket configuration": [
+     "Two hand pockets with zippers"
+    ],
+    "Sustainability": [
+     "Contains materials produced through processes that meet bluesign® criteria",
+     "Lining - bluepass Material",
+     "This article was treated with an anti-odour biocidal product (Polygiene)",
+     "PFAS (Per- and polyfluoroalkyl substances) Compliant"
+    ],
+    "Zippers & Fly configuration": [
+     "No Slip Zip™ front zipper",
+     "Kissing Zipper chin guard protects chin and neck from zipper chafing"
+    ]
+   },
+   "materials": [
+    "Contrast: Warp knit mesh - 100% Polyester",
+    "Body:  Torrent™ - Jersey knit peached face with brushed back, 185gsm - 84% Polyester, 16% Elastane",
+    "Origin of fabric: TAIWAN, CHINA",
+    "Origin of dyeing: TAIWAN, CHINA",
+    "Origin of Manufacture: VIETNAM",
+    "May release plastic microfibres into the environment when washing"
+   ],
+   "highlights": []
+  }
+ },
+ {
+  "id": 208,
+  "store": "Arc'teryx",
+  "name": "Satoro Merino Wool Crew Neck LS Women's",
+  "description": "Long backcountry treks and tours, a day on the trail or snow, this is the go-to base layer. The 240gsm Merino wool fibres are chosen for thermoregulation, softness, and natural odour-resistance. The fit is streamlined for easy layering, seams are minimized to reduce irritation, and articulated patterning provides freedom of movement.",
+  "price": 12000,
+  "category": "Women",
+  "color": "Tatsu",
+  "image_url": "https://images.arcteryx.com/F25/1350x1710/Satoro-Merino-Wool-Crew-Neck-LS-W-Tatsu.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000008474",
+  "url": "https://arcteryx.com/us/en/shop/womens/satoro-merino-wool-crew-neck-ls-8474",
+  "colours": [
+   "Black",
+   "Tatsu",
+   "Alpine Rose",
+   "Dark Jade",
+   "Ultima / Renegade"
+  ],
+  "details": {
+   "tagline": "Merino-blend base layer for multiday treks and mid-output winter activities.",
+   "weight": "160g / 5.6 oz",
+   "weight_g": 160,
+   "fit": "Fitted",
+   "properties": [
+    "Wool blend",
+    "Breathable",
+    "Fair Trade Certified",
+    "Base Layer Tops"
+   ],
+   "activities": [
+    "Alpine",
+    "Hike",
+    "Touring",
+    "Freeride",
+    "Resort",
+    "Trail Run"
+   ],
+   "colours": [
+    {
+     "label": "Alpine Rose",
+     "hex": "#CFB9BA"
+    },
+    {
+     "label": "Black",
+     "hex": "#090E0D"
+    },
+    {
+     "label": "Dark Jade",
+     "hex": "#24312D"
+    },
+    {
+     "label": "Tatsu",
+     "hex": "#524D3D"
+    },
+    {
+     "label": "Ultima / Renegade",
+     "hex": "#320C24"
+    }
+   ],
+   "features": {
+    "Technical features": [
+     "Lightweight",
+     "Natural merino wool has anti–odour properties",
+     "Cold weather comfort",
+     "Warm and comfortable"
+    ],
+    "Construction": [
+     "Ultra fine Merino wool is known for soft comfort, natural temperature regulation and odour resistance",
+     "Merrow and flatlock seam constructions reduce bulk and enhance comfort",
+     "Binding at back of collar for a smooth, comfortable finish"
+    ],
+    "Design & Fit": [
+     "Fitted for efficient fabric performance, easy layering",
+     "Low-profile crew neck is comfortable under layers"
+    ],
+    "Patterning": [
+     "Articulated patterning for unrestricted mobility"
+    ],
+    "Sustainability": [
+     "Wool is sourced from humanely raised, non-mulesed sheep",
+     "RWS (Responsible Wool Standard) - The wool in this product is 100% Responsible Wool Standard (RWS) certified by IDFL (No.TE-99950273)",
+     "PFAS (Per- and polyfluoroalkyl substances) Compliant"
+    ]
+   },
+   "materials": [
+    "Body: Merino Lycra Jersey, 18.5mn, 240gsm - 95% Wool, 5% Elastane",
+    "Origin of fabric: NEW ZEALAND",
+    "Origin of dyeing: NEW ZEALAND",
+    "Origin of Manufacture: VIETNAM"
+   ],
+   "highlights": []
+  }
+ },
+ {
+  "id": 209,
+  "store": "Arc'teryx",
+  "name": "Satoro Merino Wool Hoody Women's",
+  "description": "Lightweight Merino-blend base layer",
+  "price": 14000,
+  "category": "Women",
+  "color": "Dark Jade",
+  "image_url": "https://images.arcteryx.com/F26/1350x1710/Satoro-Merino-Wool-Hoody-W-Dark-Jade.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000009044",
+  "url": "https://arcteryx.com/us/en/shop/womens/satoro-merino-wool-hoody-9044",
+  "colours": [
+   "Black",
+   "Dark Jade"
+  ],
+  "details": null
+ },
+ {
+  "id": 210,
+  "store": "Arc'teryx",
+  "name": "Satoro Merino Wool Bottom Women's",
+  "description": "Lightweight Merino-blend base layer",
+  "price": 12000,
+  "category": "Women",
+  "color": "Dark Jade",
+  "image_url": "https://images.arcteryx.com/F26/1350x1710/Satoro-Merino-Wool-Bottom-W-Dark-Jade.jpg",
+  "created_at": "2026-10-10T00:00:00Z",
+  "sku": "X000009321",
+  "url": "https://arcteryx.com/us/en/shop/womens/satoro-merino-wool-bottom-9321",
+  "colours": [
+   "Black",
+   "Dark Jade"
+  ],
+  "details": null
+ }
+]
