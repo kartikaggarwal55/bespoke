@@ -46,6 +46,16 @@ pnpm dev
 | `BESPOKE_STORE` | `Uniqlo` | only Uniqlo has catalog data |
 | `MERCHANT_BASE_URL` | the hosted API | |
 
+## Deploying
+
+Hosted on Vercel at **https://bespoke-tan.vercel.app**, connected to this repo —
+pushing to `main` deploys.
+
+`ANTHROPIC_API_KEY` must be set in the Vercel project (Production and
+Development are set). `vercel.json` raises the journey route to a 300s limit,
+which it needs: a full journey takes up to ~103s, nearly all of it waiting on
+the merchant's page builder.
+
 ## Layout
 
 | | |
@@ -68,9 +78,16 @@ not exposed as tools.
 invent or embellish who the shopper is. `user_profile` and `context` are
 model-authored, and are what the sensitive-information rule governs.
 
-**Sessions and the persona are in-memory and process-local.** They reset when
-the dev server restarts. First thing to replace if this ever runs on more than
-one node.
+**Sessions and the persona are in-memory and process-local**, which breaks the
+clarifying-question flow when deployed. Verified against the Vercel deployment:
+the first request asks the question, the second lands on a different instance
+and returns `no pending question for that session`. Single-turn journeys work
+hosted; multi-turn ones only work locally.
+
+Fixing it means moving session state off the instance — either returning the
+conversation to the client in the `question` event and accepting it back, or
+putting it in a KV store. The same applies to the editable persona, which
+resets unpredictably when hosted.
 
 **`POST /v1/pages` is slow and intermittently fails.** Measured at 48–96s, with
 a 502 roughly one time in three under load. That is the merchant's page builder,
