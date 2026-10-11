@@ -5,25 +5,27 @@ import type { TraceEvent } from "@/lib/agent";
 import { StitchRule } from "@/components/Logo";
 import { BrandMark } from "@/components/BrandMark";
 import Link from "next/link";
+import { RotatingHeading } from "@/components/RotatingHeading";
+import { Elapsed } from "@/components/Elapsed";
 import { usePersona } from "@/lib/usePersona";
 
-/**
- * Pre-filled so the demo starts with one keystroke. Three things earn their
- * place in this sentence: two distinct needs (daily warmth, two dress-up
- * nights) give the agent a reason to run several searches; "I'm torn" gives it
- * standing to ask a clarifying question rather than deciding alone.
- */
-const OPENING_INTENT =
-  "I'm in Montreal for ten days in January and I don't own anything warm enough. Two of the nights are nicer dinners out and I'm torn on what to wear for those.";
+const BRAND_LOGOS = [
+  { name: "Uniqlo", src: "/brands/uniqlo.svg" },
+  { name: "Montblanc", src: "/brands/montblanc.svg" },
+  { name: "Porsche", src: "/brands/porsche.svg" },
+];
 
 /** Never visible to the user in a real product — rendered greyed and dotted. */
 const BACKSTAGE = new Set(["reasoning", "call", "result", "page_pending"]);
 
-type Group =
-  | { type: "front"; event: TraceEvent }
-  | { type: "backstage"; events: TraceEvent[] };
+/** A trace event stamped with when it reached the browser, so calls can be timed. */
+type Timed = TraceEvent & { at: number };
 
-function group(events: TraceEvent[]): Group[] {
+type Group =
+  | { type: "front"; event: Timed }
+  | { type: "backstage"; events: Timed[] };
+
+function group(events: Timed[]): Group[] {
   const out: Group[] = [];
   for (const event of events) {
     if (BACKSTAGE.has(event.kind)) {
@@ -38,8 +40,8 @@ function group(events: TraceEvent[]): Group[] {
 }
 
 export default function Home() {
-  const [intent, setIntent] = useState(OPENING_INTENT);
-  const [events, setEvents] = useState<TraceEvent[]>([]);
+  const [intent, setIntent] = useState("");
+  const [events, setEvents] = useState<Timed[]>([]);
   const [sessionId, setSessionId] = useState<string | null>(null);
   const [awaiting, setAwaiting] = useState(false);
   const [running, setRunning] = useState(false);
@@ -55,7 +57,7 @@ export default function Home() {
     setEvents([]);
     setSessionId(null);
     setAwaiting(false);
-    setIntent(OPENING_INTENT);
+    setIntent("");
   }
 
   async function send() {
@@ -68,7 +70,7 @@ export default function Home() {
     setIntent("");
     setAwaiting(false);
     setRunning(true);
-    setEvents((prev) => [...(replying ? prev : []), { kind: "user", text }]);
+    setEvents((prev) => [...(replying ? prev : []), { kind: "user", text, at: Date.now() }]);
 
     let sawQuestion = false;
     try {
@@ -97,7 +99,7 @@ export default function Home() {
             continue;
           }
           if (event.kind === "question") sawQuestion = true;
-          setEvents((prev) => [...prev, event]);
+          setEvents((prev) => [...prev, { ...event, at: Date.now() }]);
         }
       }
     } finally {
@@ -107,15 +109,62 @@ export default function Home() {
   }
 
   const groups = group(events);
+
   const liveTrace = groups[groups.length - 1]?.type === "backstage";
+
+  const composer = (
+    <div>
+      <form
+        onSubmit={(e) => {
+          e.preventDefault();
+          send();
+        }}
+        className="relative rounded-2xl border-2 border-ink bg-surface shadow-[4px_4px_0_0_var(--color-ink)] transition focus-within:translate-x-px focus-within:translate-y-px focus-within:shadow-[3px_3px_0_0_var(--color-ink)]"
+      >
+        <textarea
+          value={intent}
+          onChange={(e) => setIntent(e.target.value)}
+          onKeyDown={(e) => {
+            if (e.key === "Enter" && !e.shiftKey) {
+              e.preventDefault();
+              send();
+            }
+          }}
+          placeholder={awaiting ? "Reply to your agent…" : "What are you shopping for?"}
+          rows={2}
+          autoFocus
+          disabled={running}
+          className="composer w-full resize-none bg-transparent px-4 py-3.5 pr-14 text-[15px] leading-relaxed text-ink outline-none placeholder:text-faint disabled:opacity-50"
+        />
+        <button
+          type="submit"
+          aria-label="Send"
+          disabled={running || !intent.trim()}
+          className="absolute right-2.5 bottom-2.5 grid size-9 place-items-center rounded-full bg-ink text-white transition hover:opacity-90 disabled:bg-line disabled:text-faint"
+        >
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+            <path
+              d="M8 13V3M8 3L3.5 7.5M8 3l4.5 4.5"
+              stroke="currentColor"
+              strokeWidth="1.8"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            />
+          </svg>
+        </button>
+      </form>
+      <p className="mt-2 text-center text-[11px] text-faint">
+        {awaiting
+          ? "Your agent is waiting on your answer"
+          : "Enter to send · Shift + Enter for a new line"}
+      </p>
+    </div>
+  );
 
   return (
     <div className="flex h-dvh flex-col">
-      <header className="shrink-0 border-b border-line">
-        <div className="mx-auto flex max-w-3xl items-center justify-between px-5 py-3">
-          <span className="text-[17px] font-semibold tracking-[-0.035em] text-ink select-none">
-            bespoke
-          </span>
+      <header className="shrink-0">
+        <div className="mx-auto flex max-w-3xl items-center justify-end px-5 py-3">
           <div className="flex items-center gap-4">
             {started && !running && (
               <button onClick={reset} className="text-xs text-muted transition hover:text-ink">
@@ -138,10 +187,21 @@ export default function Home() {
       <div className="flex-1 overflow-y-auto">
         <div className="mx-auto max-w-3xl px-5 py-8">
           {!started && (
-            <p className="mx-auto max-w-md pt-16 text-center text-sm leading-relaxed text-muted">
-              Say what you&apos;re shopping for. Your agent works out the rest with the
-              brand, then hands you a storefront built for you alone.
-            </p>
+            <div className="pt-10 sm:pt-16">
+              <RotatingHeading />
+              <div className="mx-auto mt-8 max-w-2xl">{composer}</div>
+              <div className="mt-10 flex flex-col items-center gap-4">
+                <p className="text-xs font-bold tracking-[0.2em] text-ink uppercase">
+                  Currently supporting Uniqlo, Montblanc and Porsche
+                </p>
+                <div className="flex items-center gap-10">
+                  {BRAND_LOGOS.map((b) => (
+                    // eslint-disable-next-line @next/next/no-img-element
+                    <img key={b.name} src={b.src} alt={b.name} className="h-9 w-auto max-w-28 object-contain" />
+                  ))}
+                </div>
+              </div>
+            </div>
           )}
 
           <div className="space-y-6">
@@ -170,54 +230,11 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="shrink-0 border-t border-line">
-        <div className="mx-auto max-w-3xl px-5 py-4">
-          <form
-            onSubmit={(e) => {
-              e.preventDefault();
-              send();
-            }}
-            className="relative rounded-2xl border border-line bg-surface shadow-[0_1px_2px_rgba(0,0,0,0.04)] transition focus-within:border-ink/25 focus-within:ring-4 focus-within:ring-ink/5"
-          >
-            <textarea
-              value={intent}
-              onChange={(e) => setIntent(e.target.value)}
-              onKeyDown={(e) => {
-                if (e.key === "Enter" && !e.shiftKey) {
-                  e.preventDefault();
-                  send();
-                }
-              }}
-              placeholder={awaiting ? "Reply to your agent…" : "What are you shopping for?"}
-              rows={2}
-              autoFocus
-              disabled={running}
-              className="composer w-full resize-none bg-transparent px-4 py-3.5 pr-14 text-[15px] leading-relaxed text-ink outline-none placeholder:text-faint disabled:opacity-50"
-            />
-            <button
-              type="submit"
-              aria-label="Send"
-              disabled={running || !intent.trim()}
-              className="absolute right-2.5 bottom-2.5 grid size-9 place-items-center rounded-full bg-ink text-white transition hover:opacity-90 disabled:bg-line disabled:text-faint"
-            >
-              <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">
-                <path
-                  d="M8 13V3M8 3L3.5 7.5M8 3l4.5 4.5"
-                  stroke="currentColor"
-                  strokeWidth="1.8"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                />
-              </svg>
-            </button>
-          </form>
-          <p className="mt-2 text-center text-[11px] text-faint">
-            {awaiting
-              ? "Your agent is waiting on your answer"
-              : "Enter to send · Shift + Enter for a new line"}
-          </p>
+      {started && (
+        <div className="shrink-0 border-t-2 border-ink">
+          <div className="mx-auto max-w-3xl px-5 py-4">{composer}</div>
         </div>
-      </div>
+      )}
     </div>
   );
 }
@@ -293,14 +310,14 @@ function compact(label: string): string {
  * meant to read. While it's live the summary carries the request in flight,
  * which is more legible than a wall of text scrolling past.
  */
-function Backstage({ events, live }: { events: TraceEvent[]; live: boolean }) {
+function Backstage({ events, live }: { events: Timed[]; live: boolean }) {
   const calls = events.filter((e) => e.kind === "call");
   const latest = calls[calls.length - 1];
 
   return (
     // Collapsed it is just a quiet line of metadata; the dashed frame only
     // earns its place once there is something inside it to frame.
-    <details className="group rounded-xl transition-colors open:border open:border-dashed open:border-line open:bg-surface/60">
+    <details open className="group rounded-xl transition-colors open:border open:border-dashed open:border-line open:bg-surface/60">
       <summary className="flex cursor-pointer list-none items-center gap-2.5 px-0 py-1 group-open:px-3 group-open:py-3 [&::-webkit-details-marker]:hidden">
         {live ? (
           <span className="size-1.5 shrink-0 animate-pulse rounded-full bg-thread" />
@@ -326,15 +343,22 @@ function Backstage({ events, live }: { events: TraceEvent[]; live: boolean }) {
         </svg>
       </summary>
       <div className="space-y-3 border-t border-dashed border-line p-4">
-        {events.map((event, i) => (
-          <Row key={i} event={event} />
-        ))}
+        {events.map((event, i) => {
+          // A call is timed until the next result arrives. Only the last
+          // unanswered call in a live trace is still in flight.
+          let end: number | null = null;
+          if (event.kind === "call") {
+            const answer = events.slice(i + 1).find((e) => e.kind === "result");
+            end = answer ? answer.at : live ? null : event.at;
+          }
+          return <Row key={i} event={event} end={end} />;
+        })}
       </div>
     </details>
   );
 }
 
-function Row({ event }: { event: TraceEvent }) {
+function Row({ event, end }: { event: Timed; end: number | null }) {
   // The model's own deliberation. Deliberately quieter than the calls — it's
   // commentary on the work, not the work itself.
   if (event.kind === "reasoning") {
@@ -357,6 +381,7 @@ function Row({ event }: { event: TraceEvent }) {
             {method}
           </span>
           <span className="break-all text-ink">{rest.join(" ")}</span>
+          <Elapsed start={event.at} end={end} />
         </p>
         <p className="mt-1 pl-1 text-xs text-muted">{event.rationale}</p>
         {event.detail != null && (

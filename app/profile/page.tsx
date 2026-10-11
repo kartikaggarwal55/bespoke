@@ -8,30 +8,6 @@ import { usePersona } from "@/lib/usePersona";
 const field =
   "w-full rounded-md border border-line bg-surface px-3 py-2 text-sm text-ink outline-none transition focus:border-ink/30";
 
-/** Downscale to a small square JPEG so the data URL stays well inside localStorage's quota. */
-function toAvatar(file: File): Promise<string> {
-  return new Promise((resolve, reject) => {
-    const img = new Image();
-    const url = URL.createObjectURL(file);
-    img.onload = () => {
-      const size = 400;
-      const side = Math.min(img.width, img.height);
-      const canvas = document.createElement("canvas");
-      canvas.width = canvas.height = size;
-      canvas
-        .getContext("2d")!
-        .drawImage(img, (img.width - side) / 2, (img.height - side) / 2, side, side, 0, 0, size, size);
-      URL.revokeObjectURL(url);
-      resolve(canvas.toDataURL("image/jpeg", 0.85));
-    };
-    img.onerror = () => {
-      URL.revokeObjectURL(url);
-      reject(new Error("That file couldn't be read as an image."));
-    };
-    img.src = url;
-  });
-}
-
 export default function ProfilePage() {
   const [saved, save] = usePersona();
   // Edit a local draft; nothing touches localStorage until Save.
@@ -46,15 +22,6 @@ export default function ProfilePage() {
 
   function setLine(i: number, value: string) {
     edit({ profile: p.profile.map((l, j) => (j === i ? value : l)) });
-  }
-
-  async function onFile(file: File | undefined) {
-    if (!file) return;
-    try {
-      edit({ photo: await toAvatar(file) });
-    } catch (e) {
-      setStatus(e instanceof Error ? e.message : String(e));
-    }
   }
 
   function onSave() {
@@ -73,8 +40,6 @@ export default function ProfilePage() {
     setStatus("Reset to default");
   }
 
-  const uploaded = p.photo.startsWith("data:");
-
   return (
     <div className="mx-auto max-w-xl px-5 py-8">
       <Link href="/" className="text-xs text-muted transition hover:text-ink">
@@ -87,38 +52,14 @@ export default function ProfilePage() {
 
       <div className="mt-6 flex items-center gap-4">
         {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img src={p.photo} alt="" className="size-20 rounded-full object-cover ring-1 ring-line" />
-        <div className="space-y-2">
-          <label className="inline-block cursor-pointer rounded-md border border-line px-3 py-1.5 text-xs font-medium transition hover:border-ink/30">
-            Upload photo
-            <input
-              type="file"
-              accept="image/*"
-              className="hidden"
-              onChange={(e) => onFile(e.target.files?.[0])}
-            />
-          </label>
-          <p className="text-[11px] text-faint">
-            Or paste a public image URL below.
-          </p>
-        </div>
+        <img src={p.photo} alt="" className="size-20 shrink-0 rounded-full object-cover ring-1 ring-line" />
+        <label className="block flex-1">
+          <span className="mb-1 block text-[10px] tracking-wide text-faint uppercase">
+            Photo URL — the merchant fetches this, so it must be public
+          </span>
+          <input value={p.photo} onChange={(e) => edit({ photo: e.target.value })} className={field} />
+        </label>
       </div>
-
-      <label className="mt-5 block">
-        <span className="mb-1 block text-[10px] tracking-wide text-faint uppercase">Photo URL</span>
-        <input
-          value={uploaded ? "" : p.photo}
-          placeholder={uploaded ? "Using your uploaded photo" : ""}
-          onChange={(e) => edit({ photo: e.target.value })}
-          className={field}
-        />
-      </label>
-      {uploaded && (
-        <p className="mt-1 text-[11px] text-faint">
-          An uploaded photo is sent to the merchant as inline image data. If their page doesn&apos;t
-          show it, use a public URL instead.
-        </p>
-      )}
 
       <label className="mt-5 block">
         <span className="mb-1 block text-[10px] tracking-wide text-faint uppercase">Name</span>
