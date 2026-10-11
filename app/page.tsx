@@ -333,7 +333,7 @@ function Backstage({ events, live }: { events: TraceEvent[]; live: boolean }) {
         <span className="shrink-0 text-[10px] font-medium tracking-[0.12em] text-faint uppercase">
           agent ↔ merchant
         </span>
-        <span className="min-w-0 flex-1 truncate font-mono text-[11px] text-muted">
+        <span className="min-w-0 truncate font-mono text-[11px] text-muted">
           {live && latest?.kind === "call"
             ? compact(latest.label)
             : `${calls.length} request${calls.length === 1 ? "" : "s"}`}
@@ -343,7 +343,7 @@ function Backstage({ events, live }: { events: TraceEvent[]; live: boolean }) {
           height="9"
           viewBox="0 0 10 10"
           aria-hidden="true"
-          className="shrink-0 text-faint transition-transform group-open:rotate-90"
+          className="-ml-1 shrink-0 text-faint transition-transform group-open:rotate-90"
         >
           <path d="M3 1.5 L7 5 L3 8.5" stroke="currentColor" strokeWidth="1.6" fill="none" strokeLinecap="round" strokeLinejoin="round" />
         </svg>
