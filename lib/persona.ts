@@ -1,15 +1,16 @@
 /**
- * The user's memory, as the agent knows it.
+ * The user's profile, as the agent knows it.
  *
- * This is the seed. The live copy lives in personaStore and can be edited from
- * the UI, so treat this as the default to fall back to rather than the single
- * source of truth.
+ * The live copy lives in the browser's localStorage (see usePersona) and is sent
+ * with each journey, so the server holds no user state. This is the seed: what
+ * a first visit, or "Reset to default", falls back to.
  */
 
 export type Persona = {
   name: string;
   photo: string;
-  memory: Record<string, unknown>;
+  /** Free-form facts about the user, one per entry. Passed to the merchant verbatim. */
+  profile: string[];
 };
 
 export const defaultPersona: Persona = {
@@ -18,34 +19,16 @@ export const defaultPersona: Persona = {
   name: "Maya Fernandes",
   photo: "https://i.pravatar.cc/400?img=47",
 
-  memory: {
-    department: "Women",
-    location: "Chicago, IL",
-    sizes: { tops: "M", bottoms: "29", shoe: "US 8" },
-
-    budget:
-      "Usually spends $40–70 per item. Has stretched to ~$100 for outerwear that gets daily winter use.",
-
-    palette: {
-      wears: ["navy", "olive", "off white", "grey", "black", "brown"],
-      avoids: ["pink", "red", "bright orange", "purple"],
-    },
-
-    materials: {
-      loves: ["merino", "cashmere", "cotton"],
-      avoids: ["polyester next to the skin"],
-    },
-
-    pastPurchases: [
-      "HEATTECH Leggings (black) — rebought two winters running",
-      "Merino Cardigan (grey) — most-worn item in the closet",
-      "AIRism Cotton T-Shirt (navy, white) — buys in multiples",
-    ],
-
-    upcoming: [
-      "10 days in Montreal in January: cold, a lot of walking, two nicer dinners out",
-    ],
-
-    avoids: ["crop lengths", "anything dry-clean only"],
-  },
+  profile: [
+    "Shops in the women's department; lives in Chicago, IL",
+    "Sizes: tops M, bottoms 29, shoe US 8",
+    "Usually spends $40–70 per item; has stretched to ~$100 for outerwear that gets daily winter use",
+    "Wears navy, olive, off white, grey, black and brown; avoids pink, red, bright orange and purple",
+    "Loves merino, cashmere and cotton; avoids polyester next to the skin",
+    "Rebought HEATTECH Leggings (black) two winters running",
+    "Merino Cardigan (grey) is the most-worn item in the closet",
+    "Buys AIRism Cotton T-Shirts (navy, white) in multiples",
+    "Avoids crop lengths and anything dry-clean only",
+    "Going to Montreal for 10 days in January: cold, a lot of walking, two nicer dinners out",
+  ],
 };

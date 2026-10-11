@@ -1,3 +1,4 @@
+import type { Persona } from "@/lib/persona";
 import { answerJourney, runSession, startJourney } from "@/lib/agent";
 
 function bad(message: string) {
@@ -8,8 +9,9 @@ function bad(message: string) {
 }
 
 export async function POST(req: Request) {
-  const { intent, sessionId, answer } = (await req.json()) as {
+  const { intent, sessionId, answer, persona } = (await req.json()) as {
     intent?: string;
+    persona?: Persona;
     sessionId?: string;
     answer?: string;
   };
@@ -22,7 +24,15 @@ export async function POST(req: Request) {
     }
     id = sessionId;
   } else if (intent?.trim()) {
-    id = startJourney(intent.trim());
+    if (
+      !persona?.name?.trim() ||
+      !persona.photo?.trim() ||
+      !Array.isArray(persona.profile) ||
+      !persona.profile.every((l) => typeof l === "string")
+    ) {
+      return bad("persona { name, photo, profile: string[] } is required");
+    }
+    id = startJourney(intent.trim(), persona);
   } else {
     return bad("intent, or sessionId + answer, is required");
   }

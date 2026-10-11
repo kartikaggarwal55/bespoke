@@ -14,7 +14,7 @@ so the UI renders it greyed out and collapsed.
 ```
 shopper states an intent  (single message)
    ↓
-agent enriches it from the shopper's memory
+agent enriches it from the shopper's profile
    ↓
 GET /v1/products   ← repeated, agent-decided, each with a stated rationale
    ↓
@@ -49,10 +49,11 @@ pnpm dev
 
 | | |
 |---|---|
-| `lib/agent.ts` | system prompt, three tools, the loop, session state |
+| `lib/agent.ts` | system prompt, four tools, the loop, session state |
 | `lib/merchant.ts` | every HTTP call to the merchant lives here |
-| `lib/persona.ts` | the shopper's memory (seed) |
-| `lib/personaStore.ts` | the live, editable copy |
+| `lib/persona.ts` | the shopper's profile (seed) |
+| `lib/usePersona.ts` | the live copy, in localStorage |
+| `app/profile` | edit name, photo and profile lines |
 | `app/api/journey` | streams the journey as SSE |
 | `app/page.tsx` | the thread and the collapsed agent↔merchant trace |
 
@@ -63,11 +64,12 @@ pnpm dev
 not exposed as tools.
 
 **Identity is attached by the harness, not the model.** `user_name` and
-`user_photo` come from the persona store at call time, so the agent cannot
-invent or embellish who the shopper is. `user_profile` and `context` are
-model-authored, and are what the sensitive-information rule governs.
+`user_photo` come from the persona the browser sends with each journey, so the agent cannot
+invent or embellish who the shopper is. `user_profile` is the user's own list of
+strings, which the model passes verbatim. `context` is model-authored, and is
+what the sensitive-information rule governs.
 
-**Sessions and the persona are in-memory and process-local.** They reset when
+**Sessions are in-memory and process-local.** They reset when
 the dev server restarts. First thing to replace if this ever runs on more than
 one node.
 
