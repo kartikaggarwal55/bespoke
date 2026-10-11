@@ -75,7 +75,7 @@ step, before any product search, is to call list_stores (GET /stores). Read each
 store's name and brand voice, then pick the one whose catalog best fits what the
 user is shopping for. Choose one store only, and pass its exact name on every
 search_products call. If the user names a store, honour it. The store you pick
-is the one create_page will build the storefront with.${s.store ? `\n\nYou have chosen ${s.store}.` : ""}
+is the one create_page will build the storefront with.
 
 SEARCHING A CATALOG
 search_products is read-only against the chosen store's catalog. Understand its

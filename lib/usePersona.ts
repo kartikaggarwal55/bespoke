@@ -25,7 +25,9 @@ function read(): Persona {
     try {
       const p = JSON.parse(raw) as Partial<Persona>;
       if (typeof p.name === "string" && typeof p.photo === "string" && Array.isArray(p.profile)) {
-        cached = { name: p.name, photo: p.photo, profile: p.profile.map(String) };
+        // Photos are URLs only; drop any inline image saved by an earlier version.
+        const photo = p.photo.startsWith("data:") ? defaultPersona.photo : p.photo;
+        cached = { name: p.name, photo, profile: p.profile.map(String) };
       }
     } catch {
       /* corrupt entry — fall back to the default */
