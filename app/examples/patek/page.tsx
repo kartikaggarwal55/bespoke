@@ -23,7 +23,7 @@ const openSans = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "From your wrist to hers",
+  title: "From your wrist to Emma's",
   description: `Four Patek Philippe references, chosen for ${payload.user_name} and ${CHILD}.`,
 };
 

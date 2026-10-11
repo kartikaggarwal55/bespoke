@@ -61,9 +61,9 @@ export function splitName(name: string): { title: string; variant: string | null
 /** Why each piece is here, in one line, from the persona and the trip only. */
 const WHY: Record<number, string> = {
   95: "HEATTECH in a cashmere blend, one of the three materials you reach for.",
-  20: "The pair you've rebought two winters running. A fresh one for the trip.",
+  20: "Rebought two winters running. A fresh pair for the trip.",
   18: "Your grey one is the most-worn thing you own. Same cardigan, in navy.",
-  21: "The layer for a lot of walking. Brown, so it goes over everything here.",
+  21: "Made for a lot of walking. Brown, so it goes over everything here.",
   104: "For the two dinners out. Leggings underneath, cardigan on top.",
 };
 

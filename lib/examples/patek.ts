@@ -1,5 +1,5 @@
 /**
- * Golden example: "From your wrist to hers" on Patek Philippe.
+ * Golden example: "From your wrist to Emma's" on Patek Philippe.
  *
  * `payload` is exactly what the agent would send to POST /v1/pages for this
  * journey. Everything else is what a great merchant page derives from it.
@@ -60,14 +60,14 @@ export const payload: PagePayload = {
     "Wants this to be the last watch he buys for himself, and prefers things that are " +
     "understated and made to be repaired rather than replaced.",
   context:
-    "His first child, Iris, was born on 14 September 2026. He wants one watch to wear every " +
+    "His first child, Emma, was born on 14 September 2026. He wants one watch to wear every " +
     "day from now on and to give to her on her twenty-first birthday. Asked to see a dress " +
     "watch, a sports watch and one with a calendar side by side before deciding.",
   products: [33, 4, 89, 57],
 };
 
 /** The moment the page is built around, straight from the payload. */
-export const CHILD = "Iris";
+export const CHILD = "Emma";
 export const BORN = { day: 14, month: "September", year: 2026 };
 const ROMAN = ["I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X", "XI", "XII"];
 const MONTHS = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
@@ -85,9 +85,9 @@ export const HANDOVER_YEAR = BORN.year + 21;
 export type Role = "dress" | "sport" | "calendar";
 
 export const ROLES: Record<Role, string> = {
-  dress: "The dress watch",
-  sport: "The sports watch",
-  calendar: "The calendar",
+  dress: "Dress watch",
+  sport: "Sports watch",
+  calendar: "Calendar",
 };
 
 type Pitch = {
@@ -153,7 +153,7 @@ export function standout(w: ShortlistWatch, all: ShortlistWatch[]): string {
   const cheap = Math.min(...all.map((x) => x.price));
   const s = w.specs;
   if (s.winding === "Manual winding")
-    return `The only one here wound by hand, and at ${s.caseThicknessMm} mm${s.caseThicknessMm === thin ? " the thinnest" : ""}.`;
+    return `Wound by hand, unlike the rest, and ${s.caseThicknessMm} mm${s.caseThicknessMm === thin ? " thin: slimmest here" : " thick"}.`;
   if (s.caseThicknessMm === thick)
     return `Day, date, month and moon phases, with one correction a year. At ${s.caseThicknessMm} mm, the thickest here.`;
   if (w.price === cheap)

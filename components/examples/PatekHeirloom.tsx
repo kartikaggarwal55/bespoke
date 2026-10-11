@@ -27,7 +27,7 @@ import {
 
 /**
  * The page is built around one fact from the brief: the watch is Daniel's
- * from 2026 and Iris's from 2047. The hero turns the watch over as the year
+ * from 2026 and Emma's from 2047. The hero turns the watch over as the year
  * behind it turns from one to the other; the true-scale comparison shows what
  * actually separates the four on a wrist. Nothing loops. MotionConfig hands
  * transforms to the OS reduced-motion setting, and the hero's turn falls back
@@ -44,7 +44,7 @@ const sans = "font-[family-name:var(--font-pp-sans)]";
 const eyebrow = `${sans} text-[12px] font-normal uppercase tracking-[0.12em] text-[#8c7a66]`;
 // patek.com titles: Open Sans Light, uppercase, 0.045rem tracking.
 const title = `${sans} font-light uppercase tracking-[0.045rem] text-[#2e2e33]`;
-const wrap = "mx-auto w-full max-w-[76rem] px-5 sm:px-8";
+const wrap = "mx-auto w-full max-w-[86rem] px-5 sm:px-8 2xl:px-12";
 
 const first = payload.user_name.split(" ")[0];
 const bornLong = `${BORN.day} ${BORN.month} ${BORN.year}`;
@@ -61,9 +61,8 @@ export function PatekHeirloom({ watches }: { watches: ShortlistWatch[] }) {
         <footer className="border-t border-[#e8e4e0] bg-white">
           <div className={`${wrap} ${sans} space-y-2 py-10 text-xs leading-relaxed text-[#757575]`}>
             <p>
-              Prices are the suggested US retail prices, taxes excluded, shown on patek.com in
-              October 2026. Patek Philippe notes that prices are subject to change at any time and
-              do not constitute an offer. Specifications as published by Patek Philippe.
+              Suggested US retail prices, taxes excluded, from patek.com in October 2026; subject to
+              change. Specifications as published by Patek Philippe.
             </p>
             <p>
               A concept page built by bespoke from Patek Philippe&apos;s public website data. Not
@@ -84,33 +83,29 @@ function Hero({ watch }: { watch: ShortlistWatch }) {
   // 0 → 1 over the half screen of scroll while the stage is pinned.
   const { scrollYProgress: p } = useScroll({ target: ref, offset: ["start start", "end end"] });
 
-  // The headline never moves. The watch turns a quarter away while its case
-  // back turns in to meet it, crossfading, so there is never an edge-on (empty)
-  // frame. When the pin releases the stage scrolls away with the brief behind.
+  // The watch turns a quarter away while its case back turns in to meet it,
+  // crossfading, so there is never an edge-on (empty) frame.
   const frontRot = useTransform(p, [0.05, 0.6], [0, 50], { clamp: true });
   const backRot = useTransform(p, [0.3, 0.9], [-50, 0], { clamp: true });
   const frontY = useTransform(frontRot, (v) => (reduce ? 0 : Math.round(v * 10) / 10));
   const backY = useTransform(backRot, (v) => (reduce ? 0 : Math.round(v * 10) / 10));
   const frontOpacity = useTransform(p, [0.36, 0.48], [1, 0]);
   const backOpacity = useTransform(p, [0.36, 0.48], [0, 1]);
-  // Captions and the last two digits of the year swap without overlapping.
-  const prog = useTransform(p, [0.05, 0.9], [0, 1], { clamp: true });
+  // The year behind the watch counts from his to hers as it turns.
+  const year = useTransform(p, (v) => {
+    const t = Math.min(1, Math.max(0, (v - 0.05) / 0.85));
+    return String(BORN.year + Math.round(t * (HANDOVER_YEAR - BORN.year)));
+  });
   const now = useTransform(p, [0.3, 0.42], [1, 0]);
   const later = useTransform(p, [0.46, 0.58], [0, 1]);
   const cue = useTransform(p, [0, 0.08], [1, 0]);
-  // The dedication is cut into the case back once the movement has settled.
   const etch = useTransform(p, [0.55, 0.88], [0, 1], { clamp: true });
+  const s = watch.specs;
 
   return (
     <section ref={ref} className="relative h-[150svh] bg-[#f8f7f7]">
       <div className="sticky top-0 flex h-[100svh] min-h-[600px] flex-col overflow-hidden">
-        {/* Light pooled behind the watch, as in Patek's product photography. */}
-        <div
-          aria-hidden
-          className="pointer-events-none absolute inset-0 bg-[radial-gradient(55%_75%_at_72%_55%,#ffffff_0%,rgba(255,255,255,0)_100%)] max-md:bg-[radial-gradient(70%_45%_at_50%_72%,#ffffff_0%,rgba(255,255,255,0)_70%)]"
-        />
-
-        <header className="relative z-10 border-b border-[#e8e4e0]/80">
+        <header className="relative z-10 border-b border-[#e8e4e0]/80 bg-[#f8f7f7]/70 backdrop-blur-sm">
           <div className={`${wrap} grid h-[72px] grid-cols-[1fr_auto_1fr] items-center sm:h-[84px]`}>
             <span className={`${sans} hidden text-[11px] uppercase tracking-[0.16em] text-[#757575] sm:block`}>
               Prepared for {payload.user_name}
@@ -132,17 +127,19 @@ function Hero({ watch }: { watch: ShortlistWatch }) {
         </header>
 
         <div className={`${wrap} relative grid min-h-0 flex-1 grid-rows-[auto_minmax(0,1fr)] md:grid-cols-[minmax(0,1fr)_minmax(0,1fr)] md:grid-rows-1`}>
-          <div className="relative z-10 flex flex-col justify-center pt-7 md:pt-0 md:pb-16">
+          {/* Copy: the dedication, the line, and three facts. Nothing else. */}
+          <div className="relative z-10 flex flex-col justify-center pt-7 md:pt-0 md:pb-10">
             <motion.p
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ delay: 0.2, duration: 1 }}
-              className={eyebrow}
+              className={`${eyebrow} flex items-center gap-3`}
             >
-              For {CHILD} · Born {bornLong}
+              <span className="h-px w-8 bg-[#8c7a66]" />
+              {DEDICATION}
             </motion.p>
-            <h1 className={`${title} mt-4 text-[clamp(2.1rem,3.9vw,3.75rem)] leading-[1.1] md:mt-6`}>
-              {["From your wrist", "to hers."].map((line, i) => (
+            <h1 className={`${title} mt-5 text-[clamp(2.1rem,3.7vw,4.2rem)] leading-[1.06] md:mt-7`}>
+              {["From your wrist", `to ${CHILD}’s.`].map((line, i) => (
                 <span key={line} className="block overflow-hidden whitespace-nowrap pb-[0.08em]">
                   <motion.span
                     className="block"
@@ -155,40 +152,67 @@ function Hero({ watch }: { watch: ShortlistWatch }) {
                 </span>
               ))}
             </h1>
-            <motion.p
+
+            {/* His year, counting to hers as the watch turns over. */}
+            <motion.div
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{ delay: 0.7, duration: 1 }}
+              className="mt-5 flex items-end gap-4 md:mt-9"
+            >
+              <motion.span className={`${sans} text-[2.6rem] font-light leading-none tracking-[0.02em] text-[#8c7a66] tabular-nums md:text-[4.25rem]`}>
+                {year}
+              </motion.span>
+              <span className={`${sans} relative mb-1 h-4 w-48 text-[11px] uppercase tracking-[0.2em] text-[#757575] md:mb-2`}>
+                <motion.span style={{ opacity: now }} className="absolute inset-0">
+                  Yours
+                </motion.span>
+                <motion.span style={{ opacity: later }} className="absolute inset-0 whitespace-nowrap">
+                  {CHILD}&apos;s · {BORN.day} {BORN.month}
+                </motion.span>
+              </span>
+            </motion.div>
+
+            {/* Three facts about what you are looking at: dial side, then movement. */}
+            <motion.div
               initial={{ opacity: 0, y: 8 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.8, duration: 1 }}
-              className="mt-4 max-w-md text-[15px] leading-[1.625] text-[#525252] md:mt-7 md:text-base"
+              className="relative mt-8 hidden h-[4.25rem] md:mt-10 md:block"
             >
-              Four Patek Philippe references for {first}: to wear every day from {CHILD}&apos;s
-              first year, and to give to her on {BORN.day} {BORN.month} {HANDOVER_YEAR}.
-            </motion.p>
-
-            {/* Desktop caption: what you are looking at, front then back. */}
-            <div className="relative mt-12 hidden h-16 md:block">
-              <Caption opacity={now} kicker={watch.specs.collection} title={watch.specs.reference} note={`${watch.specs.material}, ${watch.specs.caseDiameterMm} mm`} />
-              <Caption
-                opacity={later}
-                kicker={`Caliber ${watch.specs.caliber}`}
-                title={`${watch.specs.parts} parts`}
-                note={watch.specs.winding ?? ""}
+              <Facts
+                opacity={now}
+                items={[
+                  ["Collection", s.collection],
+                  ["Reference", s.reference],
+                  ["Case", `${s.material?.replace(" gold", "")} gold · ${s.caseDiameterMm} mm`],
+                ]}
               />
-            </div>
+              <Facts
+                opacity={later}
+                items={[
+                  ["Caliber", s.caliber ?? ""],
+                  ["Parts", String(s.parts ?? "")],
+                  ["Winding", (s.winding ?? "").replace(" winding", "")],
+                ]}
+              />
+            </motion.div>
           </div>
 
-          {/* The stage: the watch, with Iris's twenty-one years running beside it. */}
+          {/* The stage: the year behind, guilloché rings, light, and the watch. */}
           <div className="relative min-h-0">
-            <Rail progress={prog} now={now} later={later} vertical />
-            <Rail progress={prog} now={now} later={later} />
+            <div aria-hidden className="pointer-events-none absolute inset-0 flex items-center justify-center md:pl-10">
+              <Guilloche />
+              <div className="absolute inset-0 bg-[radial-gradient(42%_48%_at_50%_52%,#ffffff_0%,rgba(255,255,255,0)_100%)] md:bg-[radial-gradient(40%_52%_at_55%_50%,#ffffff_0%,rgba(255,255,255,0)_100%)]" />
+            </div>
 
             <motion.div
               initial={{ opacity: 0, y: 24 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.5, duration: 1.6, ease: [0.16, 1, 0.3, 1] }}
-              className="absolute inset-0 flex items-center justify-center pb-16 md:pb-0 md:pl-24 [perspective:1800px]"
+              className="absolute inset-0 flex items-center justify-center pb-8 pt-4 md:pb-8 md:pl-10 [perspective:1800px]"
             >
-              <div style={{ aspectRatio: FRONT_RATIO }} className="relative h-[min(100%,46rem)]">
+              <div style={{ aspectRatio: FRONT_RATIO }} className="relative h-[min(100%,50rem)]">
                 <motion.div style={{ rotateY: frontY, opacity: frontOpacity }} className="absolute inset-0">
                   <Image
                     src={watch.front}
@@ -197,16 +221,16 @@ function Hero({ watch }: { watch: ShortlistWatch }) {
                     sizes="(min-width: 768px) 32rem, 70vw"
                     loading="eager"
                     fetchPriority="high"
-                    className="object-contain drop-shadow-[0_24px_30px_rgba(46,46,51,0.16)]"
+                    className="object-contain drop-shadow-[0_28px_34px_rgba(46,46,51,0.18)]"
                   />
                 </motion.div>
                 <motion.div style={{ rotateY: backY, opacity: backOpacity }} className="absolute inset-0">
                   <Image
                     src={`/examples/patek/${watch.slug}-back.webp`}
-                    alt={`${watch.name}, case back showing caliber ${watch.specs.caliber}`}
+                    alt={`${watch.name}, case back showing caliber ${s.caliber}`}
                     fill
                     sizes="(min-width: 768px) 32rem, 70vw"
-                    className="object-contain drop-shadow-[0_24px_30px_rgba(46,46,51,0.16)]"
+                    className="object-contain drop-shadow-[0_28px_34px_rgba(46,46,51,0.18)]"
                   />
                   <Engraving reveal={etch} reduce={reduce} />
                 </motion.div>
@@ -218,13 +242,44 @@ function Hero({ watch }: { watch: ShortlistWatch }) {
 
         <motion.div
           style={{ opacity: cue }}
-          className="pointer-events-none absolute inset-x-0 bottom-3 hidden flex-col items-center gap-2 text-[10px] uppercase tracking-[0.25em] text-[#939393] md:flex"
+          className="pointer-events-none absolute bottom-6 left-0 hidden md:block"
         >
-          Scroll to turn it over
-          <span className="h-6 w-px bg-gradient-to-b from-[#8c7a66] to-transparent" />
+          <div className={`${wrap} ${sans} flex items-center gap-3 text-[10px] uppercase tracking-[0.25em] text-[#939393]`}>
+            <span className="h-px w-8 bg-[#c4bdb4]" />
+            Scroll to turn it over
+          </div>
         </motion.div>
       </div>
     </section>
+  );
+}
+
+/** Fine concentric rings, like the guilloché on a dial, fading out from the
+ *  watch. Pure decoration of the stage, drawn once. */
+function Guilloche() {
+  const rings = Array.from({ length: 34 }, (_, i) => 40 + i * 14);
+  return (
+    <svg
+      viewBox="-520 -520 1040 1040"
+      className="absolute h-[150%] max-h-[64rem] w-auto [mask-image:radial-gradient(circle,black_25%,transparent_68%)]"
+    >
+      {rings.map((r) => (
+        <circle key={r} r={r} fill="none" stroke="#d8d0c6" strokeWidth={0.6} opacity={0.55} />
+      ))}
+    </svg>
+  );
+}
+
+function Facts({ opacity, items }: { opacity: MV; items: [string, string][] }) {
+  return (
+    <motion.dl style={{ opacity }} className="absolute inset-0 grid grid-cols-3 border-t border-[#ddd6ce] pt-4">
+      {items.map(([k, v], i) => (
+        <div key={k} className={i ? "border-l border-[#e8e4e0] pl-5" : "pr-5"}>
+          <dt className={`${sans} text-[10px] uppercase tracking-[0.18em] text-[#8c7a66]`}>{k}</dt>
+          <dd className={`${sans} mt-1.5 whitespace-nowrap text-[1.05rem] font-light tracking-[0.02em] text-[#2e2e33]`}>{v}</dd>
+        </div>
+      ))}
+    </motion.dl>
   );
 }
 
@@ -280,144 +335,69 @@ function Engraving({ reveal, reduce }: { reveal: MV; reduce: boolean }) {
   );
 }
 
-function Caption({
-  opacity,
-  kicker,
-  title,
-  note,
-}: {
-  opacity: ReturnType<typeof useTransform<number, number>>;
-  kicker: string;
-  title: string;
-  note: string;
-}) {
-  return (
-    <motion.div style={{ opacity }} className="absolute inset-0 flex items-end gap-6">
-      <div>
-        <p className={`${sans} text-[11px] uppercase tracking-[0.16em] text-[#8c7a66]`}>{kicker}</p>
-        <p className={`${sans} mt-1 text-[1.75rem] font-light leading-none tracking-[0.04em] text-[#757575]`}>{title}</p>
-      </div>
-      <p className={`${serif} mb-0.5 border-l border-[#e8e4e0] pl-6 italic text-[#525252]`}>{note}</p>
-    </motion.div>
-  );
-}
-
 type MV = ReturnType<typeof useTransform<number, number>>;
 
-/** 2026 to 2047 as a rail: a marker travels it as the watch turns over. */
-function Rail({ progress, now, later, vertical = false }: { progress: MV; now: MV; later: MV; vertical?: boolean }) {
-  const pos = useTransform(progress, (v) => `${Math.round(v * 1000) / 10}%`);
-  const ticks = HANDOVER_YEAR - BORN.year + 1;
-  // The end you are at is full strength; the other waits at 45%.
-  const nowO = useTransform(now, [0, 1], [0.45, 1]);
-  const laterO = useTransform(later, [0, 1], [0.45, 1]);
-  const ends = [
-    { year: BORN.year, note: `${BORN.day} ${BORN.month} · Yours`, o: nowO },
-    { year: HANDOVER_YEAR, note: `${BORN.day} ${BORN.month} · Hers`, o: laterO },
-  ];
-  const label = (e: (typeof ends)[number], align: string) => (
-    <div className={align}>
-      <motion.p style={{ opacity: e.o }} className={`${sans} text-[1.6rem] font-light leading-none tracking-[0.04em] text-[#2e2e33] md:text-[2rem]`}>
-        {e.year}
-      </motion.p>
-      <p className={`${sans} mt-1.5 whitespace-nowrap text-[10px] uppercase tracking-[0.14em] text-[#8c7a66]`}>{e.note}</p>
-    </div>
-  );
-
-  if (vertical) {
-    return (
-      <div aria-hidden className="absolute bottom-[10%] left-0 top-[10%] z-10 hidden w-40 flex-col md:flex">
-        {label(ends[0], "")}
-        <div className="relative my-5 ml-1 flex-1">
-          <div className="absolute inset-y-0 left-0 flex w-3 flex-col justify-between">
-            {Array.from({ length: ticks }, (_, i) => (
-              <span key={i} className={`h-px ${i % 5 === 0 ? "w-3 bg-[#b5aa9d]" : "w-1.5 bg-[#d6cfc7]"}`} />
-            ))}
-          </div>
-          <motion.span style={{ top: pos }} className="absolute -left-[3px] -mt-[4.5px] h-[9px] w-[9px] rounded-full bg-[#8c7a66]" />
-        </div>
-        {label(ends[1], "")}
-      </div>
-    );
-  }
-  return (
-    <div aria-hidden className="absolute inset-x-0 bottom-3 z-10 flex items-end gap-4 md:hidden">
-      {label(ends[0], "")}
-      <div className="relative mb-6 h-3 flex-1">
-        <div className="absolute inset-x-0 bottom-0 flex items-end justify-between">
-          {Array.from({ length: ticks }, (_, i) => (
-            <span key={i} className={`w-px ${i % 5 === 0 ? "h-3 bg-[#b5aa9d]" : "h-1.5 bg-[#d6cfc7]"}`} />
-          ))}
-        </div>
-        <motion.span style={{ left: pos }} className="absolute -bottom-[3px] -ml-[4.5px] h-[9px] w-[9px] rounded-full bg-[#8c7a66]" />
-      </div>
-      {label(ends[1], "text-right")}
-    </div>
-  );
-}
-
-/* ─── The brief: twenty-one years, drawn as a line ─────────────────────── */
+/* ─── The brief: who, the moment, the handover ─────────────────────────── */
 
 function Brief() {
   const years = Array.from({ length: HANDOVER_YEAR - BORN.year + 1 }, (_, i) => BORN.year + i);
+  const cells: [string, string, string][] = [
+    ["Who", payload.user_name, "Architect, Chicago. Wants the last watch he buys for himself."],
+    ["Born", `${CHILD}, ${bornLong}`, "Worn every day from her first year."],
+    ["Handover", `${BORN.day} ${BORN.month} ${HANDOVER_YEAR}`, "Her twenty-first birthday."],
+  ];
   return (
     <section className="relative bg-white">
-      <div className={`${wrap} grid gap-12 py-20 md:grid-cols-[minmax(0,5fr)_minmax(0,7fr)] md:gap-16 md:py-28`}>
-        <div>
-          <p className={eyebrow}>The brief</p>
-          <h2 className={`${title} mt-4 text-[1.7rem] leading-[1.2] sm:text-[2.5rem]`}>
-            Twenty-one years, one watch.
-          </h2>
-          <div className="mt-8 flex items-start gap-4">
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src={payload.user_photo} alt="" width={48} height={48} className="h-12 w-12 shrink-0 rounded-full object-cover grayscale-[30%]" />
-            <div>
-              <p className={`${sans} text-[12px] uppercase tracking-[0.12em] text-[#2e2e33]`}>{payload.user_name}</p>
-              <p className="mt-1 text-[15px] leading-relaxed text-[#525252]">{payload.user_profile}</p>
+      <div className={`${wrap} py-20 md:py-28`}>
+        <p className={eyebrow}>Brief</p>
+        <h2 className={`${title} mt-4 text-[1.7rem] leading-[1.2] sm:text-[2.5rem]`}>Twenty-one years, one watch.</h2>
+
+        <dl className="mt-12 grid border-y border-[#e8e4e0] md:grid-cols-3">
+          {cells.map(([k, v, note], i) => (
+            <motion.div
+              key={k}
+              initial={{ opacity: 0, y: 12 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true, amount: 0.5 }}
+              transition={{ delay: i * 0.1 }}
+              className="border-b border-[#e8e4e0] py-7 last:border-b-0 md:border-b-0 md:border-l md:px-8 md:first:border-l-0 md:first:pl-0"
+            >
+              <dt className={`${sans} text-[10px] uppercase tracking-[0.18em] text-[#8c7a66]`}>{k}</dt>
+              <dd className={`${sans} mt-2 text-xl font-light tracking-[0.02em] text-[#2e2e33]`}>{v}</dd>
+              <dd className="mt-1.5 text-[15px] text-[#757575]">{note}</dd>
+            </motion.div>
+          ))}
+        </dl>
+
+        {/* The twenty-one years as a line, a tick a year. */}
+        <div className="mt-10">
+          <div className="relative h-8">
+            <motion.div
+              initial={{ scaleX: 0 }}
+              whileInView={{ scaleX: 1 }}
+              viewport={{ once: true, amount: 0.8 }}
+              transition={{ duration: 1.6 }}
+              className="absolute inset-x-0 top-1/2 h-px origin-left bg-[#c4bdb4]"
+            />
+            <div className="absolute inset-0 flex items-center justify-between">
+              {years.map((y, i) => {
+                const end = i === 0 || i === years.length - 1;
+                return (
+                  <motion.span
+                    key={y}
+                    initial={{ opacity: 0 }}
+                    whileInView={{ opacity: 1 }}
+                    viewport={{ once: true, amount: 0.8 }}
+                    transition={{ delay: 0.2 + i * 0.05, duration: 0.5 }}
+                    className={end ? "h-3 w-3 rounded-full border border-[#8c7a66] bg-white" : "h-2 w-px bg-[#c4bdb4]"}
+                  />
+                );
+              })}
             </div>
           </div>
-        </div>
-
-        <div className="md:pt-12">
-          <p className={`${serif} text-xl leading-relaxed text-[#2e2e33] sm:text-[1.4rem]`}>{payload.context}</p>
-
-          <div className="mt-12">
-            <div className="relative h-10">
-              <motion.div
-                initial={{ scaleX: 0 }}
-                whileInView={{ scaleX: 1 }}
-                viewport={{ once: true, amount: 0.8 }}
-                transition={{ duration: 1.6 }}
-                className="absolute inset-x-0 top-1/2 h-px origin-left bg-[#c4bdb4]"
-              />
-              <div className="absolute inset-0 flex items-center justify-between">
-                {years.map((y, i) => {
-                  const end = i === 0 || i === years.length - 1;
-                  return (
-                    <motion.span
-                      key={y}
-                      initial={{ opacity: 0 }}
-                      whileInView={{ opacity: 1 }}
-                      viewport={{ once: true, amount: 0.8 }}
-                      transition={{ delay: 0.2 + i * 0.05, duration: 0.5 }}
-                      className={end ? "h-3 w-3 rounded-full border border-[#8c7a66] bg-white" : "h-2 w-px bg-[#c4bdb4]"}
-                    />
-                  );
-                })}
-              </div>
-            </div>
-            <div className="mt-4 grid grid-cols-2 gap-6 text-sm">
-              <div>
-                <p className={`${sans} uppercase tracking-[0.08em] text-[#2e2e33]`}>{bornLong}</p>
-                <p className="mt-1 text-[#757575]">{CHILD} is born. It goes on {first}&apos;s wrist.</p>
-              </div>
-              <div className="text-right">
-                <p className={`${sans} uppercase tracking-[0.08em] text-[#2e2e33]`}>
-                  {BORN.day} {BORN.month} {HANDOVER_YEAR}
-                </p>
-                <p className="mt-1 text-[#757575]">Her twenty-first birthday. It becomes hers.</p>
-              </div>
-            </div>
+          <div className={`${sans} mt-3 flex justify-between text-[11px] uppercase tracking-[0.16em] text-[#757575]`}>
+            <span>{BORN.year} · {first}&apos;s</span>
+            <span>{HANDOVER_YEAR} · {CHILD}&apos;s</span>
           </div>
         </div>
       </div>
@@ -441,9 +421,8 @@ function TrueScale({ watches }: { watches: ShortlistWatch[] }) {
         <h2 className={`${title} mt-4 max-w-3xl text-[1.7rem] leading-[1.2] sm:text-[2.5rem]`}>
           Four references, side by side.
         </h2>
-        <p className="mt-5 max-w-2xl text-[15px] leading-relaxed text-[#525252] md:text-base">
-          Each watch is drawn to the same scale, dial and profile, so {thin} mm against {thick} mm
-          reads as it would on the wrist. Choose one to see it closely.
+        <p className="mt-4 text-[15px] text-[#757575]">
+          Drawn to the same scale, {thin} mm to {thick} mm thick. Choose one.
         </p>
 
         {/* --mm is one millimetre on screen; every width below is a real dimension times it. */}
@@ -518,9 +497,6 @@ function TrueScale({ watches }: { watches: ShortlistWatch[] }) {
                 {active.specs.collection} {active.specs.reference}
               </p>
               <p className="mt-5 text-[15px] leading-relaxed text-[#2e2e33]">{standout(active, watches)}</p>
-              <blockquote className={`${serif} mt-5 border-l border-[#c4bdb4] pl-4 text-[15px] italic leading-relaxed text-[#525252]`}>
-                {active.specs.keypoints[active.quote].text}
-              </blockquote>
               <dl className="mt-7 grid grid-cols-2 gap-x-6 gap-y-4 border-t border-[#e8e4e0] pt-6 text-sm">
                 {[
                   ["Case", `${active.specs.material}, ${active.specs.caseDiameterMm} mm`],
@@ -560,7 +536,7 @@ function Choice({ watches }: { watches: ShortlistWatch[] }) {
   return (
     <section className="bg-white">
       <div className={`${wrap} py-20 md:py-28`}>
-        <p className={eyebrow}>The choice</p>
+        <p className={eyebrow}>Your choice</p>
         <h2 className={`${title} mt-4 max-w-3xl text-[1.7rem] leading-[1.2] sm:text-[2.5rem]`}>
           Whichever you choose, it is {CHILD}&apos;s in&nbsp;{HANDOVER_YEAR}.
         </h2>

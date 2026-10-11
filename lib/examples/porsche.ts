@@ -68,7 +68,7 @@ const PITCH: Record<number, Pitch> = {
     slug: "911-targa-4s",
     href: "https://www.porsche.com/usa/models/911/targa-models/911-targa-4s/",
     lines: {
-      summer: "The same 473 hp as the coupe, with the roof stowed over Loveland Pass.",
+      summer: "Same 473 hp as the coupe, roof stowed over Loveland Pass.",
       ski: "All-wheel drive and 2+2 seats: the same winter trade-off as the coupe.",
       weekday: "$15,700 more than the coupe, for the roof. Worth it if summer is the point.",
     },
@@ -88,7 +88,7 @@ const PITCH: Record<number, Pitch> = {
     lines: {
       summer: "A twin-turbo V8 and sport exhaust. The loudest way up a pass.",
       ski: "Five seats, all-wheel drive, and the biggest cabin here.",
-      weekday: "The middle path: five seats, still a GTS.",
+      weekday: "A middle path: five seats, still a GTS.",
     },
   },
 };

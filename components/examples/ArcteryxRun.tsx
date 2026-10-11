@@ -316,7 +316,7 @@ function TurnCard({ item, index, total }: { item: KitItem; index: number; total:
 function Kit({ kit }: { kit: KitItem[] }) {
   return (
     <section className="mx-auto max-w-[1360px] px-4 py-20 sm:px-8 sm:py-28">
-      <p className="text-[12px] font-bold uppercase tracking-[0.12em]">The kit</p>
+      <p className="text-[12px] font-bold uppercase tracking-[0.12em]">Your kit</p>
       <h2 className="mt-3 max-w-5xl text-[clamp(2rem,4.4vw,3.6rem)] font-bold leading-[0.98] tracking-[-0.03em]">
         Shell, insulation, base layer, pant.
       </h2>

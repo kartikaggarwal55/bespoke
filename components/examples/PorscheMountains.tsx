@@ -348,7 +348,7 @@ function Route() {
 
   return (
     <section className={`${section} !pt-6 sm:!pt-10`}>
-      <Eyebrow>The brief</Eyebrow>
+      <Eyebrow>Your drive</Eyebrow>
       <h2 className={`${display} mt-3 max-w-3xl text-4xl font-semibold leading-[0.95] sm:text-6xl`}>
         {(ROUTE[1].ft - ROUTE[0].ft).toLocaleString("en-US")} feet of climbing, in both seasons.
       </h2>
@@ -745,17 +745,17 @@ function Decision({ cars }: { cars: ShortlistCar[] }) {
   const nine11 = cars.find((c) => c.id === 14)!;
   const macan = cars.find((c) => c.id === 55)!;
   const options = [
-    { car: nine11, kicker: "The 911 moment", body: "The one you've always wanted. Skis on the roof." },
+    { car: nine11, kicker: "Your 911 moment", body: "Wanted since you were a kid. Skis on the roof." },
     {
       car: macan,
-      kicker: "The one that does everything",
+      kicker: "Does everything",
       body: `More power, five seats, and ${usd(nine11.price - macan.price)} less.`,
     },
   ];
 
   return (
     <section className={section}>
-      <Eyebrow>The only real question</Eyebrow>
+      <Eyebrow>One real question</Eyebrow>
       <h2 className={`${display} mt-3 max-w-3xl text-4xl font-semibold leading-[0.95] sm:text-6xl`}>
         Is this the year for the 911?
       </h2>
